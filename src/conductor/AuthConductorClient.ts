@@ -1,7 +1,7 @@
 import { ConductorHttpRequest } from "../common";
 import { fetchCatchDns } from "./request/fetchCatchDns";
 import { request as baseRequest } from "./request/request";
-import { baseOrkesConductorClient } from "./BaseOrkesConductorClient";
+import { baseAuthConductorClient as baseAuthConductorClient } from "./BaseAuthConductorClient";
 import { FetchFn } from "./types";
 import fetch, { Headers, RequestInit, Response } from "node-fetch";
 import http from "http";
@@ -46,7 +46,7 @@ const defaultRequestHandler: ConductorHttpRequest = (
  * @param requestHandler (optional) ConductorHttpRequest handler
  * @returns
  */
-export const orkesConductorClient = baseOrkesConductorClient(
+export const conductorClient = baseAuthConductorClient(
   fetchCache,
   defaultRequestHandler
 );

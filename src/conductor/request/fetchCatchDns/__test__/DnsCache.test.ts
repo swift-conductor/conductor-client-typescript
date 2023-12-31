@@ -1,8 +1,8 @@
 import { expect, describe, test } from "@jest/globals";
 import { DnsCacheResolver } from "../DnsCache";
 
-const sampleDomain = "orkes.io";
-const nonExistingDomain = "non-existing-domain.orkes.io";
+const sampleDomain = "swiftconductor.com";
+const nonExistingDomain = "non-existing-domain.swiftconductor.com";
 
 describe("dnsResolver", () => {
   test("Should resolve dns", async () => {

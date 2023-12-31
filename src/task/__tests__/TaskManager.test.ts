@@ -1,10 +1,10 @@
 import { expect, describe, test, jest } from "@jest/globals";
 import { simpleTask, WorkflowExecutor } from "../../core";
-import { OrkesApiConfig, orkesConductorClient } from "../../orkes";
+import { ConductorApiConfig, conductorClient } from "../../conductor";
 import { TaskManager, ConductorWorker } from "../index";
 import { mockLogger } from "./mockLogger";
 
-const playConfig: Partial<OrkesApiConfig> = {
+const playConfig: Partial<ConductorApiConfig> = {
   keyId: `${process.env.KEY_ID}`,
   keySecret: `${process.env.KEY_SECRET}`,
   serverUrl: `${process.env.SERVER_URL}`,
@@ -12,7 +12,7 @@ const playConfig: Partial<OrkesApiConfig> = {
 };
 const BASE_TIME = 500;
 describe("TaskManager", () => {
-  const clientPromise = orkesConductorClient(playConfig);
+  const clientPromise = conductorClient(playConfig);
 
   jest.setTimeout(15000);
   test("Should run workflow with worker", async () => {
@@ -152,7 +152,7 @@ describe("TaskManager", () => {
     await executor.registerWorkflow(true, {
       name: workflowName,
       version: 1,
-      ownerEmail: "developers@orkes.io",
+      ownerEmail: "hello@swiftsoftwaregroup.com",
       tasks: workerNames.map((name) => simpleTask(name, name, {})),
       inputParameters: [],
       outputParameters: {},
@@ -280,7 +280,7 @@ describe("TaskManager", () => {
     await executor.registerWorkflow(true, {
       name: workflowName,
       version: 1,
-      ownerEmail: "developers@orkes.io",
+      ownerEmail: "hello@swiftsoftwaregroup.com",
       tasks: workerNames.map((name) => simpleTask(name, name, {})),
       inputParameters: [],
       outputParameters: {},

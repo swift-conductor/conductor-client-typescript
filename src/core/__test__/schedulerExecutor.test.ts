@@ -1,16 +1,16 @@
 import { expect, describe, test, jest } from "@jest/globals";
-import { OrkesApiConfig, orkesConductorClient } from "../../orkes";
+import { ConductorApiConfig, conductorClient } from "../../conductor";
 import { SchedulerClient } from "../schedulerClient";
 import { SaveScheduleRequest, TaskType, WorkflowDef } from "../../common";
 
-const playConfig: Partial<OrkesApiConfig> = {
+const playConfig: Partial<ConductorApiConfig> = {
   keyId: `${process.env.KEY_ID}`,
   keySecret: `${process.env.KEY_SECRET}`,
   serverUrl: `${process.env.SERVER_URL}`,
 };
 
 describe("ScheduleExecutor", () => {
-  const clientPromise = orkesConductorClient(playConfig);
+  const clientPromise = conductorClient(playConfig);
   jest.setTimeout(15000);
 
   const name = `testSchedule_${Date.now()}`;

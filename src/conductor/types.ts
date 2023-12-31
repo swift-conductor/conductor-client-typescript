@@ -8,4 +8,4 @@ export type FetchFn<
   R extends { json: () => Promise<any> } = Response
 > = (input: RequestInfo, init?: T) => Promise<R>;
 
-export type OrkesApiConfig = ConductorClientAPIConfig & GenerateTokenRequest;
+export type ConductorApiConfig = ConductorClientAPIConfig & GenerateTokenRequest;

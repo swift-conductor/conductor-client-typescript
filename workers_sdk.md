@@ -19,7 +19,7 @@ Each worker embodies design pattern and follows certain basic principles:
 Task worker is implemented using a function that confirms to the following function
 
 ```typescript
-import { ConductorWorker, Task } from "@io-orkes/conductor-javascript";
+import { ConductorWorker, Task } from "@com-swiftconductor/conductor-client-typescript";
 
 const worker: ConductorWorker = {
   taskDefName: "task-def-name",
@@ -35,7 +35,7 @@ If an `error` is returned, the task is marked as `FAILED`
 #### Task worker that returns an object
 
 ```typescript
-import { ConductorWorker, Task } from "@io-orkes/conductor-javascript";
+import { ConductorWorker, Task } from "@com-swiftconductor/conductor-client-typescript";
 
 const worker: ConductorWorker = {
   taskDefName: "task-def-name",
@@ -80,15 +80,13 @@ const worker: ConductorWorker = {
 
 ```typescript
 import {
-  OrkesApiConfig,
-  orkesConductorClient,
+  ConductorApiConfig,
+  conductorClient,
   TaskRunner,
-} from "@io-orkes/conductor-javascript";
+} from "@com-swiftconductor/conductor-client-typescript";
 
-const clientPromise = orkesConductorClient({
-  keyId: "XXX", // optional
-  keySecret: "XXXX", // optional
-  serverUrl: "https://play.orkes.io/api",
+const clientPromise = conductorClient({
+  serverUrl: "http://lcoalhost:8080/api",
 });
 
 const client = await clientPromise;
@@ -138,12 +136,10 @@ manager.isPolling // Will resolve to false
 import {
   WorkflowExecutor,
   TaskResultStatus,
-} from "@io-orkes/conductor-javascript";
+} from "@com-swiftconductor/conductor-client-typescript";
 
-const clientPromise = orkesConductorClient({
-  keyId: "XXX", // optional
-  keySecret: "XXXX", // optional
-  serverUrl: "https://play.orkes.io/api",
+const clientPromise = conductorClient({
+  serverUrl: "http://lcoalhost:8080/api",
 });
 
 const client = await clientPromise;

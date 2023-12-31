@@ -1,10 +1,10 @@
 import { expect, describe, test, jest } from "@jest/globals";
-import { OrkesApiConfig, orkesConductorClient } from "../orkes";
+import { ConductorApiConfig, conductorClient } from "../conductor";
 import { WorkflowExecutor, simpleTask, generate } from "../core";
 import { TaskType } from "../common";
 import { TaskRunner } from "../task";
 
-const config: Partial<OrkesApiConfig> = {
+const config: Partial<ConductorApiConfig> = {
   keyId: `${process.env.KEY_ID}`,
   keySecret: `${process.env.KEY_SECRET}`,
   serverUrl: `${process.env.SERVER_URL}`,
@@ -12,7 +12,7 @@ const config: Partial<OrkesApiConfig> = {
 };
 
 describe("TaskManager", () => {
-  const clientPromise = orkesConductorClient(config);
+  const clientPromise = conductorClient(config);
 
   jest.setTimeout(20000);
   test("worker example ", async () => {
@@ -44,7 +44,7 @@ describe("TaskManager", () => {
     await executor.registerWorkflow(true, {
       name: "my_first_js_wf",
       version: 1,
-      ownerEmail: "developers@orkes.io",
+      ownerEmail: "hello@swiftsoftwaregroup.com",
       tasks: [simpleTask("taskmanager-test", "taskmanager-test", {})],
       inputParameters: [],
       outputParameters: {},

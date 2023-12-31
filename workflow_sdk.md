@@ -4,17 +4,15 @@
 
 ```typescript
 import {
-  OrkesApiConfig,
-  orkesConductorClient,
+  ConductorApiConfig,
+  conductorClient,
   TaskRunner,
   simpleTask,
-} from "@io-orkes/conductor-javascript";
+} from "@com-swiftconductor/conductor-client-typescript";
 
 //API client instance with server address and authentication details
-const clientPromise = orkesConductorClient({
-  keyId: "XXX", // optional
-  keySecret: "XXXX", // optional
-  serverUrl: "https://play.orkes.io/api",
+const clientPromise = conductorClient({
+  serverUrl: "http://lcoalhost:8080/api",
 });
 
 const client = await clientPromise;
@@ -26,7 +24,7 @@ const executor = new WorkflowExecutor(client);
 const factoryWf = {
   name: "my_first_workflow",
   version: 1,
-  ownerEmail: "developers@orkes.io",
+  ownerEmail: "hello@swiftsoftwaregroup.com",
   tasks: [simpleTask("simple_task_ref", "simple_task", {})],
   inputParameters: [],
   outputParameters: {},
@@ -48,17 +46,15 @@ const executionId = await executor.startWorkflow({ name, version, input: {} });
 
 ```typescript
 import {
-  orkesConductorClient,
+  conductorClient,
   WorkflowExecutor,
   ConductorClient,
   TaskType,
-} from "@io-orkes/conductor-javascript";
+} from "@com-swiftconductor/conductor-client-typescript";
 
 //API client instance with server address and authentication details
-const clientPromise = orkesConductorClient({
-  keyId: "XXX", // optional
-  keySecret: "XXXX", // optional
-  serverUrl: "https://play.orkes.io/api",
+const clientPromise = conductorClient({
+  serverUrl: "http://lcoalhost:8080/api",
 });
 
 const client = await clientPromise;
@@ -70,7 +66,7 @@ const executor = new WorkflowExecutor(client);
 const factoryWf = {
   name: "my_first_workflow",
   version: 1,
-  ownerEmail: "developers@orkes.io",
+  ownerEmail: "hello@swiftsoftwaregroup.com",
   tasks: [simpleTask("simple_task_ref", "simple_task", {})],
   inputParameters: [],
   outputParameters: {},
@@ -132,4 +128,4 @@ export type Workflow = {
 ### More Examples
 
 You can find more examples at the following GitHub repository:
-https://github.com/conductor-sdk/javascript-sdk-examples
+https://github.com/swift-conductor/javascript-sdk-examples

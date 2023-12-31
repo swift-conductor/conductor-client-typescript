@@ -1,6 +1,6 @@
 import type { ConductorHttpRequest, ConductorClientAPIConfig } from "../common";
 import { ConductorClient } from "../common";
-import { FetchFn, OrkesApiConfig } from "./types";
+import { FetchFn, ConductorApiConfig } from "./types";
 
 const defaultRequestHandler: ConductorHttpRequest = (
   request,
@@ -28,10 +28,10 @@ export class AuthConductorClient extends ConductorClient {
   }
 }
 /*
-Returns an orkes conductor client creator function.
+Returns an Swift Conductor Client creator function.
 Usefull if you want to use your own fetch. like Got or Axios
  */
-export const baseOrkesConductorClient = <
+export const baseAuthConductorClient = <
   T = RequestInit,
   R extends { json: () => Promise<any> } = Response
 >(
@@ -53,7 +53,7 @@ export const baseOrkesConductorClient = <
     } as any);
 
   return async (
-    config?: Partial<OrkesApiConfig>,
+    config?: Partial<ConductorApiConfig>,
     requestHandler: ConductorHttpRequest = baseRequestHandler
   ): Promise<ConductorClient> => {
     if (config?.keySecret != null && config?.keyId != null) {

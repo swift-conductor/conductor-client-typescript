@@ -13,7 +13,7 @@ export const workflowGenerator = (
   schemaVersion: 2,
   restartable: true,
   workflowStatusListenerEnabled: false,
-  ownerEmail: "james.stuart@orkes.io",
+  ownerEmail: "hello@swiftsoftwaregroup.com",
   timeoutPolicy: "ALERT_ONLY",
   timeoutSeconds: 0,
   ...overrides,

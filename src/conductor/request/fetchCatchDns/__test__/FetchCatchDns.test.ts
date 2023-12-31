@@ -18,8 +18,8 @@ describe("fetchCatchDns", () => {
     expect(mockFetch).toHaveBeenLastCalledWith(fakeIp, options);
   });
   test("Should call fetch with modified params if the target is a hostname that can be resolves", async () => {
-    const host = "orkes.io";
-    const targetUrl = `http://${host}`;
+    const host = "swiftconductor.com";
+    const targetUrl = `https://${host}`;
     const dnsResolver = new DnsCacheResolver();
     const fakeResponse: Response = new Response();
     const mockFetch = jest
@@ -48,7 +48,7 @@ describe("fetchCatchDns", () => {
   });
 
   test("Should use fetch directly if host could not be resolved", async () => {
-    const host = "non-existing-domain.orkes.io";
+    const host = "non-existing-domain.swiftconductor.com";
     const targetUrl = `http://${host}`;
     const dnsResolver = new DnsCacheResolver();
     const fakeResponse: Response = new Response();
@@ -76,7 +76,7 @@ describe("fetchCatchDns", () => {
   });
 
   test("Should call with cache if ETIMEDOUT throw exception but remove host from cache", async () => {
-    const host = "non-existing-domain.orkes.io";
+    const host = "non-existing-domain.swiftconductor.com";
     const targetUrl = `http://${host}`;
     const dnsResolver = new DnsCacheResolver({
       initialCache: new Map<string, string>([[host, "198.51.100.5"]]),

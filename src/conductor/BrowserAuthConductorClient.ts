@@ -1,5 +1,5 @@
 import type { ConductorHttpRequest } from "../common";
-import { baseOrkesConductorClient } from "./BaseOrkesConductorClient";
+import { baseAuthConductorClient } from "./BaseAuthConductorClient";
 
 const defaultRequestHandler: ConductorHttpRequest = (
   request,
@@ -13,7 +13,7 @@ const defaultRequestHandler: ConductorHttpRequest = (
  * @param requestHandler (optional) ConductorHttpRequest handler
  * @returns
  */
-export const orkesConductorClient = baseOrkesConductorClient(
+export const conductorClient = baseAuthConductorClient(
   fetch,
   defaultRequestHandler
 );

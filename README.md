@@ -1,10 +1,10 @@
 # Netflix Conductor Javascript/Typescript SDK
 
-The `conductor-javascript` repository provides the client SDKs to build task workers in javascript/typescript.
+The `conductor-client-typescript` repository provides the client SDKs to build task workers in javascript/typescript.
 
 Building the task workers in javascript mainly consists of the following steps:
 
-1. Setup conductor-javascript package
+1. Setup conductor-client-typescript package
 2. [Create and run task workers](workers_sdk.md)
 3. [Create workflows using code](workflow_sdk.md)
    
@@ -13,23 +13,15 @@ Building the task workers in javascript mainly consists of the following steps:
 * Get the package from npm
 
 ```shell
-npm i @io-orkes/conductor-javascript
+npm i @com-swiftconductor/conductor-client-typescript
 ```
 or
 
 ```shell
-yarn add @io-orkes/conductor-javascript
+yarn add @com-swiftconductor/conductor-client-typescript
 ```
 
 ## Configurations
-
-### Authentication Settings (Optional)
-Configure the authentication settings if your Conductor server requires authentication.
-* keyId: Key for authentication.
-* keySecret: Secret for the key.
-
-### Access Control Setup
-See [Access Control](https://orkes.io/content/docs/getting-started/concepts/access-control) for more details on role-based access control with Conductor and generating API keys for your environment.
 
 ### Configure API Client
 
@@ -39,16 +31,13 @@ See [Access Control](https://orkes.io/content/docs/getting-started/concepts/acce
  * then edit and create Access Keys
  *
  */
-import { OrkesApiConfig, orkesConductorClient } from "@io-orkes/conductor-javascript";
+import { ConductorApiConfig, conductorClient } from "@com-swiftconductor/conductor-client-typescript";
 
-const config: Partial<OrkesApiConfig> = {
-  keyId: "XXX", // optional
-  keySecret: "XXXX", // optional
-  refreshTokenInterval: 0 // optional (in milliseconds) defaults to 30 minutes (30 * 60 * 1000). 0 no refresh
-  serverUrl: "https://play.orkes.io/api",
+const config: Partial<ConductorApiConfig> = {
+  serverUrl: "http://localhost:8080/api",
 };
 
-orkesConductorClient(config).then(client => ..... );
+conductorClient(config).then(client => ..... );
 
 ```
 
