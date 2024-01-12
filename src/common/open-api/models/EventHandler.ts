@@ -1,15 +1,14 @@
+/* generated using openapi-typescript-codegen -- do no edit */
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-
 import type { Action } from './Action';
-
 export type EventHandler = {
-  name: string;
-  event: string;
-  condition?: string;
-  actions: Array<Action>;
-  active?: boolean;
-  evaluatorType?: string;
+    name: string;
+    event: string;
+    condition?: string;
+    actions: Array<Action>;
+    active?: boolean;
+    evaluatorType?: string;
 };
 

@@ -1,3 +1,4 @@
+/* generated using openapi-typescript-codegen -- do no edit */
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
@@ -7,7 +8,7 @@ import type { OpenAPIConfig } from './OpenAPI';
 
 export abstract class BaseHttpRequest {
 
-  constructor(public readonly config: OpenAPIConfig) {}
+    constructor(public readonly config: OpenAPIConfig) {}
 
-  public abstract request<T>(options: ApiRequestOptions): CancelablePromise<T>;
+    public abstract request<T>(options: ApiRequestOptions): CancelablePromise<T>;
 }

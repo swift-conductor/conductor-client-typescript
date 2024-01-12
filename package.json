@@ -1,5 +1,5 @@
 {
-  "name": "@com-swiftconductor/conductor-client-typescript",
+  "name": "@swiftconductor/conductor-client-typescript",
   "description": "Typescript Client for Swift Conductor",
   "version": "v0.1.0",
   "exports": {
@@ -30,12 +30,12 @@
   "main": "dist/index.js",
   "scripts": {
     "lint": "npx eslint . --ext .js,.ts",
-    "build": "tsup",
-    "prepublishOnly": "npm run build",
     "lint-fix": "npx eslint . --fix --ext .js,.ts",
+    "build": "npm run build",
+    "publish": "tsup",
     "test": "jest --force-exit --detectOpenHandles",
-    "generateClient:models": "npx openapi-typescript-codegen --input  http://localhost:8080/api-docs --output src/common/open-api --client node --indent 2 --name ConductorClient --useUnionTypes --exportCore false",
-    "generateClient:core": "npx openapi-typescript-codegen --input http://localhost:8080/api-docs  --output src/common/open-api --client node --indent 2 --name ConductorClient --useUnionTypes && find ./src/common/open-api/services/*Service.ts -type f -exec sed -i '' -e 's/api\\///g' {} \\;",
+    "client-models": "npx openapi-typescript-codegen --input  http://localhost:8080/api-docs --output src/common/open-api --client fetch --indent 4 --name ConductorClient --useUnionTypes --exportCore false",
+    "client-core": "npx openapi-typescript-codegen --input http://localhost:8080/api-docs  --output src/common/open-api --client fetch --indent 4 --name ConductorClient --useUnionTypes && find ./src/common/open-api/services/*Service.ts -type f -exec sed -i '' -e 's/api\\///g' {} \\;",
     "ci": "npm run lint && npm run test",
     "generate-docs": "typedoc --plugin typedoc-plugin-markdown"
   },
@@ -58,21 +58,22 @@
   ],
   "devDependencies": {
     "@babel/preset-typescript": "^7.22.5",
-    "@tsconfig/node18": "^1.0.1",
+    "@tsconfig/node20": "^1.0.1",
     "@types/node": "^18.11.18",
+    "@types/node-fetch": "^2.6.4",
     "@types/uuid": "^9.0.1",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
+    "axios": "1.6.5",
     "dotenv": "^16.0.1",
     "eslint": "^6.1.0",
     "jest": "^29.4.3",
-    "@types/node-fetch": "^2.6.4",
     "ts-jest": "^29.0.5",
     "ts-node": "^10.7.0",
     "tsup": "^7.1.0",
-    "typedoc": "^0.23.10",
-    "typedoc-plugin-markdown": "^3.13.4",
-    "typescript": "^4.6.4",
+    "typedoc": "^0.25.7",
+    "typedoc-plugin-markdown": "^3.17.1",
+    "typescript": "4.9.5",
     "uuid": "^9.0.0"
   },
   "tsup": {
@@ -95,8 +96,5 @@
   },
   "engines": {
     "node": ">=20"
-  },
-  "dependencies": {
-    "node-fetch": "^2.6.12"
   }
 }

@@ -1,6 +1,6 @@
 import { expect, describe, test, jest } from "@jest/globals";
 import { TaskRunner } from "../TaskRunner";
-import { WorkflowExecutor, simpleTask } from "../../core";
+import { WorkflowManager, simpleTask } from "../../core";
 import { ConductorApiConfig, conductorClient } from "../../conductor";
 
 const config: Partial<ConductorApiConfig> = {
@@ -15,7 +15,7 @@ describe("TaskManager", () => {
   jest.setTimeout(15000);
   test("worker example ", async () => {
     const client = await clientPromise;
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
 
     const taskRunner = new TaskRunner({
       taskResource: client.taskResource,

@@ -1,5 +1,4 @@
-export * from "./executor";
+export * from "./manager";
 export * from "./types";
-export * from "./human";
 export * from "./sdk";
 export * from "./generators";

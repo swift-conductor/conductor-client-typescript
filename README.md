@@ -1,44 +1,23 @@
-# Netflix Conductor Javascript/Typescript SDK
+# Swift Conductor Client SDK for TypeScript / JavaScript
 
-The `conductor-client-typescript` repository provides the client SDKs to build task workers in javascript/typescript.
+The `conductor-client-typescript` repository provides the client SDKs to build task workers in TypeScript.
 
-Building the task workers in javascript mainly consists of the following steps:
+### Install the Swift Conductor Client Package
 
-1. Setup conductor-client-typescript package
-2. [Create and run task workers](workers_sdk.md)
-3. [Create workflows using code](workflow_sdk.md)
-   
-### Setup Conductor Javascript Package
+Get the package via `npm``:
 
-* Get the package from npm
-
-```shell
-npm i @com-swiftconductor/conductor-client-typescript
+```sh
+npm install @swiftconductor/conductor-client-typescript
 ```
 or
 
-```shell
-yarn add @com-swiftconductor/conductor-client-typescript
+```sh
+yarn add @swiftconductor/conductor-client-typescript
 ```
 
-## Configurations
+Following these steps to get started:
 
-### Configure API Client
+1. [Configuration](docs/configuration.md)
+1. [Create workflows in TypeScript](docs/workflows.md)
+1. [Create and run workers](docs/workers.md)
 
-```typescript
-/**
- * Application keys generated from the Application menu > Create Application
- * then edit and create Access Keys
- *
- */
-import { ConductorApiConfig, conductorClient } from "@com-swiftconductor/conductor-client-typescript";
-
-const config: Partial<ConductorApiConfig> = {
-  serverUrl: "http://localhost:8080/api",
-};
-
-conductorClient(config).then(client => ..... );
-
-```
-
-### Next: [Create and run task workers](workers_sdk.md)

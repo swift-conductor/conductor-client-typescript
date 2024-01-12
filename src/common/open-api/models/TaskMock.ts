@@ -2,10 +2,10 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
-export type TaskDetails = {
-    workflowId?: string;
-    taskRefName?: string;
+export type TaskMock = {
+    status?: 'IN_PROGRESS' | 'FAILED' | 'FAILED_WITH_TERMINAL_ERROR' | 'COMPLETED';
     output?: Record<string, Record<string, any>>;
-    taskId?: string;
+    executionTime?: number;
+    queueWaitTime?: number;
 };
 

@@ -1,5 +1,5 @@
 import { expect, describe, test, jest } from "@jest/globals";
-import { simpleTask, WorkflowExecutor } from "../../core";
+import { simpleTask, WorkflowManager } from "../../core";
 import { ConductorApiConfig, conductorClient } from "../../conductor";
 import { TaskManager, ConductorWorker } from "../index";
 import { mockLogger } from "./mockLogger";
@@ -17,7 +17,7 @@ describe("TaskManager", () => {
   jest.setTimeout(15000);
   test("Should run workflow with worker", async () => {
     const client = await clientPromise;
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
 
     const worker: ConductorWorker = {
       taskDefName: "taskmanager-test",
@@ -52,7 +52,7 @@ describe("TaskManager", () => {
 
   test("On error it should call the errorHandler provided", async () => {
     const client = await clientPromise;
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
 
     const worker: ConductorWorker = {
       taskDefName: "taskmanager-error-test",
@@ -82,7 +82,7 @@ describe("TaskManager", () => {
 
   test("If no error handler provided. it should just update the task", async () => {
     const client = await clientPromise;
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
 
     const worker: ConductorWorker = {
       taskDefName: "taskmanager-error-test",
@@ -114,7 +114,7 @@ describe("TaskManager", () => {
   test("multi worker example", async () => {
     const client = await clientPromise;
 
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
     // just create a bunch of worker names
     const workerNames: string[] = Array.from({ length: 3 })
       .fill(0)
@@ -225,7 +225,7 @@ describe("TaskManager", () => {
   test("Updates single worker properties", async () => {
     const client = await clientPromise;
 
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
     // just create a bunch of worker names
     const workerNames: string[] = Array.from({ length: 3 })
       .fill(0)

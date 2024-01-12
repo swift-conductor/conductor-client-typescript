@@ -1,6 +1,6 @@
 import { expect, describe, test, jest } from "@jest/globals";
 import { ConductorApiConfig, conductorClient } from "../conductor";
-import { WorkflowExecutor, simpleTask, generate } from "../core";
+import { WorkflowManager, simpleTask, generate } from "../core";
 import { TaskType } from "../common";
 import { TaskRunner } from "../task";
 
@@ -17,7 +17,7 @@ describe("TaskManager", () => {
   jest.setTimeout(20000);
   test("worker example ", async () => {
     const client = await clientPromise;
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
 
     const taskRunner = new TaskRunner({
       taskResource: client.taskResource,
@@ -70,7 +70,7 @@ describe("TaskManager", () => {
 
   test("update task example ", async () => {
     const client = await clientPromise;
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
     const waitTaskReference = "wait_task_ref";
     const workflowWithWaitTask = generate({
       name: "waitTaskWf",
@@ -119,7 +119,7 @@ describe("TaskManager", () => {
     const client = await clientPromise;
 
     //Create new workflow executor
-    const executor = new WorkflowExecutor(client);
+    const executor = new WorkflowManager(client);
 
     // Create a workflow
     const sumTwoNumbers = generate({

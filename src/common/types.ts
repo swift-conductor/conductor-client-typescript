@@ -1,5 +1,3 @@
-import { WorkflowDef as OriginalWorkflowDef } from "./open-api/models/WorkflowDef";
-
 export interface CommonTaskDef {
   name: string;
   taskReferenceName: string;
@@ -191,11 +189,4 @@ export interface WaitTaskDef extends CommonTaskDef {
     duration?: string;
     until?: string;
   };
-}
-
-export interface WorkflowDef
-  extends Omit<OriginalWorkflowDef, "tasks" | "version" | "inputParameters"> {
-  inputParameters: string[];
-  version: number;
-  tasks: TaskDefTypes[];
 }

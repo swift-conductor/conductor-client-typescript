@@ -2,8 +2,9 @@
 /* istanbul ignore file */
 /* tslint:disable */
 /* eslint-disable */
+import type { TaskMock } from './TaskMock';
 import type { WorkflowDef } from './WorkflowDef';
-export type StartWorkflowRequest = {
+export type WorkflowTestRequest = {
     name: string;
     version?: number;
     correlationId?: string;
@@ -12,5 +13,7 @@ export type StartWorkflowRequest = {
     workflowDef?: WorkflowDef;
     externalInputPayloadStoragePath?: string;
     priority?: number;
+    taskRefToMockOutput?: Record<string, Array<TaskMock>>;
+    subWorkflowTestRequest?: Record<string, WorkflowTestRequest>;
 };
 
