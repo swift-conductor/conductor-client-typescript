@@ -41,11 +41,11 @@ describe("WorkerHost", () => {
 
     expect(taskRunner.isPolling).toEqual(true);
     const workflowName = "task-manager-int-test-wf";
-    await executor.registerWorkflow(true, {
+    await executor.registerWorkflow({
       name: workflowName,
       version: 1,
       ownerEmail: "hello@swiftsoftwaregroup.com",
-      tasks: [customTask("task-manager-int-test", "task-manager-int-test", {})],
+      tasks: [customTask("task-manager-int-test", "task-manager-int-test-ref", {})],
       inputParameters: [],
       outputParameters: {},
       timeoutSeconds: 0,

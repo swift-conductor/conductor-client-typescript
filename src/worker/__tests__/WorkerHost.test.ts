@@ -22,7 +22,7 @@ describe("WorkerHost", () => {
         });
 
         const worker: WorkerInterface = {
-            taskDefName: "workerhost-test",
+            taskDefName: "typescript-custom-task",
             execute: async () => {
                 return {
                     outputData: {
@@ -147,7 +147,7 @@ describe("WorkerHost", () => {
             name: workflowName,
             version: 1,
             ownerEmail: "hello@swiftsoftwaregroup.com",
-            tasks: workerNames.map((name) => customTask(name, name, {})),
+            tasks: workerNames.map((name) => customTask(name, name + "_ref", {})),
             inputParameters: [],
             outputParameters: {},
             timeoutSeconds: 0,
@@ -266,7 +266,7 @@ describe("WorkerHost", () => {
             name: workflowName,
             version: 1,
             ownerEmail: "hello@swiftsoftwaregroup.com",
-            tasks: workerNames.map((name) => customTask(name, name, {})),
+            tasks: workerNames.map((name) => customTask(name, name + "_ref", {})),
             inputParameters: [],
             outputParameters: {},
             timeoutSeconds: 0,

@@ -34,6 +34,18 @@ export class WorkflowManager {
     }
 
     /**
+     * Delete workflow definition from conductor
+     * @param workflowDef Complete workflow definition
+     * @returns null
+     */
+    public unregisterWorkflow(name: string, version: number): Promise<void> {
+        return tryCatchReThrow(() =>
+            this._client.metadataResource.unregisterWorkflowDef(name, version)
+        );
+    }
+    
+    
+    /**
      * Takes a StartWorkflowRequest. returns a Promise<string> with the workflowInstanceId of the running workflow
      * @param workflowRequest
      * @returns
@@ -223,7 +235,7 @@ export class WorkflowManager {
         taskId: string,
         workflowInstanceId: string,
         taskStatus: TaskResultStatus,
-        outputData: Record<string, any> // TODO this can be typed.
+        outputData: Record<string, any> 
     ): Promise<string> {
         const taskUpdates = {
             status: taskStatus,
