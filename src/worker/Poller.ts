@@ -20,11 +20,13 @@ export class Poller<T> {
     private _tasksInProcess = 0;
     private _counterAtO = 0;
     private _pollerId: string = "";
+    
     options: PollerOptions = {
         pollInterval: DEFAULT_POLL_INTERVAL,
         concurrency: DEFAULT_CONCURRENCY,
         warnAtO: DEFAULT_WARN_AT_O,
     };
+    
     logger: ConductorLogger = noopLogger;
 
     constructor(
@@ -83,26 +85,19 @@ export class Poller<T> {
         while (this.isPolling) {
             try {
                 // Concurrency could have been updated. Accounting for that
-                const count = Math.max(
-                    0,
-                    this.options.concurrency - this._tasksInProcess
-                );
+                const count = Math.max(0, this.options.concurrency - this._tasksInProcess);
 
                 if (count === 0) {
-                    this.logger.debug(
-                        "Max in process reached, Will skip polling for " + this._pollerId
-                    );
+                    this.logger.debug("Max in process reached, Will skip polling for " + this._pollerId);
+
                     this._counterAtO++;
                     if (this._counterAtO > (this.options.warnAtO ?? 100)) {
-                        this.logger.info(
-                            `Not polling anything because in process tasks is maxed as concurrency level. ${this._pollerId}`
-                        );
+                        this.logger.info(`Not polling anything because in process tasks is maxed as concurrency level. ${this._pollerId}`);
                     }
                 } else {
                     this._counterAtO = 0;
                     const tasksResult: T[] = await this.pollFunction(count);
-                    this._tasksInProcess =
-                        this._tasksInProcess + (tasksResult ?? []).length;
+                    this._tasksInProcess = this._tasksInProcess + (tasksResult ?? []).length;
 
                     // Don't wait for the tasks to finish only 'listen' to the number of tasks being processes
                     tasksResult.forEach(this.performWork);
@@ -112,12 +107,7 @@ export class Poller<T> {
             }
 
             await new Promise((r) =>
-                this.isPolling
-                    ? (this.timeoutHandler = setTimeout(
-                        () => r(true),
-                        this.options.pollInterval
-                    ))
-                    : r(true)
+                this.isPolling ? (this.timeoutHandler = setTimeout(() => r(true), this.options.pollInterval)) : r(true)
             );
         }
     };

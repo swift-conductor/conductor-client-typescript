@@ -652,10 +652,10 @@ export class ObservableMetadataResourceApi {
     }
 
     /**
-     * Update an existing task
+     * Create new task definition(s)
      * @param taskDef 
      */
-    public registerTaskDefWithHttpInfo(taskDef: TaskDef, _options?: Configuration): Observable<HttpInfo<void>> {
+    public registerTaskDefWithHttpInfo(taskDef: Array<TaskDef>, _options?: Configuration): Observable<HttpInfo<void>> {
         const requestContextPromise = this.requestFactory.registerTaskDef(taskDef, _options);
 
         // build promise chain
@@ -675,42 +675,11 @@ export class ObservableMetadataResourceApi {
     }
 
     /**
-     * Update an existing task
+     * Create new task definition(s)
      * @param taskDef 
      */
-    public registerTaskDef(taskDef: TaskDef, _options?: Configuration): Observable<void> {
+    public registerTaskDef(taskDef: Array<TaskDef>, _options?: Configuration): Observable<void> {
         return this.registerTaskDefWithHttpInfo(taskDef, _options).pipe(map((apiResponse: HttpInfo<void>) => apiResponse.data));
-    }
-
-    /**
-     * Create new task definition(s)
-     * @param taskDef 
-     */
-    public registerTaskDef1WithHttpInfo(taskDef: Array<TaskDef>, _options?: Configuration): Observable<HttpInfo<void>> {
-        const requestContextPromise = this.requestFactory.registerTaskDef1(taskDef, _options);
-
-        // build promise chain
-        let middlewarePreObservable = from<RequestContext>(requestContextPromise);
-        for (let middleware of this.configuration.middleware) {
-            middlewarePreObservable = middlewarePreObservable.pipe(mergeMap((ctx: RequestContext) => middleware.pre(ctx)));
-        }
-
-        return middlewarePreObservable.pipe(mergeMap((ctx: RequestContext) => this.configuration.httpApi.send(ctx))).
-            pipe(mergeMap((response: ResponseContext) => {
-                let middlewarePostObservable = of(response);
-                for (let middleware of this.configuration.middleware) {
-                    middlewarePostObservable = middlewarePostObservable.pipe(mergeMap((rsp: ResponseContext) => middleware.post(rsp)));
-                }
-                return middlewarePostObservable.pipe(map((rsp: ResponseContext) => this.responseProcessor.registerTaskDef1WithHttpInfo(rsp)));
-            }));
-    }
-
-    /**
-     * Create new task definition(s)
-     * @param taskDef 
-     */
-    public registerTaskDef1(taskDef: Array<TaskDef>, _options?: Configuration): Observable<void> {
-        return this.registerTaskDef1WithHttpInfo(taskDef, _options).pipe(map((apiResponse: HttpInfo<void>) => apiResponse.data));
     }
 
     /**
@@ -806,6 +775,37 @@ export class ObservableMetadataResourceApi {
      */
     public update(workflowDef: Array<WorkflowDef>, _options?: Configuration): Observable<BulkResponse> {
         return this.updateWithHttpInfo(workflowDef, _options).pipe(map((apiResponse: HttpInfo<BulkResponse>) => apiResponse.data));
+    }
+
+    /**
+     * Update an existing task
+     * @param taskDef 
+     */
+    public updateTaskDefWithHttpInfo(taskDef: TaskDef, _options?: Configuration): Observable<HttpInfo<void>> {
+        const requestContextPromise = this.requestFactory.updateTaskDef(taskDef, _options);
+
+        // build promise chain
+        let middlewarePreObservable = from<RequestContext>(requestContextPromise);
+        for (let middleware of this.configuration.middleware) {
+            middlewarePreObservable = middlewarePreObservable.pipe(mergeMap((ctx: RequestContext) => middleware.pre(ctx)));
+        }
+
+        return middlewarePreObservable.pipe(mergeMap((ctx: RequestContext) => this.configuration.httpApi.send(ctx))).
+            pipe(mergeMap((response: ResponseContext) => {
+                let middlewarePostObservable = of(response);
+                for (let middleware of this.configuration.middleware) {
+                    middlewarePostObservable = middlewarePostObservable.pipe(mergeMap((rsp: ResponseContext) => middleware.post(rsp)));
+                }
+                return middlewarePostObservable.pipe(map((rsp: ResponseContext) => this.responseProcessor.updateTaskDefWithHttpInfo(rsp)));
+            }));
+    }
+
+    /**
+     * Update an existing task
+     * @param taskDef 
+     */
+    public updateTaskDef(taskDef: TaskDef, _options?: Configuration): Observable<void> {
+        return this.updateTaskDefWithHttpInfo(taskDef, _options).pipe(map((apiResponse: HttpInfo<void>) => apiResponse.data));
     }
 
     /**

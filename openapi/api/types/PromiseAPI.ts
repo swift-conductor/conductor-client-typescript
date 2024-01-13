@@ -417,38 +417,20 @@ export class PromiseMetadataResourceApi {
     }
 
     /**
-     * Update an existing task
+     * Create new task definition(s)
      * @param taskDef 
      */
-    public registerTaskDefWithHttpInfo(taskDef: TaskDef, _options?: Configuration): Promise<HttpInfo<void>> {
+    public registerTaskDefWithHttpInfo(taskDef: Array<TaskDef>, _options?: Configuration): Promise<HttpInfo<void>> {
         const result = this.api.registerTaskDefWithHttpInfo(taskDef, _options);
         return result.toPromise();
     }
 
     /**
-     * Update an existing task
+     * Create new task definition(s)
      * @param taskDef 
      */
-    public registerTaskDef(taskDef: TaskDef, _options?: Configuration): Promise<void> {
+    public registerTaskDef(taskDef: Array<TaskDef>, _options?: Configuration): Promise<void> {
         const result = this.api.registerTaskDef(taskDef, _options);
-        return result.toPromise();
-    }
-
-    /**
-     * Create new task definition(s)
-     * @param taskDef 
-     */
-    public registerTaskDef1WithHttpInfo(taskDef: Array<TaskDef>, _options?: Configuration): Promise<HttpInfo<void>> {
-        const result = this.api.registerTaskDef1WithHttpInfo(taskDef, _options);
-        return result.toPromise();
-    }
-
-    /**
-     * Create new task definition(s)
-     * @param taskDef 
-     */
-    public registerTaskDef1(taskDef: Array<TaskDef>, _options?: Configuration): Promise<void> {
-        const result = this.api.registerTaskDef1(taskDef, _options);
         return result.toPromise();
     }
 
@@ -505,6 +487,24 @@ export class PromiseMetadataResourceApi {
      */
     public update(workflowDef: Array<WorkflowDef>, _options?: Configuration): Promise<BulkResponse> {
         const result = this.api.update(workflowDef, _options);
+        return result.toPromise();
+    }
+
+    /**
+     * Update an existing task
+     * @param taskDef 
+     */
+    public updateTaskDefWithHttpInfo(taskDef: TaskDef, _options?: Configuration): Promise<HttpInfo<void>> {
+        const result = this.api.updateTaskDefWithHttpInfo(taskDef, _options);
+        return result.toPromise();
+    }
+
+    /**
+     * Update an existing task
+     * @param taskDef 
+     */
+    public updateTaskDef(taskDef: TaskDef, _options?: Configuration): Promise<void> {
+        const result = this.api.updateTaskDef(taskDef, _options);
         return result.toPromise();
     }
 

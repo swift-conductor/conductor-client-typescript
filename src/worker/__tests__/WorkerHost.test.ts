@@ -1,9 +1,9 @@
 import { expect, describe, test, jest } from "@jest/globals";
 import { customTask, WorkflowManager } from "../../core";
-import { ConductorClient } from "../../common";
+import { ConductorClient, TaskType } from "../../common";
 import { WorkerHost, WorkerInterface } from "../index";
 import { mockLogger } from "./mockLogger";
-import { TaskResultStatusEnum, WorkflowStatusEnum } from "../../../openapi/api";
+import { Task, TaskDef, TaskResultStatusEnum, WorkflowDef, WorkflowStatusEnum } from "../../../openapi/api";
 
 const BASE_TIME = 500;
 
@@ -14,6 +14,32 @@ describe("WorkerHost", () => {
 
     test("Should run workflow with worker", async () => {
         const manager = new WorkflowManager(client);
+
+        const workflowDef: WorkflowDef = {
+            name: "WorkerHostTest",
+            version: 1,
+            ownerEmail: "test@test.com",
+            tasks: [
+                {
+                    type: TaskType.SET_VARIABLE,
+                    name: "setVar",
+                    taskReferenceName: "setVarRef",
+                    inputParameters: {
+                        hello: "world" as any,
+                    },
+                },
+            ],
+            inputParameters: [],
+            timeoutSeconds: 15,
+        };
+
+        try {
+            await manager.unregisterWorkflow(workflowDef.name, workflowDef.version!);
+        } catch (e) {
+            // ignore
+        }
+
+        await manager.registerWorkflow(workflowDef);
 
         const workflowId = await manager.startWorkflow({
             name: "WorkerHostTest",
@@ -48,15 +74,37 @@ describe("WorkerHost", () => {
 
     test("On error it should call the errorHandler provided", async () => {
         const manager = new WorkflowManager(client);
+        
+        const workflowName = `worker-host-error-handler-workflow-${Date.now()}` 
+        const taskName = `worker-host-error-handler-workflow-task-${Date.now()}` 
+        
+        const workflowDef: WorkflowDef = {
+            name: workflowName,
+            version: 1,
+            ownerEmail: "test@test.com",
+            tasks: [
+                customTask(taskName, taskName + "_ref", {})
+            ],
+            inputParameters: [],
+            timeoutSeconds: 15,
+        };
+
+        try {
+            await manager.unregisterWorkflow(workflowDef.name, workflowDef.version!);
+        } catch (e) {
+            // ignore
+        }
+
+        await manager.registerWorkflow(workflowDef);
 
         await manager.startWorkflow({
-            name: "WorkerHostTestE",
-            input: {},
+            name: workflowDef.name,
             version: 1,
+            input: {},
         });
 
         const worker: WorkerInterface = {
-            taskDefName: "workerhost-error-test",
+            taskDefName: taskName,
             execute: async () => {
                 throw Error("This is a forced error");
             },
@@ -70,7 +118,7 @@ describe("WorkerHost", () => {
         });
 
         host.startPolling();
-        await new Promise((r) => setTimeout(() => r(true), BASE_TIME * 4));
+        await new Promise((r) => setTimeout(() => r(true), BASE_TIME * 10));
         await host.stopPolling();
 
         expect(errorHandler).toBeCalledTimes(1);
@@ -80,14 +128,47 @@ describe("WorkerHost", () => {
     test("If no error handler provided. it should just update the task", async () => {
         const manager = new WorkflowManager(client);
 
-        const workflowId = await manager.startWorkflow({
-            name: "WorkerHostTestE",
+        const taskName = `worker-host-no-error-handler-task-${Date.now()}`    
+        
+        const taskDef : TaskDef = {
+            name: taskName, 
+            timeoutSeconds: -1,
+            retryCount: 0,
+            ownerEmail: "test@test.com",
+        };
+
+        await manager._client.metadataResource.registerTaskDef([taskDef]);
+        const taskDefRet = await manager._client.metadataResource.getTaskDef(taskName);
+
+        const workflowName = `worker-host-no-error-handler-workflow-${Date.now()}`
+        
+        const workflowDef: WorkflowDef = {
+            name: workflowName, 
             version: 1,
+            ownerEmail: "test@test.com",
+            tasks: [
+                customTask(taskName, taskName + "_ref", {})
+            ],
+            inputParameters: [],
+            timeoutSeconds: -1,
+        };
+
+        try {
+            await manager.unregisterWorkflow(workflowDef.name, workflowDef.version!);
+        } catch (e) {
+            // ignore
+        }
+
+        await manager.registerWorkflow(workflowDef);
+
+        const workflowId = await manager.startWorkflow({
+            name: workflowDef.name,
+            version: workflowDef.version!,
             input: {},
         });
 
         const worker: WorkerInterface = {
-            taskDefName: "workerhost-error-test",
+            taskDefName: taskName,
             execute: async () => {
                 throw Error("This is a forced error");
             },
@@ -105,7 +186,7 @@ describe("WorkerHost", () => {
         expect(workflowStatus.status).toEqual(WorkflowStatusEnum.Failed);
     });
 
-    test("multi worker example", async () => {
+    test("multiple worker example", async () => {
         const manager = new WorkflowManager(client);
 
         // just create a bunch of worker names
@@ -137,7 +218,7 @@ describe("WorkerHost", () => {
 
         expect(host.isPolling).toBeTruthy();
 
-        const workflowName = "WorkerHostTestMulti";
+        const workflowName = `worker-host-multiple-workers-workflow-${Date.now()}`;
 
         // increase polling speed
         host.updatePollingOptions({ concurrency: 4 });
@@ -164,14 +245,15 @@ describe("WorkerHost", () => {
         // decrease speed again
         host.updatePollingOptions({ pollInterval: BASE_TIME, concurrency: 1 });
 
-        const workflowStatus = await manager.getWorkflow(workflowId!, true);
-        expect(workflowStatus.status).toEqual(WorkflowStatusEnum.Completed);
-
+        await new Promise((r) => setTimeout(() => r(true), BASE_TIME * 10));
         await host.stopPolling();
 
         expect(host.isPolling).toBeFalsy();
         expect(host.options.concurrency).toBe(1);
         expect(host.options.pollInterval).toBe(BASE_TIME);
+
+        const workflowStatus = await manager.getWorkflow(workflowId!, true);
+        expect(workflowStatus.status).toEqual(WorkflowStatusEnum.Completed);
     });
 
     test("Should not be able to startPolling if WorkerHost has no workers", async () => {
@@ -251,7 +333,7 @@ describe("WorkerHost", () => {
 
         expect(manager.isPolling).toBeTruthy();
 
-        const workflowName = "WorkerHostTestMultiSingleWorkerUpdate";
+        const workflowName = `worker-host-single-worker-update-workflow-${Date.now()}`;
 
         const updatedWorkerOptions = {
             concurrency: 3,
@@ -283,9 +365,7 @@ describe("WorkerHost", () => {
         // decrease speed again
         manager.updatePollingOptions({ pollInterval: BASE_TIME, concurrency: 1 });
 
-        const workflowStatus = await executor.getWorkflow(workflowId!, true);
-
-        expect(workflowStatus.status).toEqual(WorkflowStatusEnum.Completed);
+        await new Promise((r) => setTimeout(() => r(true), BASE_TIME * 10));
         await manager.stopPolling();
 
         expect(manager.isPolling).toBeFalsy();
@@ -298,5 +378,8 @@ describe("WorkerHost", () => {
         expect(mockLogger.info).toBeCalledWith(
             `TaskWorker ${candidateWorkerUpdate} configuration updated with concurrency of ${updatedWorkerOptions.concurrency} and poll interval of ${updatedWorkerOptions.pollInterval}`
         );
+
+        const workflowStatus = await executor.getWorkflow(workflowId!, true);
+        expect(workflowStatus.status).toEqual(WorkflowStatusEnum.Completed);
     });
 });

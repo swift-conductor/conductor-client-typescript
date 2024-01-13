@@ -220,56 +220,15 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
     }
 
     /**
-     * Update an existing task
+     * Create new task definition(s)
      * @param taskDef 
      */
-    public async registerTaskDef(taskDef: TaskDef, _options?: Configuration): Promise<RequestContext> {
+    public async registerTaskDef(taskDef: Array<TaskDef>, _options?: Configuration): Promise<RequestContext> {
         let _config = _options || this.configuration;
 
         // verify required parameter 'taskDef' is not null or undefined
         if (taskDef === null || taskDef === undefined) {
             throw new RequiredError("MetadataResourceApi", "registerTaskDef", "taskDef");
-        }
-
-
-        // Path Params
-        const localVarPath = '/api/metadata/taskdefs';
-
-        // Make Request Context
-        const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.PUT);
-        requestContext.setHeaderParam("Accept", "application/json, */*;q=0.8")
-
-
-        // Body Params
-        const contentType = ObjectSerializer.getPreferredMediaType([
-            "application/json"
-        ]);
-        requestContext.setHeaderParam("Content-Type", contentType);
-        const serializedBody = ObjectSerializer.stringify(
-            ObjectSerializer.serialize(taskDef, "TaskDef", ""),
-            contentType
-        );
-        requestContext.setBody(serializedBody);
-
-        
-        const defaultAuth: SecurityAuthentication | undefined = _options?.authMethods?.default || this.configuration?.authMethods?.default
-        if (defaultAuth?.applySecurityAuthentication) {
-            await defaultAuth?.applySecurityAuthentication(requestContext);
-        }
-
-        return requestContext;
-    }
-
-    /**
-     * Create new task definition(s)
-     * @param taskDef 
-     */
-    public async registerTaskDef1(taskDef: Array<TaskDef>, _options?: Configuration): Promise<RequestContext> {
-        let _config = _options || this.configuration;
-
-        // verify required parameter 'taskDef' is not null or undefined
-        if (taskDef === null || taskDef === undefined) {
-            throw new RequiredError("MetadataResourceApi", "registerTaskDef1", "taskDef");
         }
 
 
@@ -399,6 +358,47 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
         requestContext.setHeaderParam("Content-Type", contentType);
         const serializedBody = ObjectSerializer.stringify(
             ObjectSerializer.serialize(workflowDef, "Array<WorkflowDef>", ""),
+            contentType
+        );
+        requestContext.setBody(serializedBody);
+
+        
+        const defaultAuth: SecurityAuthentication | undefined = _options?.authMethods?.default || this.configuration?.authMethods?.default
+        if (defaultAuth?.applySecurityAuthentication) {
+            await defaultAuth?.applySecurityAuthentication(requestContext);
+        }
+
+        return requestContext;
+    }
+
+    /**
+     * Update an existing task
+     * @param taskDef 
+     */
+    public async updateTaskDef(taskDef: TaskDef, _options?: Configuration): Promise<RequestContext> {
+        let _config = _options || this.configuration;
+
+        // verify required parameter 'taskDef' is not null or undefined
+        if (taskDef === null || taskDef === undefined) {
+            throw new RequiredError("MetadataResourceApi", "updateTaskDef", "taskDef");
+        }
+
+
+        // Path Params
+        const localVarPath = '/api/metadata/taskdefs';
+
+        // Make Request Context
+        const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.PUT);
+        requestContext.setHeaderParam("Accept", "application/json, */*;q=0.8")
+
+
+        // Body Params
+        const contentType = ObjectSerializer.getPreferredMediaType([
+            "application/json"
+        ]);
+        requestContext.setHeaderParam("Content-Type", contentType);
+        const serializedBody = ObjectSerializer.stringify(
+            ObjectSerializer.serialize(taskDef, "TaskDef", ""),
             contentType
         );
         requestContext.setBody(serializedBody);
@@ -685,31 +685,6 @@ export class MetadataResourceApiResponseProcessor {
      * Unwraps the actual response sent by the server from the response context and deserializes the response content
      * to the expected objects
      *
-     * @params response Response returned by the server for a request to registerTaskDef1
-     * @throws ApiException if the response code was not in [200, 299]
-     */
-     public async registerTaskDef1WithHttpInfo(response: ResponseContext): Promise<HttpInfo<void >> {
-        const contentType = ObjectSerializer.normalizeMediaType(response.headers["content-type"]);
-        if (isCodeInRange("200", response.httpStatusCode)) {
-            return new HttpInfo(response.httpStatusCode, response.headers, response.body, undefined);
-        }
-
-        // Work around for missing responses in specification, e.g. for petstore.yaml
-        if (response.httpStatusCode >= 200 && response.httpStatusCode <= 299) {
-            const body: void = ObjectSerializer.deserialize(
-                ObjectSerializer.parse(await response.body.text(), contentType),
-                "void", ""
-            ) as void;
-            return new HttpInfo(response.httpStatusCode, response.headers, response.body, body);
-        }
-
-        throw new ApiException<string | Blob | undefined>(response.httpStatusCode, "Unknown API Status Code!", await response.getBodyAsAny(), response.headers);
-    }
-
-    /**
-     * Unwraps the actual response sent by the server from the response context and deserializes the response content
-     * to the expected objects
-     *
      * @params response Response returned by the server for a request to unregisterTaskDef
      * @throws ApiException if the response code was not in [200, 299]
      */
@@ -779,6 +754,31 @@ export class MetadataResourceApiResponseProcessor {
                 ObjectSerializer.parse(await response.body.text(), contentType),
                 "BulkResponse", ""
             ) as BulkResponse;
+            return new HttpInfo(response.httpStatusCode, response.headers, response.body, body);
+        }
+
+        throw new ApiException<string | Blob | undefined>(response.httpStatusCode, "Unknown API Status Code!", await response.getBodyAsAny(), response.headers);
+    }
+
+    /**
+     * Unwraps the actual response sent by the server from the response context and deserializes the response content
+     * to the expected objects
+     *
+     * @params response Response returned by the server for a request to updateTaskDef
+     * @throws ApiException if the response code was not in [200, 299]
+     */
+     public async updateTaskDefWithHttpInfo(response: ResponseContext): Promise<HttpInfo<void >> {
+        const contentType = ObjectSerializer.normalizeMediaType(response.headers["content-type"]);
+        if (isCodeInRange("200", response.httpStatusCode)) {
+            return new HttpInfo(response.httpStatusCode, response.headers, response.body, undefined);
+        }
+
+        // Work around for missing responses in specification, e.g. for petstore.yaml
+        if (response.httpStatusCode >= 200 && response.httpStatusCode <= 299) {
+            const body: void = ObjectSerializer.deserialize(
+                ObjectSerializer.parse(await response.body.text(), contentType),
+                "void", ""
+            ) as void;
             return new HttpInfo(response.httpStatusCode, response.headers, response.body, body);
         }
 

@@ -390,17 +390,8 @@ export interface MetadataResourceApiGetWorkflowNamesAndVersionsRequest {
 export interface MetadataResourceApiRegisterTaskDefRequest {
     /**
      * 
-     * @type TaskDef
-     * @memberof MetadataResourceApiregisterTaskDef
-     */
-    taskDef: TaskDef
-}
-
-export interface MetadataResourceApiRegisterTaskDef1Request {
-    /**
-     * 
      * @type Array&lt;TaskDef&gt;
-     * @memberof MetadataResourceApiregisterTaskDef1
+     * @memberof MetadataResourceApiregisterTaskDef
      */
     taskDef: Array<TaskDef>
 }
@@ -436,6 +427,15 @@ export interface MetadataResourceApiUpdateRequest {
      * @memberof MetadataResourceApiupdate
      */
     workflowDef: Array<WorkflowDef>
+}
+
+export interface MetadataResourceApiUpdateTaskDefRequest {
+    /**
+     * 
+     * @type TaskDef
+     * @memberof MetadataResourceApiupdateTaskDef
+     */
+    taskDef: TaskDef
 }
 
 export interface MetadataResourceApiValidateRequest {
@@ -567,7 +567,7 @@ export class ObjectMetadataResourceApi {
     }
 
     /**
-     * Update an existing task
+     * Create new task definition(s)
      * @param param the request object
      */
     public registerTaskDefWithHttpInfo(param: MetadataResourceApiRegisterTaskDefRequest, options?: Configuration): Promise<HttpInfo<void>> {
@@ -575,27 +575,11 @@ export class ObjectMetadataResourceApi {
     }
 
     /**
-     * Update an existing task
+     * Create new task definition(s)
      * @param param the request object
      */
     public registerTaskDef(param: MetadataResourceApiRegisterTaskDefRequest, options?: Configuration): Promise<void> {
         return this.api.registerTaskDef(param.taskDef,  options).toPromise();
-    }
-
-    /**
-     * Create new task definition(s)
-     * @param param the request object
-     */
-    public registerTaskDef1WithHttpInfo(param: MetadataResourceApiRegisterTaskDef1Request, options?: Configuration): Promise<HttpInfo<void>> {
-        return this.api.registerTaskDef1WithHttpInfo(param.taskDef,  options).toPromise();
-    }
-
-    /**
-     * Create new task definition(s)
-     * @param param the request object
-     */
-    public registerTaskDef1(param: MetadataResourceApiRegisterTaskDef1Request, options?: Configuration): Promise<void> {
-        return this.api.registerTaskDef1(param.taskDef,  options).toPromise();
     }
 
     /**
@@ -644,6 +628,22 @@ export class ObjectMetadataResourceApi {
      */
     public update(param: MetadataResourceApiUpdateRequest, options?: Configuration): Promise<BulkResponse> {
         return this.api.update(param.workflowDef,  options).toPromise();
+    }
+
+    /**
+     * Update an existing task
+     * @param param the request object
+     */
+    public updateTaskDefWithHttpInfo(param: MetadataResourceApiUpdateTaskDefRequest, options?: Configuration): Promise<HttpInfo<void>> {
+        return this.api.updateTaskDefWithHttpInfo(param.taskDef,  options).toPromise();
+    }
+
+    /**
+     * Update an existing task
+     * @param param the request object
+     */
+    public updateTaskDef(param: MetadataResourceApiUpdateTaskDefRequest, options?: Configuration): Promise<void> {
+        return this.api.updateTaskDef(param.taskDef,  options).toPromise();
     }
 
     /**
