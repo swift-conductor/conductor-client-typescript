@@ -1,7 +1,7 @@
 {
   "name": "@swift-conductor/conductor-client",
-  "description": "Typescript Client for Swift Conductor",
-  "version": "v0.1.0",
+  "description": "Swift Conductor Client SDK for TypeScript / JavasSript",
+  "version": "v1.3.0",
   "exports": {
     ".": {
       "require": "./dist/index.js",
@@ -36,7 +36,7 @@
     "ci": "npm run lint && npm run test",
     "docs": "typedoc --plugin typedoc-plugin-markdown"
   },
-  "author": "Swift Software Group & the Swift Conductor community",
+  "author": "Swift Software Group & Swift Conductor community",
   "license": "Apache-2.0",
   "files": [
     "dist",
@@ -51,6 +51,9 @@
     },
     {
       "name": "James Stuart Milne"
+    },
+    {
+      "name": "V. Kantchev"
     }
   ],
   "devDependencies": {
