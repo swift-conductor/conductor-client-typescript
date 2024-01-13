@@ -1,4 +1,4 @@
-[@swiftconductor/conductor-client-typescript](../README.md) / [Modules](../modules.md) / [openapi/api](../modules/openapi_api.md) / HttpInfo
+[@swift-conductor/conductor-client](../README.md) / [Modules](../modules.md) / [openapi/api](../modules/openapi_api.md) / HttpInfo
 
 # Class: HttpInfo\<T\>
 

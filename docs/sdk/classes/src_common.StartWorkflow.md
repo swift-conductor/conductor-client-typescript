@@ -1,4 +1,4 @@
-[@swiftconductor/conductor-client-typescript](../README.md) / [Modules](../modules.md) / [src/common](../modules/src_common.md) / StartWorkflow
+[@swift-conductor/conductor-client](../README.md) / [Modules](../modules.md) / [src/common](../modules/src_common.md) / StartWorkflow
 
 # Class: StartWorkflow
 

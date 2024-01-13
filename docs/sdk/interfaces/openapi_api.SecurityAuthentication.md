@@ -1,4 +1,4 @@
-[@swiftconductor/conductor-client-typescript](../README.md) / [Modules](../modules.md) / [openapi/api](../modules/openapi_api.md) / SecurityAuthentication
+[@swift-conductor/conductor-client](../README.md) / [Modules](../modules.md) / [openapi/api](../modules/openapi_api.md) / SecurityAuthentication
 
 # Interface: SecurityAuthentication
 

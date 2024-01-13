@@ -1,4 +1,4 @@
-[@swiftconductor/conductor-client-typescript](../README.md) / [Modules](../modules.md) / openapi/api
+[@swift-conductor/conductor-client](../README.md) / [Modules](../modules.md) / openapi/api
 
 # Module: openapi/api
 

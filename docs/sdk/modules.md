@@ -1,6 +1,6 @@
-[@swiftconductor/conductor-client-typescript](README.md) / Modules
+[@swift-conductor/conductor-client](README.md) / Modules
 
-# @swiftconductor/conductor-client-typescript
+# @swift-conductor/conductor-client
 
 ## Table of contents
 

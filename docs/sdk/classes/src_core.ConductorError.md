@@ -1,4 +1,4 @@
-[@swiftconductor/conductor-client-typescript](../README.md) / [Modules](../modules.md) / [src/core](../modules/src_core.md) / ConductorError
+[@swift-conductor/conductor-client](../README.md) / [Modules](../modules.md) / [src/core](../modules/src_core.md) / ConductorError
 
 # Class: ConductorError
 

@@ -1,4 +1,4 @@
-[@swiftconductor/conductor-client-typescript](../README.md) / [Modules](../modules.md) / src/core
+[@swift-conductor/conductor-client](../README.md) / [Modules](../modules.md) / src/core
 
 # Module: src/core
 

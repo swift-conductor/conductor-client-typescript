@@ -8,7 +8,7 @@ import {
     WorkflowManager
     WorkerProcess,
     customTask,
-} from "@swiftconductor/conductor-client-typescript";
+} from "@swift-conductor/conductor-client";
 
 const client = new ConductorClient();
 
@@ -49,7 +49,7 @@ import {
     ConductorClient,
     TaskType,
     WorkflowDef,
-} from "@swiftconductor/conductor-client-typescript";
+} from "@swift-conductor/conductor-client";
 
 const client = new ConductorClient();
 

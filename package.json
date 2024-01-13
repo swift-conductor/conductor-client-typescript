@@ -1,5 +1,5 @@
 {
-  "name": "@swiftconductor/conductor-client-typescript",
+  "name": "@swift-conductor/conductor-client",
   "description": "Typescript Client for Swift Conductor",
   "version": "v0.1.0",
   "exports": {

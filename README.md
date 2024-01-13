@@ -1,18 +1,18 @@
 # Swift Conductor Client SDK for TypeScript / JavaScript
 
-The `conductor-client-typescript` repository provides the client SDKs to build task workers in TypeScript.
+The `conductor-client` repository provides the client SDKs to build task workers in TypeScript.
 
 ### Install the Swift Conductor Client Package
 
 Get the package via `npm``:
 
 ```sh
-npm install @swiftconductor/conductor-client-typescript
+npm install @swift-conductor/conductor-client
 ```
 or
 
 ```sh
-yarn add @swiftconductor/conductor-client-typescript
+yarn add @swift-conductor/conductor-client
 ```
 
 Following these steps to get started:

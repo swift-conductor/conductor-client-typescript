@@ -1,4 +1,4 @@
-[@swiftconductor/conductor-client-typescript](../README.md) / [Modules](../modules.md) / [src/worker](../modules/src_worker.md) / WorkerProcess
+[@swift-conductor/conductor-client](../README.md) / [Modules](../modules.md) / [src/worker](../modules/src_worker.md) / WorkerProcess
 
 # Class: WorkerProcess
 

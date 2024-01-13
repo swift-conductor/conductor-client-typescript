@@ -19,7 +19,7 @@ Each worker embodies design pattern and follows certain basic principles:
 Task worker is implemented using a function that confirms to the following function
 
 ```typescript
-import { WorkerInterface, Task } from "@swiftconductor/conductor-client-typescript";
+import { WorkerInterface, Task } from "@swift-conductor/conductor-client";
 
 const worker: WorkerInterface = {
   taskDefName: "task-def-name",
@@ -33,7 +33,7 @@ If an `error` is returned, the task is marked as `FAILED`
 #### Task worker that returns an object
 
 ```typescript
-import { WorkerInterface, Task } from "@swiftconductor/conductor-client-typescript";
+import { WorkerInterface, Task } from "@swift-conductor/conductor-client";
 
 const worker: WorkerInterface = {
     taskDefName: "task-def-name",
@@ -77,7 +77,7 @@ The `WorkerHost` interface is used to start the workers, which takes care of pol
 import {
   ConductorClient,
   WorkerHost,
-} from "@swiftconductor/conductor-client-typescript";
+} from "@swift-conductor/conductor-client";
 
 const client = new ConductorClient();
 
@@ -127,7 +127,7 @@ import {
     ConductorClient,
     WorkflowManager,
     TaskResultStatus,
-} from "@swiftconductor/conductor-client-typescript";
+} from "@swift-conductor/conductor-client";
 
 const client = new ConductorClient();
 
