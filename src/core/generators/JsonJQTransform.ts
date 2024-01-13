@@ -15,11 +15,11 @@ export const generateJQTransformTask = (
   inputParameters: {
     key1: {
       value1: ["a", "b"],
-    },
+    } as any,
     key2: {
       value2: ["c", "d"],
-    },
-    queryExpression: "{ key3: (.key1.value1 + .key2.value2) }",
+    } as any,
+    queryExpression: "{ key3: (.key1.value1 + .key2.value2) }" as any,
   },
   ...overrides,
   type: TaskType.JSON_JQ_TRANSFORM,

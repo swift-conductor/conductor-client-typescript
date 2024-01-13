@@ -1,9 +1,8 @@
+export * from "./ConductorClient";
 export * from "./ConductorLogger";
-export * from "./RequestCustomizer";
 export * from "./types";
 
 export {
-  ConductorClient,
   Action,
   EventHandler,
   ExternalStorageLocation,
@@ -26,13 +25,6 @@ export {
   Workflow,
   WorkflowSummary,
   WorkflowTask,
-  EventResourceService,
-  HealthCheckResourceService,
-  MetadataResourceService,
-  TaskResourceService,
-  WorkflowBulkResourceService,
-  WorkflowResourceService,
   WorkflowDef,
   WorkflowTestRequest,
-
-} from "./open-api";
+} from "../../openapi/api";

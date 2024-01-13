@@ -7,7 +7,7 @@ import {
   ConductorApiConfig,
   conductorClient,
   TaskRunner,
-  simpleTask,
+  customTask,
 } from "@swiftconductor/conductor-client-typescript";
 
 //API client instance with server address and authentication details
@@ -25,7 +25,7 @@ const factoryWf = {
   name: "my_first_workflow",
   version: 1,
   ownerEmail: "hello@swiftsoftwaregroup.com",
-  tasks: [simpleTask("simple_task_ref", "simple_task", {})],
+  tasks: [customTask("custom_task_ref", "custom_task", {})],
   inputParameters: [],
   outputParameters: {},
   timeoutSeconds: 0,
@@ -67,7 +67,7 @@ const factoryWf = {
   name: "my_first_workflow",
   version: 1,
   ownerEmail: "hello@swiftsoftwaregroup.com",
-  tasks: [simpleTask("simple_task_ref", "simple_task", {})],
+  tasks: [customTask("custom_task_ref", "custom_task", {})],
   inputParameters: [],
   outputParameters: {},
   timeoutSeconds: 0,

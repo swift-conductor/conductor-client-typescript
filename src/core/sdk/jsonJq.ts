@@ -8,6 +8,6 @@ export const jsonJqTask = (
   taskReferenceName,
   type: TaskType.JSON_JQ_TRANSFORM,
   inputParameters: {
-    queryExpression: script,
+    queryExpression: script as any,
   },
 });

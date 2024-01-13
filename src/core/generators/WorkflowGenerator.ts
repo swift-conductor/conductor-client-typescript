@@ -1,4 +1,5 @@
-import { WorkflowDef } from "../../common/types";
+import { WorkflowDefTimeoutPolicyEnum } from "../../../openapi/api";
+import { WorkflowDef } from "../../common";
 
 export const workflowGenerator = (
   overrides: Partial<WorkflowDef>
@@ -14,7 +15,7 @@ export const workflowGenerator = (
   restartable: true,
   workflowStatusListenerEnabled: false,
   ownerEmail: "hello@swiftsoftwaregroup.com",
-  timeoutPolicy: "ALERT_ONLY",
+  timeoutPolicy: WorkflowDefTimeoutPolicyEnum.AlertOnly,
   timeoutSeconds: 0,
   ...overrides,
 });

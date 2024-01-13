@@ -1,9 +1,8 @@
 import {
-  WorkflowDef,
   ForkJoinTaskDef,
   SwitchTaskDef,
   DoWhileTaskDef,
-  SimpleTaskDef,
+  CustomTaskDef,
   EventTaskDef,
   ForkJoinDynamicDef,
   HttpTaskDef,
@@ -19,8 +18,10 @@ import {
   InlineTaskInputParameters,
 } from "../../common/types";
 
+import { WorkflowDef} from "../../common";
+
 export type TaskDefTypesGen =
-  | SimpleTaskDef
+  | CustomTaskDef
   | DoWhileTaskDefGen
   | EventTaskDef
   | ForkJoinTaskDefGen
@@ -34,26 +35,23 @@ export type TaskDefTypesGen =
   | SwitchTaskDefGen
   | TerminateTaskDef
   | JoinTaskDef
-  | WaitTaskDef;
+  | WaitTaskDef
 
 export interface WorkflowDefGen extends Omit<WorkflowDef, "tasks"> {
   tasks: Partial<TaskDefTypesGen>[];
 }
 
 export type ForkJoinTaskDefGen = Omit<ForkJoinTaskDef, "forkTasks"> & {
-  forkTasks: Array<Array<Partial<TaskDefTypesGen>>>;
+  forkTasks: Array<Array<TaskDefTypesGen>>;
 };
 
-export type SwitchTaskDefGen = Omit<
-  SwitchTaskDef,
-  "decisionCases" | "defaultCase"
-> & {
-  decisionCases: Record<string, Partial<TaskDefTypesGen>[]>;
-  defaultCase: Partial<TaskDefTypesGen>[];
+export type SwitchTaskDefGen = Omit<SwitchTaskDef, "decisionCases" | "defaultCase"> & {
+  decisionCases: Record<string, TaskDefTypesGen[]>;
+  defaultCase: TaskDefTypesGen[];
 };
 
 export type DoWhileTaskDefGen = Omit<DoWhileTaskDef, "loopOver"> & {
-  loopOver: Partial<TaskDefTypesGen>[];
+  loopOver?: TaskDefTypesGen[];
 };
 
 export interface InlineTaskInputParametersGen
@@ -61,8 +59,7 @@ export interface InlineTaskInputParametersGen
   expression: string | Function;
 }
 
-export interface InlineTaskDefGen
-  extends Omit<InlineTaskDef, "inputParameters"> {
+export interface InlineTaskDefGen extends Omit<InlineTaskDef, "inputParameters"> {
   inputParameters: InlineTaskInputParametersGen;
 }
 

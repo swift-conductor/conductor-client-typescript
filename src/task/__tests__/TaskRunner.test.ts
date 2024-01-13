@@ -1,21 +1,21 @@
 import { jest, test, expect } from "@jest/globals";
 import type { Mocked } from "jest-mock";
 
-import { TaskRunner } from "../TaskRunner";
-import { RunnerArgs } from "../types";
+import { WorkerProcess } from "../WorkerProcess";
+import { WorkerProcessConfig } from "../types";
 import { mockLogger } from "./mockLogger";
-import { TaskResourceService } from "../../common/open-api";
+import { TaskResourceApi, TaskResultStatusEnum } from "../../../openapi/api";
 
 test("polls tasks", async () => {
   const taskClientStub: Mocked<
-    Pick<TaskResourceService, "batchPoll" | "updateTask1">
+    Pick<TaskResourceApi, "batchPoll" | "updateTask1">
   > = {
     batchPoll: jest.fn(),
     updateTask1: jest.fn(),
   };
-  const mockTaskClient = taskClientStub as unknown as TaskResourceService;
+  const mockTaskClient = taskClientStub as unknown as TaskResourceApi;
   const workerID = "worker-id";
-  const args: RunnerArgs = {
+  const args: WorkerProcessConfig = {
     worker: {
       taskDefName: "test",
       execute: async ({ inputData }) => {
@@ -24,7 +24,7 @@ test("polls tasks", async () => {
             hello: "from worker",
             ...inputData,
           },
-          status: "COMPLETED",
+          status: TaskResultStatusEnum.Completed,
         };
       },
     },
@@ -51,7 +51,7 @@ test("polls tasks", async () => {
     },
   ]);
 
-  const runner = new TaskRunner(args);
+  const runner = new WorkerProcess(args);
   runner.startPolling();
   await new Promise((r) => setTimeout(() => r(true), 10));
   runner.stopPolling();
@@ -70,15 +70,15 @@ test("polls tasks", async () => {
 
 test("Should set the task as failed if the task has an error", async () => {
   const taskClientStub: Mocked<
-    Pick<TaskResourceService, "batchPoll" | "updateTask1">
+    Pick<TaskResourceApi, "batchPoll" | "updateTask1">
   > = {
     batchPoll: jest.fn(),
     updateTask1: jest.fn(),
   };
-  const mockTaskClient = taskClientStub as unknown as TaskResourceService;
+  const mockTaskClient = taskClientStub as unknown as TaskResourceApi;
 
   const workerID = "worker-id";
-  const args: RunnerArgs = {
+  const args: WorkerProcessConfig = {
     worker: {
       taskDefName: "test",
       execute: async () => {
@@ -108,7 +108,7 @@ test("Should set the task as failed if the task has an error", async () => {
     },
   ]);
 
-  const runner = new TaskRunner(args);
+  const runner = new WorkerProcess(args);
   runner.startPolling();
   await new Promise((r) => setTimeout(() => r(true), 10));
   runner.stopPolling();

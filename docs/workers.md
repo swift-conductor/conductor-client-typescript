@@ -106,7 +106,7 @@ taskDefName,
 };
 // Worker Options will take precedence over options defined in the manager
 
-const manager = new TaskManager(client, [customWorker], {
+const manager = new WorkerHost(client, [customWorker], {
   options: { pollInterval: 100, concurrency: 1 },
 });
 

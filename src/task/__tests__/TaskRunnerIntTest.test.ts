@@ -1,6 +1,6 @@
 import { expect, describe, test, jest } from "@jest/globals";
-import { TaskRunner } from "../TaskRunner";
-import { WorkflowManager, simpleTask } from "../../core";
+import { WorkerProcess } from "../WorkerProcess";
+import { WorkflowManager, customTask } from "../../core";
 import { ConductorApiConfig, conductorClient } from "../../conductor";
 
 const config: Partial<ConductorApiConfig> = {
@@ -9,7 +9,7 @@ const config: Partial<ConductorApiConfig> = {
   serverUrl: `${process.env.SERVER_URL}`,
 };
 
-describe("TaskManager", () => {
+describe("WorkerHost", () => {
   const clientPromise = conductorClient(config);
 
   jest.setTimeout(15000);
@@ -17,7 +17,7 @@ describe("TaskManager", () => {
     const client = await clientPromise;
     const executor = new WorkflowManager(client);
 
-    const taskRunner = new TaskRunner({
+    const taskRunner = new WorkerProcess({
       taskResource: client.taskResource,
       worker: {
         taskDefName: "task-manager-int-test",
@@ -45,7 +45,7 @@ describe("TaskManager", () => {
       name: workflowName,
       version: 1,
       ownerEmail: "hello@swiftsoftwaregroup.com",
-      tasks: [simpleTask("task-manager-int-test", "task-manager-int-test", {})],
+      tasks: [customTask("task-manager-int-test", "task-manager-int-test", {})],
       inputParameters: [],
       outputParameters: {},
       timeoutSeconds: 0,

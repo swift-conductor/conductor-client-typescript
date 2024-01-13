@@ -1,8 +1,8 @@
 import { expect, describe, test, jest } from "@jest/globals";
 import { ConductorApiConfig, conductorClient } from "../conductor";
-import { WorkflowManager, simpleTask, generate } from "../core";
+import { WorkflowManager, customTask, generate } from "../core";
 import { TaskType } from "../common";
-import { TaskRunner } from "../task";
+import { WorkerProcess } from "../task";
 
 const config: Partial<ConductorApiConfig> = {
   keyId: `${process.env.KEY_ID}`,
@@ -11,7 +11,7 @@ const config: Partial<ConductorApiConfig> = {
   refreshTokenInterval: 0,
 };
 
-describe("TaskManager", () => {
+describe("WorkerHost", () => {
   const clientPromise = conductorClient(config);
 
   jest.setTimeout(20000);
@@ -19,10 +19,10 @@ describe("TaskManager", () => {
     const client = await clientPromise;
     const executor = new WorkflowManager(client);
 
-    const taskRunner = new TaskRunner({
+    const taskRunner = new WorkerProcess({
       taskResource: client.taskResource,
       worker: {
-        taskDefName: "taskmanager-test",
+        taskDefName: "workerhost-test",
         execute: async () => {
           return {
             outputData: {
@@ -45,7 +45,7 @@ describe("TaskManager", () => {
       name: "my_first_js_wf",
       version: 1,
       ownerEmail: "hello@swiftsoftwaregroup.com",
-      tasks: [simpleTask("taskmanager-test", "taskmanager-test", {})],
+      tasks: [customTask("workerhost-test", "workerhost-test", {})],
       inputParameters: [],
       outputParameters: {},
       timeoutSeconds: 0,
@@ -60,7 +60,7 @@ describe("TaskManager", () => {
     const workflowStatus = await executor.getWorkflow(executionId, true);
 
     const [firstTask] = workflowStatus.tasks || [];
-    expect(firstTask?.taskType).toEqual("taskmanager-test");
+    expect(firstTask?.taskType).toEqual("workerhost-test");
     expect(workflowStatus.status).toEqual("COMPLETED");
 
     taskRunner.stopPolling();

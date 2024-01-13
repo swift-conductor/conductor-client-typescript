@@ -1,4 +1,4 @@
-import { generateSimpleTask } from "./SimpleTask";
+import { generateCustomTask } from "./CustomTask";
 import { generateDoWhileTask as doWhileGenerateInner } from "./DoWhileTask";
 import { generateEventTask } from "./EventTask";
 import {
@@ -62,7 +62,7 @@ const generateForkJoinTask = (
 ) => generateForkJoinTaskInner(overrides, nestedMapper);
 
 export {
-  generateSimpleTask,
+  generateCustomTask,
   generateDoWhileTask,
   generateEventTask,
   generateForkJoinTask,

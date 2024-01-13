@@ -3,13 +3,13 @@ import { TaskType, InlineTaskDef } from "../../common/types";
 export const inlineTask = (
   taskReferenceName: string,
   script: string,
-  evaluatorType: "javascript" | "graaljs" = "javascript"
+  evaluatorType: "javascript" | "value-param" = "javascript"
 ): InlineTaskDef => ({
   name: taskReferenceName,
   taskReferenceName,
   inputParameters: {
     evaluatorType,
     expression: script,
-  },
+  } as any,
   type: TaskType.INLINE,
 });

@@ -1,17 +1,17 @@
 import { expect, describe, it } from "@jest/globals";
 import { optionEquals } from "../helpers";
-import { TaskRunnerOptions } from "../types";
+import { WorkerProcessOptions } from "../types";
 
 describe("helpers", () => {
   it("Should return true if both options are equals", () => {
-    const someOptions: TaskRunnerOptions = {
+    const someOptions: WorkerProcessOptions = {
       workerID: "some-worker-id",
       domain: "mydomain",
       pollInterval: 1000,
       concurrency: 1,
       batchPollingTimeout: 1000,
     };
-    const otherOptions: TaskRunnerOptions = {
+    const otherOptions: WorkerProcessOptions = {
       ...someOptions,
     };
     expect(optionEquals(someOptions, otherOptions)).toBeTruthy();
@@ -20,14 +20,14 @@ describe("helpers", () => {
   });
 
   it("Should return true if both options are equals", () => {
-    const someOptions: TaskRunnerOptions = {
+    const someOptions: WorkerProcessOptions = {
       workerID: "some-worker-id",
       domain: "mydomain",
       pollInterval: 1000,
       concurrency: 1,
       batchPollingTimeout: 1000,
     };
-    const otherOptions: TaskRunnerOptions = {
+    const otherOptions: WorkerProcessOptions = {
       ...someOptions,
       batchPollingTimeout: 2000,
     };
@@ -36,7 +36,7 @@ describe("helpers", () => {
     expect(optionEquals(otherOptions, someOptions)).not.toBeTruthy();
   });
   it("Should return false if options are only equal in some properties", () => {
-    const someOptions: TaskRunnerOptions = {
+    const someOptions: WorkerProcessOptions = {
       workerID: "some-worker-id",
       domain: "mydomain",
       pollInterval: 1000,
@@ -44,7 +44,7 @@ describe("helpers", () => {
       batchPollingTimeout: 1000,
     };
 
-    const someOptionsPrime: TaskRunnerOptions = {
+    const someOptionsPrime: WorkerProcessOptions = {
       workerID: "some-worker-id",
       domain: "mydomain",
     };

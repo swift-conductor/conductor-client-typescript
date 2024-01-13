@@ -5,7 +5,7 @@ export interface CommonTaskDef {
 
 export enum TaskType {
   START = "START",
-  SIMPLE = "SIMPLE",
+  CUSTOM = "CUSTOM",
   DYNAMIC = "DYNAMIC",
   FORK_JOIN = "FORK_JOIN",
   FORK_JOIN_DYNAMIC = "FORK_JOIN_DYNAMIC",
@@ -29,7 +29,7 @@ export enum TaskType {
 }
 
 export type TaskDefTypes =
-  | SimpleTaskDef
+  | CustomTaskDef
   | DoWhileTaskDef
   | EventTaskDef
   | ForkJoinTaskDef
@@ -46,7 +46,7 @@ export type TaskDefTypes =
   | WaitTaskDef;
 
 export interface DoWhileTaskDef extends CommonTaskDef {
-  inputParameters: Record<string, unknown>;
+  inputParameters: { [key: string]: any; };
   type: TaskType.DO_WHILE;
   startDelay?: number;
   optional?: boolean;
@@ -107,7 +107,7 @@ export interface HttpTaskDef extends CommonTaskDef {
 }
 
 export interface InlineTaskInputParameters {
-  evaluatorType: "javascript" | "graaljs";
+  evaluatorType: "javascript" | "value-param";
   expression: string;
   [x: string]: unknown;
 }
@@ -145,17 +145,17 @@ export interface KafkaPublishTaskDef extends CommonTaskDef {
 
 export interface SetVariableTaskDef extends CommonTaskDef {
   type: TaskType.SET_VARIABLE;
-  inputParameters: Record<string, unknown>;
+  inputParameters: { [key: string]: any; };
 }
 
-export interface SimpleTaskDef extends CommonTaskDef {
-  type: TaskType.SIMPLE;
-  inputParameters?: Record<string, unknown>;
+export interface CustomTaskDef extends CommonTaskDef {
+  type: TaskType.CUSTOM;
+  inputParameters?: { [key: string]: any; };
 }
 
 export interface SubWorkflowTaskDef extends CommonTaskDef {
   type: TaskType.SUB_WORKFLOW;
-  inputParameters?: Record<string, unknown>;
+  inputParameters?: { [key: string]: any; };
   subWorkflowParam: {
     name: string;
     version?: number;
@@ -164,7 +164,7 @@ export interface SubWorkflowTaskDef extends CommonTaskDef {
 }
 
 export interface SwitchTaskDef extends CommonTaskDef {
-  inputParameters: Record<string, unknown>;
+  inputParameters: { [key: string]: any; };
   type: TaskType.SWITCH;
   decisionCases: Record<string, TaskDefTypes[]>;
   defaultCase: TaskDefTypes[];

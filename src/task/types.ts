@@ -1,20 +1,22 @@
 import type { ConductorLogger } from "../common";
-import type { ConductorWorker } from "./Worker";
-import type { Task, TaskResourceService } from "../common/open-api";
+import type { WorkerInterface } from "./WorkerInterface";
+import type { Task, TaskResourceApi } from "../../openapi/api";
 
-export type TaskErrorHandler = (error: Error, task?: Task) => void;
-export interface TaskRunnerOptions {
+export type WorkerErrorHandler = (error: Error, task?: Task) => void;
+
+export interface WorkerProcessOptions {
   workerID: string;
   domain: string | undefined;
   pollInterval?: number;
   concurrency?: number;
   batchPollingTimeout?: number;
 }
-export interface RunnerArgs {
-  worker: ConductorWorker;
-  taskResource: TaskResourceService;
-  options: TaskRunnerOptions;
+
+export interface WorkerProcessConfig {
+  worker: WorkerInterface;
+  taskResource: TaskResourceApi;
+  options: WorkerProcessOptions;
   logger?: ConductorLogger;
-  onError?: TaskErrorHandler;
+  onError?: WorkerErrorHandler;
   concurrency?: number;
 }

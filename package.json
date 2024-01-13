@@ -31,15 +31,12 @@
   "scripts": {
     "lint": "npx eslint . --ext .js,.ts",
     "lint-fix": "npx eslint . --fix --ext .js,.ts",
-    "build": "npm run build",
-    "publish": "tsup",
+    "build": "tsup",
     "test": "jest --force-exit --detectOpenHandles",
-    "client-models": "npx openapi-typescript-codegen --input  http://localhost:8080/api-docs --output src/common/open-api --client fetch --indent 4 --name ConductorClient --useUnionTypes --exportCore false",
-    "client-core": "npx openapi-typescript-codegen --input http://localhost:8080/api-docs  --output src/common/open-api --client fetch --indent 4 --name ConductorClient --useUnionTypes && find ./src/common/open-api/services/*Service.ts -type f -exec sed -i '' -e 's/api\\///g' {} \\;",
     "ci": "npm run lint && npm run test",
     "generate-docs": "typedoc --plugin typedoc-plugin-markdown"
   },
-  "author": "Conductor community",
+  "author": "Swift Software Group & the Swift Conductor community",
   "license": "Apache-2.0",
   "files": [
     "dist",
@@ -60,11 +57,8 @@
     "@babel/preset-typescript": "^7.22.5",
     "@tsconfig/node20": "^1.0.1",
     "@types/node": "^18.11.18",
-    "@types/node-fetch": "^2.6.4",
-    "@types/uuid": "^9.0.1",
     "@typescript-eslint/eslint-plugin": "^5.23.0",
     "@typescript-eslint/parser": "^5.23.0",
-    "axios": "1.6.5",
     "dotenv": "^16.0.1",
     "eslint": "^6.1.0",
     "jest": "^29.4.3",
@@ -73,8 +67,13 @@
     "tsup": "^7.1.0",
     "typedoc": "^0.25.7",
     "typedoc-plugin-markdown": "^3.17.1",
-    "typescript": "4.9.5",
-    "uuid": "^9.0.0"
+    "typescript": "4.9.5"
+  },
+  "dependencies": {
+    "whatwg-fetch": "^3.0.0",
+    "rxjs": "^6.4.0",
+    "es6-promise": "^4.2.4",
+    "url-parse": "^1.4.3"
   },
   "tsup": {
     "target": "node20",

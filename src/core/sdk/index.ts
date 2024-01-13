@@ -8,7 +8,7 @@ export * from "./join";
 export * from "./jsonJq";
 export * from "./kafkaPublish";
 export * from "./setVariable";
-export * from "./simple";
+export * from "./custom";
 export * from "./subWorkflow";
 export * from "./switch";
 export * from "./terminate";

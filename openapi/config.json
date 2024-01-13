@@ -1,5 +1,5 @@
 {
     "npmName": "swift-conductor-api",
     "npmVersion": "3.16.0",
-    "useRxJS": true
+    "useRxJS": false
 }

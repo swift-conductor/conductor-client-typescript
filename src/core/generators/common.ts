@@ -13,10 +13,7 @@ interface MaybeOverrides {
   name?: string;
 }
 
-export const nameTaskNameGenerator = (
-  taskType: string,
-  maybeOverrides: MaybeOverrides = {}
-) => {
+export const nameTaskNameGenerator = (taskType: string, maybeOverrides: MaybeOverrides = {}) => {
   const name = maybeOverrides?.name ?? taskNameGenerator(taskType);
   return {
     name,

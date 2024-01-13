@@ -1,6 +1,6 @@
-import { TaskRunnerOptions } from "./types";
+import { WorkerProcessOptions } from "./types";
 type OptionEntries = Array<
-    [keyof TaskRunnerOptions, string | number | undefined]
+    [keyof WorkerProcessOptions, string | number | undefined]
   >;
 
 
@@ -10,8 +10,8 @@ type OptionEntries = Array<
  * @param newOptions
  */
 export const optionEquals = (
-  oldOptions: Partial<TaskRunnerOptions>,
-  newOptions: Partial<TaskRunnerOptions>
+  oldOptions: Partial<WorkerProcessOptions>,
+  newOptions: Partial<WorkerProcessOptions>
 ) => {
   const newOptionEntries = Object.entries(newOptions) as OptionEntries;
   const oldOptionsEntries = Object.entries(oldOptions) as OptionEntries;

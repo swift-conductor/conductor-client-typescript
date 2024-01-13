@@ -1,6 +1,6 @@
 import { expect, describe, it } from "@jest/globals";
 import { generate, taskGenMapper } from "../generator";
-import { generateSimpleTask } from "../SimpleTask";
+import { generateCustomTask } from "../CustomTask";
 import { TaskType, ForkJoinTaskDef } from "../../../common/types";
 import { generateEvaluationCode, generateInlineTask } from "../InlineTask";
 import { generateDoWhileTask } from "../DoWhileTask";
@@ -21,12 +21,12 @@ describe("Generate", () => {
     });
     it("Should generate a DoWhileTask filling in the blanks for loopOver", () => {
       const doWhileTask = generateDoWhileTask(
-        { loopOver: [{ type: TaskType.SIMPLE }] },
+        { loopOver: [{ type: TaskType.CUSTOM, name: 'custom_task', taskReferenceName: 'custom_task_ref' }] },
         taskGenMapper
       );
-      doWhileTask.loopOver.forEach((t) => {
-        expect(t.type).toEqual(TaskType.SIMPLE);
-        expect(t.name).toEqual(expect.stringContaining("simple"));
+      doWhileTask.loopOver?.forEach((t) => {
+        expect(t.type).toEqual(TaskType.CUSTOM);
+        expect(t.name).toEqual(expect.stringContaining("custom"));
       });
     });
   });
@@ -52,7 +52,7 @@ describe("Generate", () => {
         const generatedInputParameters = generateEvaluationCode();
         expect(generatedInputParameters).toEqual({
           value: "${workflow.input.value}",
-          evaluatorType: "graaljs",
+          evaluatorType: "javascript",
           expression: "true",
         });
       });
@@ -133,19 +133,19 @@ describe("Generate", () => {
     expect(wf.tasks).toEqual([]);
   });
 
-  it("Should generate a workflow with 3 simple tasks", () => {
+  it("Should generate a workflow with 3 custom tasks", () => {
     const wf = generate({
       tasks: [
-        { type: TaskType.SIMPLE },
-        { type: TaskType.SIMPLE },
-        { type: TaskType.SIMPLE },
+        { type: TaskType.CUSTOM } as any,
+        { type: TaskType.CUSTOM } as any,
+        { type: TaskType.CUSTOM } as any,
       ],
     });
     expect(wf.name).not.toBe("");
     expect(
       wf.tasks.every(
-        ({ name, taskReferenceName, type }) =>
-          name !== "" && taskReferenceName !== "" && type === TaskType.SIMPLE
+        ({ name, taskReferenceName, type }: any) =>
+          name !== "" && taskReferenceName !== "" && type === TaskType.CUSTOM
       )
     ).toBe(true);
   });
@@ -153,7 +153,7 @@ describe("Generate", () => {
   it("Should generate a workflow and take into account nested tasks", () => {
     const wf = generate({
       name: "tripReservation",
-      inputParameters: ["some"],
+      inputParameters: ["some"] as any,
       tasks: [
         {
           type: TaskType.FORK_JOIN,
@@ -165,6 +165,7 @@ describe("Generate", () => {
                   http_request: { uri: "http://airline1.com", method: "GET" },
                 },
                 name: "airline1",
+                taskReferenceName: "airline1_ref",
               },
             ],
             [
@@ -174,6 +175,7 @@ describe("Generate", () => {
                   http_request: { uri: "http://airline2.com", method: "GET" },
                 },
                 name: "airline2",
+                taskReferenceName: "airline2_ref",
               },
             ],
             [
@@ -183,23 +185,24 @@ describe("Generate", () => {
                   http_request: { uri: "http://airline3.com", method: "GET" },
                 },
                 name: "airline3",
+                taskReferenceName: "airline3_ref",
               },
             ],
           ],
         },
-        { type: TaskType.SIMPLE, name: "compute_lowest_price" },
-        { type: TaskType.SIMPLE, name: "make_reservation" },
-        generateSimpleTask({ name: "send_email" }),
+        { type: TaskType.CUSTOM, name: "compute_lowest_price" },
+        { type: TaskType.CUSTOM, name: "make_reservation" },
+        generateCustomTask({ name: "send_email" }),
       ],
     });
 
     expect(
       wf.tasks.every(
-        ({ name, taskReferenceName }) => name !== "" && taskReferenceName !== ""
+        ({ name, taskReferenceName }: any) => name !== "" && taskReferenceName !== ""
       )
     ).toBe(true);
     // Has generated join task
-    const joinTasks = wf.tasks.filter(({ type }) => type === TaskType.JOIN);
+    const joinTasks = wf.tasks.filter(({ type }: any) => type === TaskType.JOIN);
     expect(joinTasks.length).toBe(1);
     const [firstForkTask] = wf.tasks;
     expect(
@@ -227,6 +230,7 @@ describe("Generate", () => {
                   http_request: { uri: "http://airline1.com", method: "GET" },
                 },
                 name: "airline1",
+                taskReferenceName: "airline1_ref",
               },
             ],
             [
@@ -236,6 +240,7 @@ describe("Generate", () => {
                   http_request: { uri: "http://airline2.com", method: "GET" },
                 },
                 name: "airline2",
+                taskReferenceName: "airline2_ref",
               },
             ],
             [
@@ -245,18 +250,19 @@ describe("Generate", () => {
                   http_request: { uri: "http://airline3.com", method: "GET" },
                 },
                 name: "airline3",
+                taskReferenceName: "airline3_ref",
               },
             ],
           ],
         },
         { type: TaskType.JOIN, name: "myJoin" },
-        { type: TaskType.SIMPLE, name: "compute_lowest_price" },
-        { type: TaskType.SIMPLE, name: "make_reservation" },
-        generateSimpleTask({ name: "send_email" }),
+        { type: TaskType.CUSTOM, name: "compute_lowest_price" },
+        { type: TaskType.CUSTOM, name: "make_reservation" },
+        generateCustomTask({ name: "send_email" }),
       ],
     });
 
-    const joinTasks = wf.tasks.filter(({ type }) => type === TaskType.JOIN);
+    const joinTasks = wf.tasks.filter(({ type }: any) => type === TaskType.JOIN);
 
     expect(joinTasks.length).toBe(1);
 

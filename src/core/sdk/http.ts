@@ -12,6 +12,6 @@ export const httpTask = (
   taskReferenceName,
   inputParameters: {
     http_request: inputParameters,
-  },
+  } as any,
   type: TaskType.HTTP,
 });

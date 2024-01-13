@@ -1,4 +1,5 @@
 import { ConductorClient } from "../common";
+
 import {
     Task,
     RerunWorkflowRequest,
@@ -7,7 +8,7 @@ import {
     WorkflowDef,
     Workflow,
     SearchResultWorkflowSummary,
-} from "../common/open-api";
+} from "../../openapi/api";
 
 import { TaskResultStatus } from "./types";
 import { errorMapper, tryCatchReThrow } from "./helpers";

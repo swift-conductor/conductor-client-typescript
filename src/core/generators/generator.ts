@@ -1,6 +1,6 @@
 import { workflowGenerator } from "./WorkflowGenerator";
 import { WorkflowDefGen, TaskDefTypesGen } from "./types";
-import { generateSimpleTask } from "./SimpleTask";
+import { generateCustomTask } from "./CustomTask";
 import { generateDoWhileTask } from "./DoWhileTask";
 import { generateEventTask } from "./EventTask";
 import { generateForkJoinTask, generateJoinTask } from "./ForkJoin";
@@ -14,15 +14,15 @@ import { generateSetVariableTask } from "./SetVariableTask";
 import { generateTerminateTask } from "./TerminateTask";
 import { generateWaitTask } from "./WaitTask";
 import { generateSwitchTask } from "./SwitchTask";
-import { SimpleTaskDef, TaskDefTypes, TaskType } from "../../common/types";
+import { CustomTaskDef, TaskDefTypes, TaskType } from "../../common/types";
 
 const filledTaskDef = (task: Partial<TaskDefTypesGen>): TaskDefTypes => {
   const taskType = task.type;
   switch (taskType) {
     case TaskType.SWITCH:
       return generateSwitchTask(task, taskGenMapper);
-    case TaskType.SIMPLE:
-      return generateSimpleTask(task);
+    case TaskType.CUSTOM:
+      return generateCustomTask(task);
     case TaskType.DO_WHILE:
       return generateDoWhileTask(task, taskGenMapper);
     case TaskType.EVENT:
@@ -50,13 +50,11 @@ const filledTaskDef = (task: Partial<TaskDefTypesGen>): TaskDefTypes => {
     case TaskType.WAIT:
       return generateWaitTask(task);
     default:
-      return generateSimpleTask(task as SimpleTaskDef);
+      return generateCustomTask(task as CustomTaskDef);
   }
 };
 
-export const taskGenMapper = (
-  tasks: Partial<TaskDefTypesGen>[]
-): TaskDefTypes[] =>
+export const taskGenMapper = (tasks: Partial<TaskDefTypesGen>[]): TaskDefTypes[] =>
   tasks.reduce((acc: TaskDefTypes[], task, idx: number): TaskDefTypes[] => {
     const filledTask = filledTaskDef(task);
     const maybeNextTask = tasks.length >= idx + 1 ? tasks[idx + 1] : undefined;
@@ -88,6 +86,6 @@ const maybeAddJoinTask = (
  */
 export const generate = (overrides: Partial<WorkflowDefGen>) => {
   const maybeTasks: Partial<TaskDefTypesGen>[] = overrides.tasks || [];
-  const generatedTasks: TaskDefTypes[] = taskGenMapper(maybeTasks);
+  const generatedTasks: TaskDefTypesGen[] = taskGenMapper(maybeTasks);
   return workflowGenerator({ ...overrides, tasks: generatedTasks });
 };
