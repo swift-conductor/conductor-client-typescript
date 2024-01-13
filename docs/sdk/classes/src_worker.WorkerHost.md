@@ -55,7 +55,7 @@ Responsible for initializing and managing the runners that poll and work differe
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:48](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L48)
+[src/worker/WorkerHost.ts:48](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L48)
 
 ## Properties
 
@@ -65,7 +65,7 @@ Responsible for initializing and managing the runners that poll and work differe
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:41](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L41)
+[src/worker/WorkerHost.ts:41](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L41)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:43](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L43)
+[src/worker/WorkerHost.ts:43](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L43)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:42](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L42)
+[src/worker/WorkerHost.ts:42](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L42)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:40](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L40)
+[src/worker/WorkerHost.ts:40](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L40)
 
 ___
 
@@ -105,7 +105,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:38](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L38)
+[src/worker/WorkerHost.ts:38](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L38)
 
 ___
 
@@ -115,7 +115,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:46](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L46)
+[src/worker/WorkerHost.ts:46](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L46)
 
 ___
 
@@ -125,7 +125,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:45](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L45)
+[src/worker/WorkerHost.ts:45](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L45)
 
 ## Accessors
 
@@ -139,7 +139,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:79](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L79)
+[src/worker/WorkerHost.ts:79](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L79)
 
 ## Methods
 
@@ -153,7 +153,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L111)
+[src/worker/WorkerHost.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L111)
 
 ___
 
@@ -169,7 +169,7 @@ Start polling for tasks
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:128](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L128)
+[src/worker/WorkerHost.ts:128](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L128)
 
 ___
 
@@ -185,7 +185,7 @@ Stops polling for tasks
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:151](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L151)
+[src/worker/WorkerHost.ts:151](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L151)
 
 ___
 
@@ -206,7 +206,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:83](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L83)
+[src/worker/WorkerHost.ts:83](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L83)
 
 ___
 
@@ -228,7 +228,7 @@ new options will get merged to existing options
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:97](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L97)
+[src/worker/WorkerHost.ts:97](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L97)
 
 ___
 
@@ -248,4 +248,4 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:70](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L70)
+[src/worker/WorkerHost.ts:70](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L70)

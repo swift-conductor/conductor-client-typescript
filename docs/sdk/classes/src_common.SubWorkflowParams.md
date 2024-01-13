@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[openapi/api/models/SubWorkflowParams.ts:54](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SubWorkflowParams.ts#L54)
+[openapi/api/models/SubWorkflowParams.ts:54](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SubWorkflowParams.ts#L54)
 
 ## Properties
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[openapi/api/models/SubWorkflowParams.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SubWorkflowParams.ts#L17)
+[openapi/api/models/SubWorkflowParams.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SubWorkflowParams.ts#L17)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SubWorkflowParams.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SubWorkflowParams.ts#L19)
+[openapi/api/models/SubWorkflowParams.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SubWorkflowParams.ts#L19)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SubWorkflowParams.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SubWorkflowParams.ts#L18)
+[openapi/api/models/SubWorkflowParams.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SubWorkflowParams.ts#L18)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SubWorkflowParams.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SubWorkflowParams.ts#L20)
+[openapi/api/models/SubWorkflowParams.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SubWorkflowParams.ts#L20)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SubWorkflowParams.ts:24](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SubWorkflowParams.ts#L24)
+[openapi/api/models/SubWorkflowParams.ts:24](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SubWorkflowParams.ts#L24)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SubWorkflowParams.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SubWorkflowParams.ts#L22)
+[openapi/api/models/SubWorkflowParams.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SubWorkflowParams.ts#L22)
 
 ## Methods
 
@@ -113,4 +113,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SubWorkflowParams.ts:50](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SubWorkflowParams.ts#L50)
+[openapi/api/models/SubWorkflowParams.ts:50](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SubWorkflowParams.ts#L50)

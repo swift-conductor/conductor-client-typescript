@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[src/worker/types.ts:5](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/types.ts#L5)
+[src/worker/types.ts:5](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/types.ts#L5)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L14)
+[src/worker/WorkerHost.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L14)
 
 ## Functions
 
@@ -79,4 +79,4 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L19)
+[src/worker/WorkerProcess.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L19)

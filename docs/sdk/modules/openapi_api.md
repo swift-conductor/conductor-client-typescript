@@ -255,7 +255,7 @@ Re-exports [WorkflowTestRequest](../classes/src_common.WorkflowTestRequest.md)
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:29](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L29)
+[openapi/api/auth/auth.ts:29](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L29)
 
 ___
 
@@ -271,7 +271,7 @@ ___
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:25](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L25)
+[openapi/api/auth/auth.ts:25](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L25)
 
 ___
 
@@ -287,7 +287,7 @@ ___
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L34)
+[openapi/api/auth/auth.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L34)
 
 ___
 
@@ -304,7 +304,7 @@ ___
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:30](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L30)
+[openapi/api/auth/auth.ts:30](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L30)
 
 ___
 
@@ -320,7 +320,7 @@ ___
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:31](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L31)
+[openapi/api/auth/auth.ts:31](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L31)
 
 ___
 
@@ -332,7 +332,7 @@ Represents an HTTP file which will be transferred from or to a server.
 
 #### Defined in
 
-[openapi/api/http/http.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L23)
+[openapi/api/http/http.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L23)
 
 ___
 
@@ -348,7 +348,7 @@ ___
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:32](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L32)
+[openapi/api/auth/auth.ts:32](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L32)
 
 ___
 
@@ -360,7 +360,7 @@ Represents the body of an outgoing HTTP request.
 
 #### Defined in
 
-[openapi/api/http/http.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L34)
+[openapi/api/http/http.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L34)
 
 ## Variables
 
@@ -370,7 +370,7 @@ Represents the body of an outgoing HTTP request.
 
 #### Defined in
 
-[openapi/api/servers.ts:53](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L53)
+[openapi/api/servers.ts:53](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L53)
 
 ___
 
@@ -380,7 +380,7 @@ ___
 
 #### Defined in
 
-[openapi/api/servers.ts:55](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L55)
+[openapi/api/servers.ts:55](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L55)
 
 ## Functions
 
@@ -402,7 +402,7 @@ Creates the authentication methods from a swagger description.
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:42](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L42)
+[openapi/api/auth/auth.ts:42](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L42)
 
 ___
 
@@ -433,7 +433,7 @@ If a property is not included in conf, a default is used:
 
 #### Defined in
 
-[openapi/api/configuration.ts:69](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/configuration.ts#L69)
+[openapi/api/configuration.ts:69](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/configuration.ts#L69)
 
 ___
 
@@ -453,4 +453,4 @@ ___
 
 #### Defined in
 
-[openapi/api/http/http.ts:233](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L233)
+[openapi/api/http/http.ts:233](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L233)

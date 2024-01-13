@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[src/common/ConductorLogger.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorLogger.ts#L4)
+[src/common/ConductorLogger.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorLogger.ts#L4)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[src/common/ConductorLogger.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorLogger.ts#L3)
+[src/common/ConductorLogger.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorLogger.ts#L3)
 
 ___
 
@@ -74,4 +74,4 @@ ___
 
 #### Defined in
 
-[src/common/ConductorLogger.ts:2](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorLogger.ts#L2)
+[src/common/ConductorLogger.ts:2](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorLogger.ts#L2)

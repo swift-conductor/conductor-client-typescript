@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[src/common/types.ts:110](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L110)
+[src/common/types.ts:110](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L110)
 
 ___
 
@@ -33,4 +33,4 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L111)
+[src/common/types.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L111)

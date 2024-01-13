@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[src/core/manager.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L21)
+[src/core/manager.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L21)
 
 ## Properties
 
@@ -60,7 +60,7 @@
 
 #### Defined in
 
-[src/core/manager.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L19)
+[src/core/manager.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L19)
 
 ## Methods
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[src/core/manager.ts:258](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L258)
+[src/core/manager.ts:258](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L258)
 
 ___
 
@@ -106,7 +106,7 @@ retry specifies the amount of retrys before throwing an error.
 
 #### Defined in
 
-[src/core/manager.ts:77](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L77)
+[src/core/manager.ts:77](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L77)
 
 ___
 
@@ -128,7 +128,7 @@ Pauses a running workflow
 
 #### Defined in
 
-[src/core/manager.ts:99](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L99)
+[src/core/manager.ts:99](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L99)
 
 ___
 
@@ -152,7 +152,7 @@ null
 
 #### Defined in
 
-[src/core/manager.ts:30](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L30)
+[src/core/manager.ts:30](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L30)
 
 ___
 
@@ -175,7 +175,7 @@ Reruns workflowInstanceId workflow. with new parameters
 
 #### Defined in
 
-[src/core/manager.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L111)
+[src/core/manager.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L111)
 
 ___
 
@@ -198,7 +198,7 @@ Restarts workflow with workflowInstanceId, if useLatestDefinition uses last defi
 
 #### Defined in
 
-[src/core/manager.ts:129](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L129)
+[src/core/manager.ts:129](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L129)
 
 ___
 
@@ -220,7 +220,7 @@ Resumes a previously paused execution
 
 #### Defined in
 
-[src/core/manager.ts:144](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L144)
+[src/core/manager.ts:144](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L144)
 
 ___
 
@@ -244,7 +244,7 @@ if resumeSubworkflowTasks is true will resume tasks in spawned subworkflows
 
 #### Defined in
 
-[src/core/manager.ts:158](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L158)
+[src/core/manager.ts:158](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L158)
 
 ___
 
@@ -270,7 +270,7 @@ Searches for existing workflows given the following querys
 
 #### Defined in
 
-[src/core/manager.ts:176](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L176)
+[src/core/manager.ts:176](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L176)
 
 ___
 
@@ -295,7 +295,7 @@ by providing a skipTaskRequest you can set the input and the output of the skipp
 
 #### Defined in
 
-[src/core/manager.ts:201](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L201)
+[src/core/manager.ts:201](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L201)
 
 ___
 
@@ -317,7 +317,7 @@ Takes a StartWorkflowRequest. returns a Promise<string> with the workflowInstanc
 
 #### Defined in
 
-[src/core/manager.ts:53](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L53)
+[src/core/manager.ts:53](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L53)
 
 ___
 
@@ -339,7 +339,7 @@ Takes an array of StartWorkflowRequest[]. returns a Promise<string>[] with the w
 
 #### Defined in
 
-[src/core/manager.ts:64](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L64)
+[src/core/manager.ts:64](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L64)
 
 ___
 
@@ -362,7 +362,7 @@ Takes an workflowInstanceId, and terminates a running workflow
 
 #### Defined in
 
-[src/core/manager.ts:220](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L220)
+[src/core/manager.ts:220](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L220)
 
 ___
 
@@ -387,7 +387,7 @@ null
 
 #### Defined in
 
-[src/core/manager.ts:41](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L41)
+[src/core/manager.ts:41](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L41)
 
 ___
 
@@ -412,4 +412,4 @@ Takes a taskId and a workflowInstanceId. Will update the task for the correspond
 
 #### Defined in
 
-[src/core/manager.ts:234](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/manager.ts#L234)
+[src/core/manager.ts:234](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/manager.ts#L234)

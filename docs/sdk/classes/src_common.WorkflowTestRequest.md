@@ -41,7 +41,7 @@
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:97](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L97)
+[openapi/api/models/WorkflowTestRequest.ts:97](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L97)
 
 ## Properties
 
@@ -51,7 +51,7 @@
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L20)
+[openapi/api/models/WorkflowTestRequest.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L20)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:24](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L24)
+[openapi/api/models/WorkflowTestRequest.ts:24](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L24)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L21)
+[openapi/api/models/WorkflowTestRequest.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L21)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L18)
+[openapi/api/models/WorkflowTestRequest.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L18)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:25](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L25)
+[openapi/api/models/WorkflowTestRequest.ts:25](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L25)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:27](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L27)
+[openapi/api/models/WorkflowTestRequest.ts:27](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L27)
 
 ___
 
@@ -123,7 +123,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:26](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L26)
+[openapi/api/models/WorkflowTestRequest.ts:26](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L26)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L22)
+[openapi/api/models/WorkflowTestRequest.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L22)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L19)
+[openapi/api/models/WorkflowTestRequest.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L19)
 
 ___
 
@@ -157,7 +157,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L23)
+[openapi/api/models/WorkflowTestRequest.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L23)
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:31](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L31)
+[openapi/api/models/WorkflowTestRequest.ts:31](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L31)
 
 ___
 
@@ -177,7 +177,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:29](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L29)
+[openapi/api/models/WorkflowTestRequest.ts:29](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L29)
 
 ## Methods
 
@@ -191,4 +191,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowTestRequest.ts:93](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowTestRequest.ts#L93)
+[openapi/api/models/WorkflowTestRequest.ts:93](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowTestRequest.ts#L93)

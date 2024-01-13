@@ -33,4 +33,4 @@
 
 #### Defined in
 
-[openapi/api/servers.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L4)
+[openapi/api/servers.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L4)

@@ -36,7 +36,7 @@
 
 #### Defined in
 
-[openapi/api/models/Action.ts:62](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L62)
+[openapi/api/models/Action.ts:62](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L62)
 
 ## Properties
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[openapi/api/models/Action.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L18)
+[openapi/api/models/Action.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L18)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L20)
+[openapi/api/models/Action.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L20)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L22)
+[openapi/api/models/Action.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L22)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L21)
+[openapi/api/models/Action.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L21)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L19)
+[openapi/api/models/Action.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L19)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:26](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L26)
+[openapi/api/models/Action.ts:26](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L26)
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:24](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L24)
+[openapi/api/models/Action.ts:24](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L24)
 
 ## Methods
 
@@ -120,4 +120,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:58](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L58)
+[openapi/api/models/Action.ts:58](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L58)

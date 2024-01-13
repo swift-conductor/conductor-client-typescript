@@ -30,7 +30,7 @@
 
 #### Defined in
 
-[src/common/types.ts:75](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L75)
+[src/common/types.ts:75](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L75)
 
 ___
 
@@ -40,7 +40,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:72](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L72)
+[src/common/types.ts:72](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L72)
 
 ___
 
@@ -50,7 +50,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:73](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L73)
+[src/common/types.ts:73](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L73)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:2](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L2)
+[src/common/types.ts:2](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L2)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:74](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L74)
+[src/common/types.ts:74](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L74)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L3)
+[src/common/types.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L3)
 
 ___
 
@@ -98,4 +98,4 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:71](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L71)
+[src/common/types.ts:71](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L71)

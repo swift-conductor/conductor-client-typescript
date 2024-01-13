@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[openapi/api/models/WorkflowDef.ts:180](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowDef.ts#L180)
+[openapi/api/models/WorkflowDef.ts:180](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowDef.ts#L180)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowDef.ts:179](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowDef.ts#L179)
+[openapi/api/models/WorkflowDef.ts:179](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowDef.ts#L179)

@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:258](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L258)
+[openapi/api/types/PromiseAPI.ts:258](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L258)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:256](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L256)
+[openapi/api/types/PromiseAPI.ts:256](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L256)
 
 ## Methods
 
@@ -69,7 +69,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:275](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L275)
+[openapi/api/types/PromiseAPI.ts:275](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L275)
 
 ___
 
@@ -89,4 +89,4 @@ ___
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:268](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L268)
+[openapi/api/types/PromiseAPI.ts:268](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L268)

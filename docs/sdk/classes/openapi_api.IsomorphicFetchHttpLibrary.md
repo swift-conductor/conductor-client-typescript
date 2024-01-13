@@ -50,4 +50,4 @@
 
 #### Defined in
 
-[openapi/api/http/isomorphic-fetch.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/isomorphic-fetch.ts#L7)
+[openapi/api/http/isomorphic-fetch.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/isomorphic-fetch.ts#L7)

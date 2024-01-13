@@ -83,7 +83,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1097](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1097)
+[openapi/api/types/PromiseAPI.ts:1097](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1097)
 
 ## Properties
 
@@ -93,7 +93,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1095](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1095)
+[openapi/api/types/PromiseAPI.ts:1095](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1095)
 
 ## Methods
 
@@ -117,7 +117,7 @@ Removes the workflow from the system
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1120](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1120)
+[openapi/api/types/PromiseAPI.ts:1120](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1120)
 
 ___
 
@@ -141,7 +141,7 @@ Removes the workflow from the system
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1110](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1110)
+[openapi/api/types/PromiseAPI.ts:1110](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1110)
 
 ___
 
@@ -164,7 +164,7 @@ Starts the decision task for a workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1138](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1138)
+[openapi/api/types/PromiseAPI.ts:1138](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1138)
 
 ___
 
@@ -187,7 +187,7 @@ Starts the decision task for a workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1129](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1129)
+[openapi/api/types/PromiseAPI.ts:1129](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1129)
 
 ___
 
@@ -211,7 +211,7 @@ Gets the workflow by workflow id
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1158](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1158)
+[openapi/api/types/PromiseAPI.ts:1158](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1158)
 
 ___
 
@@ -235,7 +235,7 @@ Gets the workflow by workflow id
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1148](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1148)
+[openapi/api/types/PromiseAPI.ts:1148](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1148)
 
 ___
 
@@ -260,7 +260,7 @@ Get the uri and path of the external storage where the workflow payload is to be
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1180](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1180)
+[openapi/api/types/PromiseAPI.ts:1180](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1180)
 
 ___
 
@@ -285,7 +285,7 @@ Get the uri and path of the external storage where the workflow payload is to be
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1202](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1202)
+[openapi/api/types/PromiseAPI.ts:1202](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1202)
 
 ___
 
@@ -310,7 +310,7 @@ Get the uri and path of the external storage where the workflow payload is to be
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1191](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1191)
+[openapi/api/types/PromiseAPI.ts:1191](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1191)
 
 ___
 
@@ -335,7 +335,7 @@ Get the uri and path of the external storage where the workflow payload is to be
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1169](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1169)
+[openapi/api/types/PromiseAPI.ts:1169](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1169)
 
 ___
 
@@ -361,7 +361,7 @@ Retrieve all the running workflows
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1226](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1226)
+[openapi/api/types/PromiseAPI.ts:1226](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1226)
 
 ___
 
@@ -387,7 +387,7 @@ Retrieve all the running workflows
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1214](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1214)
+[openapi/api/types/PromiseAPI.ts:1214](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1214)
 
 ___
 
@@ -413,7 +413,7 @@ Lists workflows for the given correlation id list
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1250](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1250)
+[openapi/api/types/PromiseAPI.ts:1250](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1250)
 
 ___
 
@@ -439,7 +439,7 @@ Lists workflows for the given correlation id
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1274](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1274)
+[openapi/api/types/PromiseAPI.ts:1274](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1274)
 
 ___
 
@@ -465,7 +465,7 @@ Lists workflows for the given correlation id
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1262](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1262)
+[openapi/api/types/PromiseAPI.ts:1262](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1262)
 
 ___
 
@@ -491,7 +491,7 @@ Lists workflows for the given correlation id list
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1238](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1238)
+[openapi/api/types/PromiseAPI.ts:1238](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1238)
 
 ___
 
@@ -514,7 +514,7 @@ Pauses the workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1292](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1292)
+[openapi/api/types/PromiseAPI.ts:1292](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1292)
 
 ___
 
@@ -537,7 +537,7 @@ Pauses the workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1283](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1283)
+[openapi/api/types/PromiseAPI.ts:1283](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1283)
 
 ___
 
@@ -561,7 +561,7 @@ Reruns the workflow from a specific task
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1312](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1312)
+[openapi/api/types/PromiseAPI.ts:1312](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1312)
 
 ___
 
@@ -585,7 +585,7 @@ Reruns the workflow from a specific task
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1302](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1302)
+[openapi/api/types/PromiseAPI.ts:1302](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1302)
 
 ___
 
@@ -608,7 +608,7 @@ Resets callback times of all non-terminal CUSTOM tasks to 0
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1330](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1330)
+[openapi/api/types/PromiseAPI.ts:1330](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1330)
 
 ___
 
@@ -631,7 +631,7 @@ Resets callback times of all non-terminal CUSTOM tasks to 0
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1321](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1321)
+[openapi/api/types/PromiseAPI.ts:1321](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1321)
 
 ___
 
@@ -655,7 +655,7 @@ Restarts a completed workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1350](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1350)
+[openapi/api/types/PromiseAPI.ts:1350](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1350)
 
 ___
 
@@ -679,7 +679,7 @@ Restarts a completed workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1340](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1340)
+[openapi/api/types/PromiseAPI.ts:1340](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1340)
 
 ___
 
@@ -702,7 +702,7 @@ Resumes the workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1368](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1368)
+[openapi/api/types/PromiseAPI.ts:1368](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1368)
 
 ___
 
@@ -725,7 +725,7 @@ Resumes the workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1359](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1359)
+[openapi/api/types/PromiseAPI.ts:1359](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1359)
 
 ___
 
@@ -749,7 +749,7 @@ Retries the last failed task
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1388](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1388)
+[openapi/api/types/PromiseAPI.ts:1388](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1388)
 
 ___
 
@@ -773,7 +773,7 @@ Retries the last failed task
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1378](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1378)
+[openapi/api/types/PromiseAPI.ts:1378](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1378)
 
 ___
 
@@ -801,7 +801,7 @@ Search for workflows based on payload and other parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1416](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1416)
+[openapi/api/types/PromiseAPI.ts:1416](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1416)
 
 ___
 
@@ -829,7 +829,7 @@ Search for workflows based on payload and other parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1444](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1444)
+[openapi/api/types/PromiseAPI.ts:1444](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1444)
 
 ___
 
@@ -857,7 +857,7 @@ Search for workflows based on payload and other parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1430](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1430)
+[openapi/api/types/PromiseAPI.ts:1430](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1430)
 
 ___
 
@@ -885,7 +885,7 @@ Search for workflows based on payload and other parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1402](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1402)
+[openapi/api/types/PromiseAPI.ts:1402](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1402)
 
 ___
 
@@ -913,7 +913,7 @@ Search for workflows based on task parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1472](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1472)
+[openapi/api/types/PromiseAPI.ts:1472](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1472)
 
 ___
 
@@ -941,7 +941,7 @@ Search for workflows based on task parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1500](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1500)
+[openapi/api/types/PromiseAPI.ts:1500](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1500)
 
 ___
 
@@ -969,7 +969,7 @@ Search for workflows based on task parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1486](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1486)
+[openapi/api/types/PromiseAPI.ts:1486](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1486)
 
 ___
 
@@ -997,7 +997,7 @@ Search for workflows based on task parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1458](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1458)
+[openapi/api/types/PromiseAPI.ts:1458](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1458)
 
 ___
 
@@ -1022,7 +1022,7 @@ Skips a given task from a current running workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1522](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1522)
+[openapi/api/types/PromiseAPI.ts:1522](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1522)
 
 ___
 
@@ -1047,7 +1047,7 @@ Skips a given task from a current running workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1511](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1511)
+[openapi/api/types/PromiseAPI.ts:1511](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1511)
 
 ___
 
@@ -1070,7 +1070,7 @@ Start a new workflow with StartWorkflowRequest, which allows task to be executed
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1540](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1540)
+[openapi/api/types/PromiseAPI.ts:1540](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1540)
 
 ___
 
@@ -1097,7 +1097,7 @@ Start a new workflow. Returns the ID of the workflow instance that can be later 
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1566](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1566)
+[openapi/api/types/PromiseAPI.ts:1566](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1566)
 
 ___
 
@@ -1124,7 +1124,7 @@ Start a new workflow. Returns the ID of the workflow instance that can be later 
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1553](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1553)
+[openapi/api/types/PromiseAPI.ts:1553](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1553)
 
 ___
 
@@ -1147,7 +1147,7 @@ Start a new workflow with StartWorkflowRequest, which allows task to be executed
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1531](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1531)
+[openapi/api/types/PromiseAPI.ts:1531](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1531)
 
 ___
 
@@ -1172,7 +1172,7 @@ Terminate workflow execution
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1588](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1588)
+[openapi/api/types/PromiseAPI.ts:1588](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1588)
 
 ___
 
@@ -1197,7 +1197,7 @@ Terminate workflow execution
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1577](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1577)
+[openapi/api/types/PromiseAPI.ts:1577](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1577)
 
 ___
 
@@ -1220,7 +1220,7 @@ Test workflow execution using mock data
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1606](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1606)
+[openapi/api/types/PromiseAPI.ts:1606](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1606)
 
 ___
 
@@ -1243,4 +1243,4 @@ Test workflow execution using mock data
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1597](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1597)
+[openapi/api/types/PromiseAPI.ts:1597](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1597)

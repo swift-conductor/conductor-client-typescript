@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[openapi/api/models/WorkflowSummary.ts:172](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowSummary.ts#L172)
+[openapi/api/models/WorkflowSummary.ts:172](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowSummary.ts#L172)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowSummary.ts:173](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowSummary.ts#L173)
+[openapi/api/models/WorkflowSummary.ts:173](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowSummary.ts#L173)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowSummary.ts:176](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowSummary.ts#L176)
+[openapi/api/models/WorkflowSummary.ts:176](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowSummary.ts#L176)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowSummary.ts:171](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowSummary.ts#L171)
+[openapi/api/models/WorkflowSummary.ts:171](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowSummary.ts#L171)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowSummary.ts:175](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowSummary.ts#L175)
+[openapi/api/models/WorkflowSummary.ts:175](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowSummary.ts#L175)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/WorkflowSummary.ts:174](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/WorkflowSummary.ts#L174)
+[openapi/api/models/WorkflowSummary.ts:174](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/WorkflowSummary.ts#L174)

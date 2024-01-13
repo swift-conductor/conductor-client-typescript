@@ -61,7 +61,7 @@
 
 #### Defined in
 
-[src/core/types.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/types.ts#L20)
+[src/core/types.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/types.ts#L20)
 
 ## Functions
 
@@ -82,7 +82,7 @@
 
 #### Defined in
 
-[src/core/sdk/event.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/event.ts#L17)
+[src/core/sdk/event.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/event.ts#L17)
 
 ___
 
@@ -104,7 +104,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/custom.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/custom.ts#L3)
+[src/core/sdk/custom.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/custom.ts#L3)
 
 ___
 
@@ -126,7 +126,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/doWhile.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/doWhile.ts#L3)
+[src/core/sdk/doWhile.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/doWhile.ts#L3)
 
 ___
 
@@ -148,7 +148,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/dynamicFork.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/dynamicFork.ts#L3)
+[src/core/sdk/dynamicFork.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/dynamicFork.ts#L3)
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/event.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/event.ts#L3)
+[src/core/sdk/event.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/event.ts#L3)
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/forkJoin.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/forkJoin.ts#L4)
+[src/core/sdk/forkJoin.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/forkJoin.ts#L4)
 
 ___
 
@@ -212,7 +212,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/forkJoin.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/forkJoin.ts#L14)
+[src/core/sdk/forkJoin.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/forkJoin.ts#L14)
 
 ___
 
@@ -237,7 +237,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/generator.ts:87](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/generator.ts#L87)
+[src/core/generators/generator.ts:87](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/generator.ts#L87)
 
 ___
 
@@ -262,7 +262,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/CustomTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/CustomTask.ts#L11)
+[src/core/generators/CustomTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/CustomTask.ts#L11)
 
 ___
 
@@ -288,7 +288,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/index.ts:46](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/index.ts#L46)
+[src/core/generators/index.ts:46](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/index.ts#L46)
 
 ___
 
@@ -313,7 +313,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/EventTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/EventTask.ts#L11)
+[src/core/generators/EventTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/EventTask.ts#L11)
 
 ___
 
@@ -339,7 +339,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/index.ts:59](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/index.ts#L59)
+[src/core/generators/index.ts:59](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/index.ts#L59)
 
 ___
 
@@ -364,7 +364,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/HttpTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/HttpTask.ts#L11)
+[src/core/generators/HttpTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/HttpTask.ts#L11)
 
 ___
 
@@ -392,7 +392,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/InlineTask.ts:40](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/InlineTask.ts#L40)
+[src/core/generators/InlineTask.ts:40](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/InlineTask.ts#L40)
 
 ___
 
@@ -417,7 +417,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/JsonJQTransform.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/JsonJQTransform.ts#L11)
+[src/core/generators/JsonJQTransform.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/JsonJQTransform.ts#L11)
 
 ___
 
@@ -437,7 +437,7 @@ ___
 
 #### Defined in
 
-[src/core/generators/ForkJoin.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/ForkJoin.ts#L16)
+[src/core/generators/ForkJoin.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/ForkJoin.ts#L16)
 
 ___
 
@@ -462,7 +462,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/KafkaTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/KafkaTask.ts#L11)
+[src/core/generators/KafkaTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/KafkaTask.ts#L11)
 
 ___
 
@@ -487,7 +487,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/SetVariableTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/SetVariableTask.ts#L11)
+[src/core/generators/SetVariableTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/SetVariableTask.ts#L11)
 
 ___
 
@@ -512,7 +512,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/SubWorkflowTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/SubWorkflowTask.ts#L11)
+[src/core/generators/SubWorkflowTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/SubWorkflowTask.ts#L11)
 
 ___
 
@@ -538,7 +538,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/index.ts:33](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/index.ts#L33)
+[src/core/generators/index.ts:33](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/index.ts#L33)
 
 ___
 
@@ -563,7 +563,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/TerminateTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/TerminateTask.ts#L11)
+[src/core/generators/TerminateTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/TerminateTask.ts#L11)
 
 ___
 
@@ -588,7 +588,7 @@ a fully defined task
 
 #### Defined in
 
-[src/core/generators/WaitTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/WaitTask.ts#L11)
+[src/core/generators/WaitTask.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/WaitTask.ts#L11)
 
 ___
 
@@ -609,7 +609,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/http.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/http.ts#L7)
+[src/core/sdk/http.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/http.ts#L7)
 
 ___
 
@@ -631,7 +631,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/inline.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/inline.ts#L3)
+[src/core/sdk/inline.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/inline.ts#L3)
 
 ___
 
@@ -652,7 +652,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/join.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/join.ts#L3)
+[src/core/sdk/join.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/join.ts#L3)
 
 ___
 
@@ -673,7 +673,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/jsonJq.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/jsonJq.ts#L3)
+[src/core/sdk/jsonJq.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/jsonJq.ts#L3)
 
 ___
 
@@ -694,7 +694,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/kafkaPublish.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/kafkaPublish.ts#L7)
+[src/core/sdk/kafkaPublish.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/kafkaPublish.ts#L7)
 
 ___
 
@@ -716,7 +716,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/doWhile.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/doWhile.ts#L19)
+[src/core/sdk/doWhile.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/doWhile.ts#L19)
 
 ___
 
@@ -737,7 +737,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/setVariable.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/setVariable.ts#L3)
+[src/core/sdk/setVariable.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/setVariable.ts#L3)
 
 ___
 
@@ -758,7 +758,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/event.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/event.ts#L14)
+[src/core/sdk/event.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/event.ts#L14)
 
 ___
 
@@ -780,7 +780,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/subWorkflow.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/subWorkflow.ts#L3)
+[src/core/sdk/subWorkflow.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/subWorkflow.ts#L3)
 
 ___
 
@@ -803,7 +803,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/switch.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/switch.ts#L3)
+[src/core/sdk/switch.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/switch.ts#L3)
 
 ___
 
@@ -823,7 +823,7 @@ ___
 
 #### Defined in
 
-[src/core/generators/generator.ts:57](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/generators/generator.ts#L57)
+[src/core/generators/generator.ts:57](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/generators/generator.ts#L57)
 
 ___
 
@@ -845,7 +845,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/terminate.ts:2](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/terminate.ts#L2)
+[src/core/sdk/terminate.ts:2](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/terminate.ts#L2)
 
 ___
 
@@ -866,7 +866,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/wait.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/wait.ts#L3)
+[src/core/sdk/wait.ts:3](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/wait.ts#L3)
 
 ___
 
@@ -887,7 +887,7 @@ ___
 
 #### Defined in
 
-[src/core/sdk/wait.ts:12](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/wait.ts#L12)
+[src/core/sdk/wait.ts:12](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/wait.ts#L12)
 
 ___
 
@@ -908,4 +908,4 @@ ___
 
 #### Defined in
 
-[src/core/sdk/workflow.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/sdk/workflow.ts#L4)
+[src/core/sdk/workflow.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/sdk/workflow.ts#L4)

@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[openapi/api/models/Workflow.ts:237](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Workflow.ts#L237)
+[openapi/api/models/Workflow.ts:237](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Workflow.ts#L237)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Workflow.ts:238](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Workflow.ts#L238)
+[openapi/api/models/Workflow.ts:238](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Workflow.ts#L238)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Workflow.ts:241](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Workflow.ts#L241)
+[openapi/api/models/Workflow.ts:241](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Workflow.ts#L241)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Workflow.ts:236](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Workflow.ts#L236)
+[openapi/api/models/Workflow.ts:236](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Workflow.ts#L236)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Workflow.ts:240](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Workflow.ts#L240)
+[openapi/api/models/Workflow.ts:240](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Workflow.ts#L240)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Workflow.ts:239](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Workflow.ts#L239)
+[openapi/api/models/Workflow.ts:239](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Workflow.ts#L239)

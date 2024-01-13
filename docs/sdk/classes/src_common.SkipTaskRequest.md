@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[openapi/api/models/SkipTaskRequest.ts:39](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SkipTaskRequest.ts#L39)
+[openapi/api/models/SkipTaskRequest.ts:39](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SkipTaskRequest.ts#L39)
 
 ## Properties
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[openapi/api/models/SkipTaskRequest.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SkipTaskRequest.ts#L16)
+[openapi/api/models/SkipTaskRequest.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SkipTaskRequest.ts#L16)
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SkipTaskRequest.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SkipTaskRequest.ts#L17)
+[openapi/api/models/SkipTaskRequest.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SkipTaskRequest.ts#L17)
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SkipTaskRequest.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SkipTaskRequest.ts#L21)
+[openapi/api/models/SkipTaskRequest.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SkipTaskRequest.ts#L21)
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SkipTaskRequest.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SkipTaskRequest.ts#L19)
+[openapi/api/models/SkipTaskRequest.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SkipTaskRequest.ts#L19)
 
 ## Methods
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SkipTaskRequest.ts:35](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SkipTaskRequest.ts#L35)
+[openapi/api/models/SkipTaskRequest.ts:35](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SkipTaskRequest.ts#L35)

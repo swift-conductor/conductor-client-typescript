@@ -75,7 +75,7 @@ Error.constructor
 
 #### Defined in
 
-[openapi/api/apis/exception.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/exception.ts#L11)
+[openapi/api/apis/exception.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/exception.ts#L11)
 
 ## Properties
 
@@ -85,7 +85,7 @@ Error.constructor
 
 #### Defined in
 
-[openapi/api/apis/exception.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/exception.ts#L11)
+[openapi/api/apis/exception.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/exception.ts#L11)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[openapi/api/apis/exception.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/exception.ts#L11)
+[openapi/api/apis/exception.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/exception.ts#L11)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[openapi/api/apis/exception.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/exception.ts#L11)
+[openapi/api/apis/exception.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/exception.ts#L11)
 
 ___
 

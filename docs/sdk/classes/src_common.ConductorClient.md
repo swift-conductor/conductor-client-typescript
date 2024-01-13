@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[src/common/ConductorClient.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L16)
+[src/common/ConductorClient.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L16)
 
 ## Properties
 
@@ -50,7 +50,7 @@
 
 #### Defined in
 
-[src/common/ConductorClient.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L7)
+[src/common/ConductorClient.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L7)
 
 ___
 
@@ -60,7 +60,7 @@ ___
 
 #### Defined in
 
-[src/common/ConductorClient.ts:5](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L5)
+[src/common/ConductorClient.ts:5](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L5)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 #### Defined in
 
-[src/common/ConductorClient.ts:8](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L8)
+[src/common/ConductorClient.ts:8](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L8)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[src/common/ConductorClient.ts:9](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L9)
+[src/common/ConductorClient.ts:9](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L9)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[src/common/ConductorClient.ts:10](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L10)
+[src/common/ConductorClient.ts:10](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L10)
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 #### Defined in
 
-[src/common/ConductorClient.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L11)
+[src/common/ConductorClient.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L11)
 
 ___
 
@@ -110,7 +110,7 @@ ___
 
 #### Defined in
 
-[src/common/ConductorClient.ts:12](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L12)
+[src/common/ConductorClient.ts:12](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L12)
 
 ___
 
@@ -120,7 +120,7 @@ ___
 
 #### Defined in
 
-[src/common/ConductorClient.ts:13](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L13)
+[src/common/ConductorClient.ts:13](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L13)
 
 ___
 
@@ -130,4 +130,4 @@ ___
 
 #### Defined in
 
-[src/common/ConductorClient.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorClient.ts#L14)
+[src/common/ConductorClient.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorClient.ts#L14)

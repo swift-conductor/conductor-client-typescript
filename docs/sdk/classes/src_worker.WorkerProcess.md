@@ -59,7 +59,7 @@ but that could lead to picking up more work than the pool of workers are actuall
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:47](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L47)
+[src/worker/WorkerProcess.ts:47](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L47)
 
 ## Properties
 
@@ -69,7 +69,7 @@ but that could lead to picking up more work than the pool of workers are actuall
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:41](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L41)
+[src/worker/WorkerProcess.ts:41](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L41)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:43](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L43)
+[src/worker/WorkerProcess.ts:43](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L43)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:44](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L44)
+[src/worker/WorkerProcess.ts:44](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L44)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:45](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L45)
+[src/worker/WorkerProcess.ts:45](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L45)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:39](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L39)
+[src/worker/WorkerProcess.ts:39](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L39)
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:40](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L40)
+[src/worker/WorkerProcess.ts:40](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L40)
 
 ## Accessors
 
@@ -133,7 +133,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:104](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L104)
+[src/worker/WorkerProcess.ts:104](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L104)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:72](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L72)
+[src/worker/WorkerProcess.ts:72](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L72)
 
 ## Methods
 
@@ -167,7 +167,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:108](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L108)
+[src/worker/WorkerProcess.ts:108](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L108)
 
 ___
 
@@ -187,7 +187,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:141](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L141)
+[src/worker/WorkerProcess.ts:141](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L141)
 
 ___
 
@@ -207,7 +207,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:165](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L165)
+[src/worker/WorkerProcess.ts:165](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L165)
 
 ___
 
@@ -223,7 +223,7 @@ Starts polling for work
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:79](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L79)
+[src/worker/WorkerProcess.ts:79](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L79)
 
 ___
 
@@ -239,7 +239,7 @@ Stops Polling for work
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:87](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L87)
+[src/worker/WorkerProcess.ts:87](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L87)
 
 ___
 
@@ -259,7 +259,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:91](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L91)
+[src/worker/WorkerProcess.ts:91](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L91)
 
 ___
 
@@ -280,4 +280,4 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerProcess.ts:122](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerProcess.ts#L122)
+[src/worker/WorkerProcess.ts:122](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerProcess.ts#L122)

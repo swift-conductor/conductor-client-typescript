@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[openapi/api/models/TaskResult.ts:112](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskResult.ts#L112)
+[openapi/api/models/TaskResult.ts:112](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskResult.ts#L112)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskResult.ts:110](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskResult.ts#L110)
+[openapi/api/models/TaskResult.ts:110](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskResult.ts#L110)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskResult.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskResult.ts#L111)
+[openapi/api/models/TaskResult.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskResult.ts#L111)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskResult.ts:109](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskResult.ts#L109)
+[openapi/api/models/TaskResult.ts:109](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskResult.ts#L109)

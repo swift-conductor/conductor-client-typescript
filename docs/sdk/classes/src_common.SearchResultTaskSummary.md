@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[openapi/api/models/SearchResultTaskSummary.ts:40](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SearchResultTaskSummary.ts#L40)
+[openapi/api/models/SearchResultTaskSummary.ts:40](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SearchResultTaskSummary.ts#L40)
 
 ## Properties
 
@@ -43,7 +43,7 @@
 
 #### Defined in
 
-[openapi/api/models/SearchResultTaskSummary.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SearchResultTaskSummary.ts#L18)
+[openapi/api/models/SearchResultTaskSummary.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SearchResultTaskSummary.ts#L18)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SearchResultTaskSummary.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SearchResultTaskSummary.ts#L17)
+[openapi/api/models/SearchResultTaskSummary.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SearchResultTaskSummary.ts#L17)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SearchResultTaskSummary.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SearchResultTaskSummary.ts#L22)
+[openapi/api/models/SearchResultTaskSummary.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SearchResultTaskSummary.ts#L22)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SearchResultTaskSummary.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SearchResultTaskSummary.ts#L20)
+[openapi/api/models/SearchResultTaskSummary.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SearchResultTaskSummary.ts#L20)
 
 ## Methods
 
@@ -87,4 +87,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/SearchResultTaskSummary.ts:36](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/SearchResultTaskSummary.ts#L36)
+[openapi/api/models/SearchResultTaskSummary.ts:36](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/SearchResultTaskSummary.ts#L36)

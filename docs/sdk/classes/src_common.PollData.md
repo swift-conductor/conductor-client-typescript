@@ -35,7 +35,7 @@
 
 #### Defined in
 
-[openapi/api/models/PollData.ts:53](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/PollData.ts#L53)
+[openapi/api/models/PollData.ts:53](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/PollData.ts#L53)
 
 ## Properties
 
@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[openapi/api/models/PollData.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/PollData.ts#L17)
+[openapi/api/models/PollData.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/PollData.ts#L17)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/PollData.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/PollData.ts#L19)
+[openapi/api/models/PollData.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/PollData.ts#L19)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/PollData.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/PollData.ts#L16)
+[openapi/api/models/PollData.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/PollData.ts#L16)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/PollData.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/PollData.ts#L18)
+[openapi/api/models/PollData.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/PollData.ts#L18)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/PollData.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/PollData.ts#L23)
+[openapi/api/models/PollData.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/PollData.ts#L23)
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/PollData.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/PollData.ts#L21)
+[openapi/api/models/PollData.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/PollData.ts#L21)
 
 ## Methods
 
@@ -109,4 +109,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/PollData.ts:49](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/PollData.ts#L49)
+[openapi/api/models/PollData.ts:49](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/PollData.ts#L49)

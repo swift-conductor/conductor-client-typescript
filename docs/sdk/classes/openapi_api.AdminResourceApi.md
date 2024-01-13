@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:38](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L38)
+[openapi/api/types/PromiseAPI.ts:38](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L38)
 
 ## Properties
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:36](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L36)
+[openapi/api/types/PromiseAPI.ts:36](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L36)
 
 ## Methods
 
@@ -79,7 +79,7 @@ Get all the configuration parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:57](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L57)
+[openapi/api/types/PromiseAPI.ts:57](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L57)
 
 ___
 
@@ -101,7 +101,7 @@ Get all the configuration parameters
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:49](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L49)
+[openapi/api/types/PromiseAPI.ts:49](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L49)
 
 ___
 
@@ -124,7 +124,7 @@ Get registered queues
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:75](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L75)
+[openapi/api/types/PromiseAPI.ts:75](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L75)
 
 ___
 
@@ -147,7 +147,7 @@ Get registered queues
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:66](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L66)
+[openapi/api/types/PromiseAPI.ts:66](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L66)
 
 ___
 
@@ -170,7 +170,7 @@ Queue up all the running workflows for sweep
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:93](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L93)
+[openapi/api/types/PromiseAPI.ts:93](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L93)
 
 ___
 
@@ -193,7 +193,7 @@ Queue up all the running workflows for sweep
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:84](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L84)
+[openapi/api/types/PromiseAPI.ts:84](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L84)
 
 ___
 
@@ -216,7 +216,7 @@ Verify and repair workflow consistency
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L111)
+[openapi/api/types/PromiseAPI.ts:111](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L111)
 
 ___
 
@@ -239,7 +239,7 @@ Verify and repair workflow consistency
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:102](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L102)
+[openapi/api/types/PromiseAPI.ts:102](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L102)
 
 ___
 
@@ -264,7 +264,7 @@ Get the list of pending tasks for a given task type
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:133](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L133)
+[openapi/api/types/PromiseAPI.ts:133](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L133)
 
 ___
 
@@ -289,4 +289,4 @@ Get the list of pending tasks for a given task type
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:122](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L122)
+[openapi/api/types/PromiseAPI.ts:122](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L122)

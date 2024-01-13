@@ -53,7 +53,7 @@ Error.constructor
 
 #### Defined in
 
-[src/core/types.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/types.ts#L7)
+[src/core/types.ts:7](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/types.ts#L7)
 
 ## Properties
 
@@ -63,7 +63,7 @@ Error.constructor
 
 #### Defined in
 
-[src/core/types.ts:5](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/types.ts#L5)
+[src/core/types.ts:5](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/types.ts#L5)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[src/core/types.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/core/types.ts#L4)
+[src/core/types.ts:4](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/core/types.ts#L4)
 
 ___
 

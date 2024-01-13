@@ -57,7 +57,7 @@ Error.constructor
 
 #### Defined in
 
-[openapi/api/apis/baseapi.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/baseapi.ts#L34)
+[openapi/api/apis/baseapi.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/baseapi.ts#L34)
 
 ## Properties
 
@@ -67,7 +67,7 @@ Error.constructor
 
 #### Defined in
 
-[openapi/api/apis/baseapi.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/baseapi.ts#L34)
+[openapi/api/apis/baseapi.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/baseapi.ts#L34)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[openapi/api/apis/baseapi.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/baseapi.ts#L34)
+[openapi/api/apis/baseapi.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/baseapi.ts#L34)
 
 ___
 
@@ -101,7 +101,7 @@ ___
 
 #### Defined in
 
-[openapi/api/apis/baseapi.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/baseapi.ts#L34)
+[openapi/api/apis/baseapi.ts:34](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/baseapi.ts#L34)
 
 ___
 
@@ -115,7 +115,7 @@ Error.name
 
 #### Defined in
 
-[openapi/api/apis/baseapi.ts:33](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/apis/baseapi.ts#L33)
+[openapi/api/apis/baseapi.ts:33](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/apis/baseapi.ts#L33)
 
 ___
 

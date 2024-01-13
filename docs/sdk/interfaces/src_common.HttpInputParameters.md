@@ -25,7 +25,7 @@
 
 #### Defined in
 
-[src/common/types.ts:93](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L93)
+[src/common/types.ts:93](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L93)
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:96](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L96)
+[src/common/types.ts:96](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L96)
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:97](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L97)
+[src/common/types.ts:97](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L97)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:94](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L94)
+[src/common/types.ts:94](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L94)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:95](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L95)
+[src/common/types.ts:95](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L95)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:92](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L92)
+[src/common/types.ts:92](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L92)
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:98](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L98)
+[src/common/types.ts:98](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L98)
 
 ___
 
@@ -95,4 +95,4 @@ ___
 
 #### Defined in
 
-[src/common/types.ts:91](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/types.ts#L91)
+[src/common/types.ts:91](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/types.ts#L91)

@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:172](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L172)
+[openapi/api/models/TaskSummary.ts:172](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L172)
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:175](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L175)
+[openapi/api/models/TaskSummary.ts:175](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L175)
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:176](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L176)
+[openapi/api/models/TaskSummary.ts:176](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L176)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:173](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L173)
+[openapi/api/models/TaskSummary.ts:173](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L173)
 
 ___
 
@@ -66,7 +66,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:174](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L174)
+[openapi/api/models/TaskSummary.ts:174](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L174)
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:171](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L171)
+[openapi/api/models/TaskSummary.ts:171](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L171)
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:177](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L177)
+[openapi/api/models/TaskSummary.ts:177](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L177)
 
 ___
 
@@ -96,7 +96,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:179](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L179)
+[openapi/api/models/TaskSummary.ts:179](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L179)
 
 ___
 
@@ -106,4 +106,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskSummary.ts:178](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskSummary.ts#L178)
+[openapi/api/models/TaskSummary.ts:178](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskSummary.ts#L178)

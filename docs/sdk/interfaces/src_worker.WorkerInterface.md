@@ -31,7 +31,7 @@ Number of polling instances to run concurrently
 
 #### Defined in
 
-[src/worker/WorkerInterface.ts:15](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerInterface.ts#L15)
+[src/worker/WorkerInterface.ts:15](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerInterface.ts#L15)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerInterface.ts:12](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerInterface.ts#L12)
+[src/worker/WorkerInterface.ts:12](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerInterface.ts#L12)
 
 ___
 
@@ -65,7 +65,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerInterface.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerInterface.ts#L17)
+[src/worker/WorkerInterface.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerInterface.ts#L17)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerInterface.ts:13](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerInterface.ts#L13)
+[src/worker/WorkerInterface.ts:13](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerInterface.ts#L13)
 
 ___
 
@@ -85,4 +85,4 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerInterface.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerInterface.ts#L11)
+[src/worker/WorkerInterface.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerInterface.ts#L11)

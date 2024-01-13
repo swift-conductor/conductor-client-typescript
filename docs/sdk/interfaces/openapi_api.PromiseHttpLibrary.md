@@ -28,4 +28,4 @@
 
 #### Defined in
 
-[openapi/api/http/http.ts:230](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L230)
+[openapi/api/http/http.ts:230](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L230)

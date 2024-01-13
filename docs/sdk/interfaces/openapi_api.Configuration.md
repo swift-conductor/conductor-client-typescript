@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[openapi/api/configuration.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/configuration.ts#L11)
+[openapi/api/configuration.ts:11](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/configuration.ts#L11)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[openapi/api/configuration.ts:8](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/configuration.ts#L8)
+[openapi/api/configuration.ts:8](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/configuration.ts#L8)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[openapi/api/configuration.ts:9](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/configuration.ts#L9)
+[openapi/api/configuration.ts:9](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/configuration.ts#L9)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[openapi/api/configuration.ts:10](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/configuration.ts#L10)
+[openapi/api/configuration.ts:10](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/configuration.ts#L10)

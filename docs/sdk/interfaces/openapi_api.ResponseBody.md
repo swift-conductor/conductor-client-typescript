@@ -27,7 +27,7 @@
 
 #### Defined in
 
-[openapi/api/http/http.ts:126](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L126)
+[openapi/api/http/http.ts:126](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L126)
 
 ___
 
@@ -41,4 +41,4 @@ ___
 
 #### Defined in
 
-[openapi/api/http/http.ts:125](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L125)
+[openapi/api/http/http.ts:125](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L125)

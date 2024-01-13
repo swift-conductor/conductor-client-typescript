@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[openapi/api/models/Action.ts:69](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L69)
+[openapi/api/models/Action.ts:69](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L69)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:70](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L70)
+[openapi/api/models/Action.ts:70](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L70)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Action.ts:68](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Action.ts#L68)
+[openapi/api/models/Action.ts:68](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Action.ts#L68)

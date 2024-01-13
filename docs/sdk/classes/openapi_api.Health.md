@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[openapi/api/models/Health.ts:46](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Health.ts#L46)
+[openapi/api/models/Health.ts:46](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Health.ts#L46)
 
 ## Properties
 
@@ -48,7 +48,7 @@
 
 #### Defined in
 
-[openapi/api/models/Health.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Health.ts#L16)
+[openapi/api/models/Health.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Health.ts#L16)
 
 ___
 
@@ -58,7 +58,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Health.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Health.ts#L17)
+[openapi/api/models/Health.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Health.ts#L17)
 
 ___
 
@@ -68,7 +68,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Health.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Health.ts#L18)
+[openapi/api/models/Health.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Health.ts#L18)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Health.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Health.ts#L22)
+[openapi/api/models/Health.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Health.ts#L22)
 
 ___
 
@@ -88,7 +88,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Health.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Health.ts#L20)
+[openapi/api/models/Health.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Health.ts#L20)
 
 ## Methods
 
@@ -102,4 +102,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/Health.ts:42](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/Health.ts#L42)
+[openapi/api/models/Health.ts:42](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/Health.ts#L42)

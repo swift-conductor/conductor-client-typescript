@@ -66,7 +66,7 @@
 
 #### Defined in
 
-[openapi/api/http/http.ts:242](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L242)
+[openapi/api/http/http.ts:242](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L242)
 
 ## Properties
 
@@ -80,7 +80,7 @@
 
 #### Defined in
 
-[openapi/api/http/http.ts:245](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L245)
+[openapi/api/http/http.ts:245](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L245)
 
 ___
 
@@ -90,7 +90,7 @@ ___
 
 #### Defined in
 
-[openapi/api/http/http.ts:246](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L246)
+[openapi/api/http/http.ts:246](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L246)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[openapi/api/http/http.ts:244](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L244)
+[openapi/api/http/http.ts:244](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L244)
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 #### Defined in
 
-[openapi/api/http/http.ts:243](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L243)
+[openapi/api/http/http.ts:243](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L243)
 
 ## Methods
 
@@ -143,7 +143,7 @@ Return as string if possible, otherwise as binary.
 
 #### Defined in
 
-[openapi/api/http/http.ts:212](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L212)
+[openapi/api/http/http.ts:212](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L212)
 
 ___
 
@@ -161,7 +161,7 @@ ___
 
 #### Defined in
 
-[openapi/api/http/http.ts:193](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L193)
+[openapi/api/http/http.ts:193](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L193)
 
 ___
 
@@ -191,4 +191,4 @@ The first parameter is returned with the key `""`
 
 #### Defined in
 
-[openapi/api/http/http.ts:170](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L170)
+[openapi/api/http/http.ts:170](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L170)

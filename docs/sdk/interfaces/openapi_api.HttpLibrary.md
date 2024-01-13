@@ -32,4 +32,4 @@
 
 #### Defined in
 
-[openapi/api/http/http.ts:226](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L226)
+[openapi/api/http/http.ts:226](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L226)

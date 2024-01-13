@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[src/common/ConductorLogger.ts:9](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorLogger.ts#L9)
+[src/common/ConductorLogger.ts:9](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorLogger.ts#L9)
 
 ___
 
@@ -29,4 +29,4 @@ ___
 
 #### Defined in
 
-[src/common/ConductorLogger.ts:10](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/common/ConductorLogger.ts#L10)
+[src/common/ConductorLogger.ts:10](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/common/ConductorLogger.ts#L10)

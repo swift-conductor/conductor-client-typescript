@@ -37,7 +37,7 @@ an observable of the modified response context
 
 #### Defined in
 
-[openapi/api/middleware.ts:65](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/middleware.ts#L65)
+[openapi/api/middleware.ts:65](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/middleware.ts#L65)
 
 ___
 
@@ -61,4 +61,4 @@ an observable of the updated request context
 
 #### Defined in
 
-[openapi/api/middleware.ts:58](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/middleware.ts#L58)
+[openapi/api/middleware.ts:58](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/middleware.ts#L58)

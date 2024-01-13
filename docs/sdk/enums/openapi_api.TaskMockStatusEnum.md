@@ -21,7 +21,7 @@
 
 #### Defined in
 
-[openapi/api/models/TaskMock.ts:62](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskMock.ts#L62)
+[openapi/api/models/TaskMock.ts:62](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskMock.ts#L62)
 
 ___
 
@@ -31,7 +31,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskMock.ts:60](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskMock.ts#L60)
+[openapi/api/models/TaskMock.ts:60](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskMock.ts#L60)
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskMock.ts:61](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskMock.ts#L61)
+[openapi/api/models/TaskMock.ts:61](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskMock.ts#L61)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/TaskMock.ts:59](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/TaskMock.ts#L59)
+[openapi/api/models/TaskMock.ts:59](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/TaskMock.ts#L59)

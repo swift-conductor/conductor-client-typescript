@@ -33,7 +33,7 @@
 
 #### Defined in
 
-[openapi/api/models/BulkResponse.ts:39](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/BulkResponse.ts#L39)
+[openapi/api/models/BulkResponse.ts:39](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/BulkResponse.ts#L39)
 
 ## Properties
 
@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[openapi/api/models/BulkResponse.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/BulkResponse.ts#L16)
+[openapi/api/models/BulkResponse.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/BulkResponse.ts#L16)
 
 ___
 
@@ -57,7 +57,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/BulkResponse.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/BulkResponse.ts#L17)
+[openapi/api/models/BulkResponse.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/BulkResponse.ts#L17)
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/BulkResponse.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/BulkResponse.ts#L21)
+[openapi/api/models/BulkResponse.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/BulkResponse.ts#L21)
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/BulkResponse.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/BulkResponse.ts#L19)
+[openapi/api/models/BulkResponse.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/BulkResponse.ts#L19)
 
 ## Methods
 
@@ -91,4 +91,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/BulkResponse.ts:35](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/BulkResponse.ts#L35)
+[openapi/api/models/BulkResponse.ts:35](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/BulkResponse.ts#L35)

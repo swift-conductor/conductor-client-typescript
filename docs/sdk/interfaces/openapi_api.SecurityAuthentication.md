@@ -37,7 +37,7 @@ context the request context which should use this authentication scheme
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L17)
+[openapi/api/auth/auth.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L17)
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 #### Defined in
 
-[openapi/api/auth/auth.ts:10](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/auth/auth.ts#L10)
+[openapi/api/auth/auth.ts:10](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/auth/auth.ts#L10)

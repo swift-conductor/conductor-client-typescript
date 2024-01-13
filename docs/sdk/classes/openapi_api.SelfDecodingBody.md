@@ -43,7 +43,7 @@ Helper class to generate a `ResponseBody` from binary data
 
 #### Defined in
 
-[openapi/api/http/http.ts:133](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L133)
+[openapi/api/http/http.ts:133](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L133)
 
 ## Properties
 
@@ -53,7 +53,7 @@ Helper class to generate a `ResponseBody` from binary data
 
 #### Defined in
 
-[openapi/api/http/http.ts:133](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L133)
+[openapi/api/http/http.ts:133](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L133)
 
 ## Methods
 
@@ -71,7 +71,7 @@ Helper class to generate a `ResponseBody` from binary data
 
 #### Defined in
 
-[openapi/api/http/http.ts:135](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L135)
+[openapi/api/http/http.ts:135](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L135)
 
 ___
 
@@ -89,4 +89,4 @@ ___
 
 #### Defined in
 
-[openapi/api/http/http.ts:139](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/http/http.ts#L139)
+[openapi/api/http/http.ts:139](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/http/http.ts#L139)

@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[openapi/api/models/HealthCheckStatus.ts:47](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/HealthCheckStatus.ts#L47)
+[openapi/api/models/HealthCheckStatus.ts:47](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/HealthCheckStatus.ts#L47)
 
 ## Properties
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[openapi/api/models/HealthCheckStatus.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/HealthCheckStatus.ts#L17)
+[openapi/api/models/HealthCheckStatus.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/HealthCheckStatus.ts#L17)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/HealthCheckStatus.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/HealthCheckStatus.ts#L19)
+[openapi/api/models/HealthCheckStatus.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/HealthCheckStatus.ts#L19)
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/HealthCheckStatus.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/HealthCheckStatus.ts#L18)
+[openapi/api/models/HealthCheckStatus.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/HealthCheckStatus.ts#L18)
 
 ___
 
@@ -74,7 +74,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/HealthCheckStatus.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/HealthCheckStatus.ts#L23)
+[openapi/api/models/HealthCheckStatus.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/HealthCheckStatus.ts#L23)
 
 ___
 
@@ -84,7 +84,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/HealthCheckStatus.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/HealthCheckStatus.ts#L21)
+[openapi/api/models/HealthCheckStatus.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/HealthCheckStatus.ts#L21)
 
 ## Methods
 
@@ -98,4 +98,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/HealthCheckStatus.ts:43](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/HealthCheckStatus.ts#L43)
+[openapi/api/models/HealthCheckStatus.ts:43](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/HealthCheckStatus.ts#L43)

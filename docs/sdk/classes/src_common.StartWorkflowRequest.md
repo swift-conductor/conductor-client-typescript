@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:82](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L82)
+[openapi/api/models/StartWorkflowRequest.ts:82](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L82)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L19)
+[openapi/api/models/StartWorkflowRequest.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L19)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L23)
+[openapi/api/models/StartWorkflowRequest.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L23)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L20)
+[openapi/api/models/StartWorkflowRequest.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L20)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L17)
+[openapi/api/models/StartWorkflowRequest.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L17)
 
 ___
 
@@ -93,7 +93,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:24](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L24)
+[openapi/api/models/StartWorkflowRequest.ts:24](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L24)
 
 ___
 
@@ -107,7 +107,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L21)
+[openapi/api/models/StartWorkflowRequest.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L21)
 
 ___
 
@@ -117,7 +117,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L18)
+[openapi/api/models/StartWorkflowRequest.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L18)
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L22)
+[openapi/api/models/StartWorkflowRequest.ts:22](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L22)
 
 ___
 
@@ -137,7 +137,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:28](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L28)
+[openapi/api/models/StartWorkflowRequest.ts:28](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L28)
 
 ___
 
@@ -147,7 +147,7 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:26](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L26)
+[openapi/api/models/StartWorkflowRequest.ts:26](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L26)
 
 ## Methods
 
@@ -161,4 +161,4 @@ ___
 
 #### Defined in
 
-[openapi/api/models/StartWorkflowRequest.ts:78](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/models/StartWorkflowRequest.ts#L78)
+[openapi/api/models/StartWorkflowRequest.ts:78](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/models/StartWorkflowRequest.ts#L78)

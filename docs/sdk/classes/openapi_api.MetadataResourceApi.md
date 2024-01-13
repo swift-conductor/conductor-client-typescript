@@ -63,7 +63,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:291](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L291)
+[openapi/api/types/PromiseAPI.ts:291](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L291)
 
 ## Properties
 
@@ -73,7 +73,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:289](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L289)
+[openapi/api/types/PromiseAPI.ts:289](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L289)
 
 ## Methods
 
@@ -96,7 +96,7 @@ Create a new workflow definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:312](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L312)
+[openapi/api/types/PromiseAPI.ts:312](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L312)
 
 ___
 
@@ -119,7 +119,7 @@ Create a new workflow definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:303](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L303)
+[openapi/api/types/PromiseAPI.ts:303](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L303)
 
 ___
 
@@ -143,7 +143,7 @@ Retrieves workflow definition along with blueprint
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:332](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L332)
+[openapi/api/types/PromiseAPI.ts:332](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L332)
 
 ___
 
@@ -165,7 +165,7 @@ Retrieves all workflow definition along with blueprint
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:348](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L348)
+[openapi/api/types/PromiseAPI.ts:348](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L348)
 
 ___
 
@@ -187,7 +187,7 @@ Retrieves all workflow definition along with blueprint
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:340](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L340)
+[openapi/api/types/PromiseAPI.ts:340](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L340)
 
 ___
 
@@ -209,7 +209,7 @@ Returns only the latest version of all workflow definitions
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:364](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L364)
+[openapi/api/types/PromiseAPI.ts:364](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L364)
 
 ___
 
@@ -231,7 +231,7 @@ Returns only the latest version of all workflow definitions
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:356](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L356)
+[openapi/api/types/PromiseAPI.ts:356](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L356)
 
 ___
 
@@ -254,7 +254,7 @@ Gets the task definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:382](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L382)
+[openapi/api/types/PromiseAPI.ts:382](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L382)
 
 ___
 
@@ -277,7 +277,7 @@ Gets the task definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:373](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L373)
+[openapi/api/types/PromiseAPI.ts:373](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L373)
 
 ___
 
@@ -299,7 +299,7 @@ Gets all task definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:398](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L398)
+[openapi/api/types/PromiseAPI.ts:398](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L398)
 
 ___
 
@@ -321,7 +321,7 @@ Gets all task definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:390](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L390)
+[openapi/api/types/PromiseAPI.ts:390](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L390)
 
 ___
 
@@ -345,7 +345,7 @@ Retrieves workflow definition along with blueprint
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:322](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L322)
+[openapi/api/types/PromiseAPI.ts:322](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L322)
 
 ___
 
@@ -367,7 +367,7 @@ Returns workflow names and versions only (no definition bodies)
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:414](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L414)
+[openapi/api/types/PromiseAPI.ts:414](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L414)
 
 ___
 
@@ -389,7 +389,7 @@ Returns workflow names and versions only (no definition bodies)
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:406](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L406)
+[openapi/api/types/PromiseAPI.ts:406](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L406)
 
 ___
 
@@ -412,7 +412,7 @@ Create new task definition(s)
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:432](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L432)
+[openapi/api/types/PromiseAPI.ts:432](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L432)
 
 ___
 
@@ -435,7 +435,7 @@ Create new task definition(s)
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:423](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L423)
+[openapi/api/types/PromiseAPI.ts:423](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L423)
 
 ___
 
@@ -458,7 +458,7 @@ Remove a task definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:450](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L450)
+[openapi/api/types/PromiseAPI.ts:450](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L450)
 
 ___
 
@@ -481,7 +481,7 @@ Remove a task definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:441](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L441)
+[openapi/api/types/PromiseAPI.ts:441](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L441)
 
 ___
 
@@ -505,7 +505,7 @@ Removes workflow definition. It does not remove workflows associated with the de
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:470](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L470)
+[openapi/api/types/PromiseAPI.ts:470](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L470)
 
 ___
 
@@ -529,7 +529,7 @@ Removes workflow definition. It does not remove workflows associated with the de
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:460](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L460)
+[openapi/api/types/PromiseAPI.ts:460](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L460)
 
 ___
 
@@ -552,7 +552,7 @@ Create or update workflow definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:488](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L488)
+[openapi/api/types/PromiseAPI.ts:488](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L488)
 
 ___
 
@@ -575,7 +575,7 @@ Update an existing task
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:506](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L506)
+[openapi/api/types/PromiseAPI.ts:506](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L506)
 
 ___
 
@@ -598,7 +598,7 @@ Update an existing task
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:497](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L497)
+[openapi/api/types/PromiseAPI.ts:497](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L497)
 
 ___
 
@@ -621,7 +621,7 @@ Create or update workflow definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:479](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L479)
+[openapi/api/types/PromiseAPI.ts:479](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L479)
 
 ___
 
@@ -644,7 +644,7 @@ Validates a new workflow definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:524](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L524)
+[openapi/api/types/PromiseAPI.ts:524](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L524)
 
 ___
 
@@ -667,4 +667,4 @@ Validates a new workflow definition
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:515](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L515)
+[openapi/api/types/PromiseAPI.ts:515](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L515)

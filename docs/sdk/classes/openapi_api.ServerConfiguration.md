@@ -60,7 +60,7 @@ url template and variable configuration based on the url.
 
 #### Defined in
 
-[openapi/api/servers.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L14)
+[openapi/api/servers.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L14)
 
 ## Properties
 
@@ -70,7 +70,7 @@ url template and variable configuration based on the url.
 
 #### Defined in
 
-[openapi/api/servers.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L14)
+[openapi/api/servers.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L14)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 #### Defined in
 
-[openapi/api/servers.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L14)
+[openapi/api/servers.ts:14](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L14)
 
 ## Methods
 
@@ -94,7 +94,7 @@ ___
 
 #### Defined in
 
-[openapi/api/servers.ts:27](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L27)
+[openapi/api/servers.ts:27](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L27)
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 #### Defined in
 
-[openapi/api/servers.ts:31](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L31)
+[openapi/api/servers.ts:31](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L31)
 
 ___
 
@@ -136,7 +136,7 @@ replaced with their respective values and the endpoint of the request appended.
 
 #### Defined in
 
-[openapi/api/servers.ts:48](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L48)
+[openapi/api/servers.ts:48](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L48)
 
 ___
 
@@ -159,4 +159,4 @@ the `url` of this ServerConfiguration in the form `{variableName}`
 
 #### Defined in
 
-[openapi/api/servers.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/servers.ts#L23)
+[openapi/api/servers.ts:23](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/servers.ts#L23)

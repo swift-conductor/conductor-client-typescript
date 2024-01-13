@@ -23,7 +23,7 @@
 
 #### Defined in
 
-[src/worker/types.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/types.ts#L21)
+[src/worker/types.ts:21](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/types.ts#L21)
 
 ___
 
@@ -33,7 +33,7 @@ ___
 
 #### Defined in
 
-[src/worker/types.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/types.ts#L19)
+[src/worker/types.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/types.ts#L19)
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 #### Defined in
 
-[src/worker/types.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/types.ts#L20)
+[src/worker/types.ts:20](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/types.ts#L20)
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 #### Defined in
 
-[src/worker/types.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/types.ts#L18)
+[src/worker/types.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/types.ts#L18)
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 #### Defined in
 
-[src/worker/types.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/types.ts#L17)
+[src/worker/types.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/types.ts#L17)
 
 ___
 
@@ -73,4 +73,4 @@ ___
 
 #### Defined in
 
-[src/worker/types.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/types.ts#L16)
+[src/worker/types.ts:16](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/types.ts#L16)

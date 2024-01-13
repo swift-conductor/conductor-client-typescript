@@ -45,7 +45,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:540](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L540)
+[openapi/api/types/PromiseAPI.ts:540](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L540)
 
 ## Properties
 
@@ -55,7 +55,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:538](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L538)
+[openapi/api/types/PromiseAPI.ts:538](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L538)
 
 ## Methods
 
@@ -77,7 +77,7 @@ Get Queue Names
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:559](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L559)
+[openapi/api/types/PromiseAPI.ts:559](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L559)
 
 ___
 
@@ -99,7 +99,7 @@ Get Queue Names
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:551](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L551)
+[openapi/api/types/PromiseAPI.ts:551](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L551)
 
 ___
 
@@ -121,7 +121,7 @@ Get the queue length
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:575](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L575)
+[openapi/api/types/PromiseAPI.ts:575](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L575)
 
 ___
 
@@ -143,7 +143,7 @@ Get the queue length
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:567](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L567)
+[openapi/api/types/PromiseAPI.ts:567](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L567)
 
 ___
 
@@ -169,7 +169,7 @@ Publish a message in queue to mark a wait task as completed.
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:599](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L599)
+[openapi/api/types/PromiseAPI.ts:599](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L599)
 
 ___
 
@@ -195,7 +195,7 @@ Publish a message in queue to mark a wait task as completed.
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:587](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L587)
+[openapi/api/types/PromiseAPI.ts:587](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L587)
 
 ___
 
@@ -221,7 +221,7 @@ Publish a message in queue to mark a wait task (by taskId) as completed.
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:623](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L623)
+[openapi/api/types/PromiseAPI.ts:623](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L623)
 
 ___
 
@@ -247,4 +247,4 @@ Publish a message in queue to mark a wait task (by taskId) as completed.
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:611](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L611)
+[openapi/api/types/PromiseAPI.ts:611](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L611)

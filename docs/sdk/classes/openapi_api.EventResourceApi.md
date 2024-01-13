@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:149](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L149)
+[openapi/api/types/PromiseAPI.ts:149](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L149)
 
 ## Properties
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:147](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L147)
+[openapi/api/types/PromiseAPI.ts:147](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L147)
 
 ## Methods
 
@@ -80,7 +80,7 @@ Add a new event handler.
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:170](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L170)
+[openapi/api/types/PromiseAPI.ts:170](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L170)
 
 ___
 
@@ -103,7 +103,7 @@ Add a new event handler.
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:161](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L161)
+[openapi/api/types/PromiseAPI.ts:161](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L161)
 
 ___
 
@@ -125,7 +125,7 @@ Get all the event handlers
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:186](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L186)
+[openapi/api/types/PromiseAPI.ts:186](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L186)
 
 ___
 
@@ -149,7 +149,7 @@ Get event handlers for a given event
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:206](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L206)
+[openapi/api/types/PromiseAPI.ts:206](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L206)
 
 ___
 
@@ -173,7 +173,7 @@ Get event handlers for a given event
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:196](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L196)
+[openapi/api/types/PromiseAPI.ts:196](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L196)
 
 ___
 
@@ -195,7 +195,7 @@ Get all the event handlers
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:178](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L178)
+[openapi/api/types/PromiseAPI.ts:178](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L178)
 
 ___
 
@@ -218,7 +218,7 @@ Remove an event handler
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:224](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L224)
+[openapi/api/types/PromiseAPI.ts:224](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L224)
 
 ___
 
@@ -241,7 +241,7 @@ Remove an event handler
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:215](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L215)
+[openapi/api/types/PromiseAPI.ts:215](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L215)
 
 ___
 
@@ -264,7 +264,7 @@ Update an existing event handler.
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:242](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L242)
+[openapi/api/types/PromiseAPI.ts:242](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L242)
 
 ___
 
@@ -287,4 +287,4 @@ Update an existing event handler.
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:233](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L233)
+[openapi/api/types/PromiseAPI.ts:233](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L233)

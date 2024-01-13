@@ -20,7 +20,7 @@
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L17)
+[src/worker/WorkerHost.ts:17](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L17)
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L19)
+[src/worker/WorkerHost.ts:19](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L19)
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 #### Defined in
 
-[src/worker/WorkerHost.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/src/worker/WorkerHost.ts#L18)
+[src/worker/WorkerHost.ts:18](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/src/worker/WorkerHost.ts#L18)

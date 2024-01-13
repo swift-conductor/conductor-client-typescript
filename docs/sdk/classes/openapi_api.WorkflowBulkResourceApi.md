@@ -47,7 +47,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:984](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L984)
+[openapi/api/types/PromiseAPI.ts:984](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L984)
 
 ## Properties
 
@@ -57,7 +57,7 @@
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:982](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L982)
+[openapi/api/types/PromiseAPI.ts:982](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L982)
 
 ## Methods
 
@@ -80,7 +80,7 @@ Pause the list of workflows
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1005](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1005)
+[openapi/api/types/PromiseAPI.ts:1005](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1005)
 
 ___
 
@@ -103,7 +103,7 @@ Pause the list of workflows
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:996](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L996)
+[openapi/api/types/PromiseAPI.ts:996](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L996)
 
 ___
 
@@ -127,7 +127,7 @@ Restart the list of completed workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1025](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1025)
+[openapi/api/types/PromiseAPI.ts:1025](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1025)
 
 ___
 
@@ -151,7 +151,7 @@ Restart the list of completed workflow
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1015](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1015)
+[openapi/api/types/PromiseAPI.ts:1015](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1015)
 
 ___
 
@@ -174,7 +174,7 @@ Resume the list of workflows
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1043](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1043)
+[openapi/api/types/PromiseAPI.ts:1043](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1043)
 
 ___
 
@@ -197,7 +197,7 @@ Resume the list of workflows
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1034](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1034)
+[openapi/api/types/PromiseAPI.ts:1034](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1034)
 
 ___
 
@@ -220,7 +220,7 @@ Retry the last failed task for each workflow from the list
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1061](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1061)
+[openapi/api/types/PromiseAPI.ts:1061](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1061)
 
 ___
 
@@ -243,7 +243,7 @@ Retry the last failed task for each workflow from the list
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1052](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1052)
+[openapi/api/types/PromiseAPI.ts:1052](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1052)
 
 ___
 
@@ -267,7 +267,7 @@ Terminate workflows execution
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1081](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1081)
+[openapi/api/types/PromiseAPI.ts:1081](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1081)
 
 ___
 
@@ -291,4 +291,4 @@ Terminate workflows execution
 
 #### Defined in
 
-[openapi/api/types/PromiseAPI.ts:1071](https://github.com/swift-conductor/conductor-client-typescript/blob/9866b7c/openapi/api/types/PromiseAPI.ts#L1071)
+[openapi/api/types/PromiseAPI.ts:1071](https://github.com/swift-conductor/conductor-client-typescript/blob/d61717b/openapi/api/types/PromiseAPI.ts#L1071)
