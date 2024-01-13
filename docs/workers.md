@@ -19,13 +19,11 @@ Each worker embodies design pattern and follows certain basic principles:
 Task worker is implemented using a function that confirms to the following function
 
 ```typescript
-import { ConductorWorker, Task } from "@swiftconductor/conductor-client-typescript";
+import { WorkerInterface, Task } from "@swiftconductor/conductor-client-typescript";
 
-const worker: ConductorWorker = {
+const worker: WorkerInterface = {
   taskDefName: "task-def-name",
-  execute: async (
-    task: Task
-  ): Promise<Omit<TaskResult, "workflowInstanceId" | "taskId">> => {},
+  execute: async (task: Task): Promise<Omit<TaskResult, "workflowInstanceId" | "taskId">> => {},
 };
 ```
 
@@ -35,97 +33,89 @@ If an `error` is returned, the task is marked as `FAILED`
 #### Task worker that returns an object
 
 ```typescript
-import { ConductorWorker, Task } from "@swiftconductor/conductor-client-typescript";
+import { WorkerInterface, Task } from "@swiftconductor/conductor-client-typescript";
 
-const worker: ConductorWorker = {
-  taskDefName: "task-def-name",
-  execute: async (task: Task) => {
-    // Sample output
-    return {
-      outputData: {
-        hello: "From your worker",
-      },
-      status: "COMPLETED",
-    };
-  },
+const worker: WorkerInterface = {
+    taskDefName: "task-def-name",
+    execute: async (task: Task) => {
+        // Sample output
+        return {
+            outputData: { hello: "From your worker" },
+            status: TaskResultStatusEnum.Completed,
+        };
+    },
 };
 ```
 
 #### Controlling execution for long-running tasks
 
-For the long-running tasks you might want to spawn another process/routine and update the status of the task at a later point and complete the
-execution function without actually marking the task as `COMPLETED`. Use `TaskResult` Interface that allows you to specify more fined grained control.
+For the long-running tasks you might want to spawn another process/routine and update the status of the task at a later point and complete the execution function without actually marking the task as `TaskResultStatusEnum.Completed`. The `TaskResult` interface allows more fined grained control over the result.
 
-Here is an example of a task execution function that returns with `IN_PROGRESS` status asking server to push the task again in 60 seconds.
+Here is an example of a task execution function that returns with `TaskResultStatusEnum.InProgress` status asking server to push the task again in 60 seconds.
 
 ```typescript
-const worker: ConductorWorker = {
-  taskDefName: "task-def-name",
-  execute: async (task: Task) => {
-    // Sample output
-    return {
-      outputData: {},
-      status: "IN_PROGRESS",
-      callbackAfterSeconds: 60,
-    };
-  },
-  pollInterval: 100, // optional
-  concurrency: 2, // optional
+const worker: WorkerInterface = {
+    taskDefName: "task-def-name",
+    execute: async (task: Task) => {
+        // Sample output
+        return {
+            status: TaskResultStatusEnum.InProgress,
+            callbackAfterSeconds: 60,
+            outputData: {},
+        };
+    },
+    pollInterval: 100, // optional
+    concurrency: 2, // optional
 };
 ```
 
 ## Starting Workers
 
-`TaskRunner` interface is used to start the workers, which takes care of polling server for the work, executing worker code and updating the results back to the server.
+The `WorkerHost` interface is used to start the workers, which takes care of polling server for the work, executing worker code and updating the results back to the server.
 
 ```typescript
 import {
-  ConductorApiConfig,
-  conductorClient,
-  TaskRunner,
+  ConductorClient,
+  WorkerHost,
 } from "@swiftconductor/conductor-client-typescript";
 
-const clientPromise = conductorClient({
-  serverUrl: "http://lcoalhost:8080/api",
-});
-
-const client = await clientPromise;
+const client = new ConductorClient();
 
 const taskDefName = "HelloWorldWorker";
 
-const customWorker: ConductorWorker = {
-taskDefName,
-  execute: async ({ inputData, taskId }) => {
-    return {
-      outputData: {
-        greeting: "Hello World",
-      },
-      status: "COMPLETED",
-    };
-  },
+const customWorker: WorkerInterface = {
+    taskDefName,
+    execute: async (task: Task) => {
+        return {
+            outputData: {
+                greeting: "Hello World",
+            },
+            status: TaskResultStatusEnum.Completed,
+        };
+    },
 };
-// Worker Options will take precedence over options defined in the manager
 
-const manager = new WorkerHost(client, [customWorker], {
+// Worker options will take precedence over the options defined in the host
+const host = new WorkerHost(client, [customWorker], {
   options: { pollInterval: 100, concurrency: 1 },
 });
 
-manager.startPolling();
-// You can update all worker settings at once using
-manager.updatePollingOptions({ pollInterval: 100, concurrency: 1 });
+host.startPolling();
 
-// You can update a single worker setting using :
-manager.updatePollingOptionForWorker(taskDefName, {
+// update all worker settings
+host.updatePollingOptions({ pollInterval: 100, concurrency: 1 });
+
+// update single worker settings
+host.updatePollingOptionForWorker(taskDefName, {
   pollInterval: 100,
   concurrency: 1,
 });
 
-manager.isPolling // Will resolve to true
+host.isPolling; // Will resolve to true
 
-await manager.stopPolling();
+await host.stopPolling();
 
-manager.isPolling // Will resolve to false
-
+host.isPolling; // Will resolve to false
 ```
 
 ## Task Management APIs
@@ -134,35 +124,21 @@ manager.isPolling // Will resolve to false
 
 ```typescript
 import {
-  WorkflowExecutor,
-  TaskResultStatus,
+    ConductorClient,
+    WorkflowManager,
+    TaskResultStatus,
 } from "@swiftconductor/conductor-client-typescript";
 
-const clientPromise = conductorClient({
-  serverUrl: "http://lcoalhost:8080/api",
-});
+const client = new ConductorClient();
 
-const client = await clientPromise;
-const executor = new WorkflowExecutor(client);
+const manager = new WorkflowManager(client);
 
-const taskDetails = await executor.getTask(someTaskId);
+const taskDetails = await manager.getTask(someTaskId);
 ```
 
 ### Updating the Task result outside the worker implementation
 
-#### Update task by Reference Name
-
 ```typescript
-executor.updateTaskByRefName(
-  taskReferenceName,
-  workflowInstanceId,
-  "COMPLETED",
-  { some: { output: "value" } }
-);
-```
-
-#### Update task by id
-
-```typescript
-await executor.updateTask(taskId, executionId, "COMPLETED", newChange);
+const newChange = { greet: "bye" };
+await manager.updateTask(taskId, workflowId, TaskResultStatusEnum.Completed, newChange);
 ```

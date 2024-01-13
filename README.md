@@ -17,7 +17,6 @@ yarn add @swiftconductor/conductor-client-typescript
 
 Following these steps to get started:
 
-1. [Configuration](docs/configuration.md)
 1. [Create workflows in TypeScript](docs/workflows.md)
 1. [Create and run workers](docs/workers.md)
 

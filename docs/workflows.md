@@ -1,90 +1,86 @@
-# Authoring Workflows with the Javascript SDK
+# Authoring Workflows with the TypeScript SDK
 
 ## A simple two-step workflow
 
 ```typescript
 import {
-  ConductorApiConfig,
-  conductorClient,
-  TaskRunner,
-  customTask,
+    ConductorClient,
+    WorkflowManager
+    WorkerProcess,
+    customTask,
 } from "@swiftconductor/conductor-client-typescript";
 
-//API client instance with server address and authentication details
-const clientPromise = conductorClient({
-  serverUrl: "http://lcoalhost:8080/api",
-});
+const client = new ConductorClient();
 
-const client = await clientPromise;
-
-//Create new workflow executor
-const executor = new WorkflowExecutor(client);
+// Create new workflow manager
+const manager = new WorkflowManager(client);
 
 // Using Factory function
-const factoryWf = {
-  name: "my_first_workflow",
-  version: 1,
-  ownerEmail: "hello@swiftsoftwaregroup.com",
-  tasks: [customTask("custom_task", "custom_task_ref" {})],
-  inputParameters: [],
-  outputParameters: {},
-  timeoutSeconds: 0,
+const firstWorkflow: WorkflowDef = {
+    name: "my_first_workflow",
+    version: 1,
+    ownerEmail: "hello@swiftsoftwaregroup.com",
+    tasks: [
+        customTask("custom_task", "custom_task_ref", {})
+    ],
+    inputParameters: [],
+    outputParameters: {},
+    timeoutSeconds: 0,
 };
-const workflow = executor.registerWorkflow(true, factoryWf);
+
+const workflow = await manager.registerWorkflow(firstWorkflow);
 ```
 
-### Execute Workflow
+### Start Workflow
 
-#### Using Workflow Executor to start previously registered workflow
+#### Using Workflow Manager to start previously registered workflow
 
 ```typescript
-const executor = new WorkflowExecutor(client);
-const executionId = await executor.startWorkflow({ name, version, input: {} });
+const manager = new WorkflowManager(client);
+const executionId = await manager.startWorkflow({ name, version, input: {} });
 ```
 
-#### Using Workflow Executor to execute a workflow and get the output as a result
+#### Using Workflow Manager to start a workflow and get the output as a result
 
 ```typescript
 import {
-  conductorClient,
-  WorkflowExecutor,
-  ConductorClient,
-  TaskType,
+    ConductorClient,
+    WorkflowManager,
+    ConductorClient,
+    TaskType,
+    WorkflowDef,
 } from "@swiftconductor/conductor-client-typescript";
 
-//API client instance with server address and authentication details
-const clientPromise = conductorClient({
-  serverUrl: "http://lcoalhost:8080/api",
-});
+const client = new ConductorClient();
 
-const client = await clientPromise;
-
-//Create new workflow executor
-const executor = new WorkflowExecutor(client);
+// Create new workflow manager
+const manager = new WorkflowManager(client);
 
 // Create a workflow
-const factoryWf = {
-  name: "my_first_workflow",
-  version: 1,
-  ownerEmail: "hello@swiftsoftwaregroup.com",
-  tasks: [customTask("custom_task", "custom_task_ref", {})],
-  inputParameters: [],
-  outputParameters: {},
-  timeoutSeconds: 0,
+const firstWorkflow: WorkflowDef = {
+    name: "my_first_workflow",
+    version: 1,
+    ownerEmail: "hello@swiftsoftwaregroup.com",
+    tasks: [
+        customTask("custom_task", "custom_task_ref", {})
+    ],
+    inputParameters: [],
+    outputParameters: {},
+    timeoutSeconds: 0,
 };
 
 // Register workflow
-const workflow = executor.registerWorkflow(true, factoryWf);
+const workflow = await manager.registerWorkflow(true, firstWorkflow);
 
 // Start Workflow
-const executionId = await executor.startWorkflow({
-  name: factoryWf.name,
-  version: 1,
-  input: {},
+const executionId = await manager.startWorkflow({
+    name: firstWorkflow.name,
+    version: 1,
+    input: {},
 });
 
 // Query Workflow status
-const workflowStatus = await executor.getWorkflow(executionId, true);
+const workflowStatus = await manager.getWorkflow(executionId, true);
 ```
 
 ### More Examples
