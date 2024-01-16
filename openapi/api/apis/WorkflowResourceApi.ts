@@ -189,65 +189,6 @@ export class WorkflowResourceApiRequestFactory extends BaseAPIRequestFactory {
     }
 
     /**
-     * Get the uri and path of the external storage where the workflow payload is to be stored
-     * @param path 
-     * @param operation 
-     * @param payloadType 
-     */
-    public async getExternalStorageLocation1(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<RequestContext> {
-        let _config = _options || this.configuration;
-
-        // verify required parameter 'path' is not null or undefined
-        if (path === null || path === undefined) {
-            throw new RequiredError("WorkflowResourceApi", "getExternalStorageLocation1", "path");
-        }
-
-
-        // verify required parameter 'operation' is not null or undefined
-        if (operation === null || operation === undefined) {
-            throw new RequiredError("WorkflowResourceApi", "getExternalStorageLocation1", "operation");
-        }
-
-
-        // verify required parameter 'payloadType' is not null or undefined
-        if (payloadType === null || payloadType === undefined) {
-            throw new RequiredError("WorkflowResourceApi", "getExternalStorageLocation1", "payloadType");
-        }
-
-
-        // Path Params
-        const localVarPath = '/api/workflow/externalstoragelocation';
-
-        // Make Request Context
-        const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
-        requestContext.setHeaderParam("Accept", "application/json, */*;q=0.8")
-
-        // Query Params
-        if (path !== undefined) {
-            requestContext.setQueryParam("path", ObjectSerializer.serialize(path, "string", ""));
-        }
-
-        // Query Params
-        if (operation !== undefined) {
-            requestContext.setQueryParam("operation", ObjectSerializer.serialize(operation, "string", ""));
-        }
-
-        // Query Params
-        if (payloadType !== undefined) {
-            requestContext.setQueryParam("payloadType", ObjectSerializer.serialize(payloadType, "string", ""));
-        }
-
-
-        
-        const defaultAuth: SecurityAuthentication | undefined = _options?.authMethods?.default || this.configuration?.authMethods?.default
-        if (defaultAuth?.applySecurityAuthentication) {
-            await defaultAuth?.applySecurityAuthentication(requestContext);
-        }
-
-        return requestContext;
-    }
-
-    /**
      * Retrieve all the running workflows
      * @param name 
      * @param version 
@@ -509,7 +450,7 @@ export class WorkflowResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/workflow/{workflowId}/resetcallbacks'
+        const localVarPath = '/api/workflow/{workflowId}/reset-callbacks'
             .replace('{' + 'workflowId' + '}', encodeURIComponent(String(workflowId)));
 
         // Make Request Context
@@ -897,7 +838,7 @@ export class WorkflowResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/workflow/{workflowId}/skiptask/{taskReferenceName}'
+        const localVarPath = '/api/workflow/{workflowId}/skip-task/{taskReferenceName}'
             .replace('{' + 'workflowId' + '}', encodeURIComponent(String(workflowId)))
             .replace('{' + 'taskReferenceName' + '}', encodeURIComponent(String(taskReferenceName)));
 
@@ -1208,35 +1149,6 @@ export class WorkflowResourceApiResponseProcessor {
      * @throws ApiException if the response code was not in [200, 299]
      */
      public async getExternalStorageLocationWithHttpInfo(response: ResponseContext): Promise<HttpInfo<ExternalStorageLocation >> {
-        const contentType = ObjectSerializer.normalizeMediaType(response.headers["content-type"]);
-        if (isCodeInRange("200", response.httpStatusCode)) {
-            const body: ExternalStorageLocation = ObjectSerializer.deserialize(
-                ObjectSerializer.parse(await response.body.text(), contentType),
-                "ExternalStorageLocation", ""
-            ) as ExternalStorageLocation;
-            return new HttpInfo(response.httpStatusCode, response.headers, response.body, body);
-        }
-
-        // Work around for missing responses in specification, e.g. for petstore.yaml
-        if (response.httpStatusCode >= 200 && response.httpStatusCode <= 299) {
-            const body: ExternalStorageLocation = ObjectSerializer.deserialize(
-                ObjectSerializer.parse(await response.body.text(), contentType),
-                "ExternalStorageLocation", ""
-            ) as ExternalStorageLocation;
-            return new HttpInfo(response.httpStatusCode, response.headers, response.body, body);
-        }
-
-        throw new ApiException<string | Blob | undefined>(response.httpStatusCode, "Unknown API Status Code!", await response.getBodyAsAny(), response.headers);
-    }
-
-    /**
-     * Unwraps the actual response sent by the server from the response context and deserializes the response content
-     * to the expected objects
-     *
-     * @params response Response returned by the server for a request to getExternalStorageLocation1
-     * @throws ApiException if the response code was not in [200, 299]
-     */
-     public async getExternalStorageLocation1WithHttpInfo(response: ResponseContext): Promise<HttpInfo<ExternalStorageLocation >> {
         const contentType = ObjectSerializer.normalizeMediaType(response.headers["content-type"]);
         if (isCodeInRange("200", response.httpStatusCode)) {
             const body: ExternalStorageLocation = ObjectSerializer.deserialize(

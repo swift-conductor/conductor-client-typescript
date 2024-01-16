@@ -845,23 +845,23 @@ export interface TaskResourceApiBatchPollRequest {
 export interface TaskResourceApiGetAllPollDataRequest {
 }
 
-export interface TaskResourceApiGetExternalStorageLocation2Request {
+export interface TaskResourceApiGetExternalStorageLocation1Request {
     /**
      * 
      * @type string
-     * @memberof TaskResourceApigetExternalStorageLocation2
+     * @memberof TaskResourceApigetExternalStorageLocation1
      */
     path: string
     /**
      * 
      * @type string
-     * @memberof TaskResourceApigetExternalStorageLocation2
+     * @memberof TaskResourceApigetExternalStorageLocation1
      */
     operation: string
     /**
      * 
      * @type string
-     * @memberof TaskResourceApigetExternalStorageLocation2
+     * @memberof TaskResourceApigetExternalStorageLocation1
      */
     payloadType: string
 }
@@ -1124,16 +1124,16 @@ export class ObjectTaskResourceApi {
      * Get the external uri where the task payload is to be stored
      * @param param the request object
      */
-    public getExternalStorageLocation2WithHttpInfo(param: TaskResourceApiGetExternalStorageLocation2Request, options?: Configuration): Promise<HttpInfo<ExternalStorageLocation>> {
-        return this.api.getExternalStorageLocation2WithHttpInfo(param.path, param.operation, param.payloadType,  options).toPromise();
+    public getExternalStorageLocation1WithHttpInfo(param: TaskResourceApiGetExternalStorageLocation1Request, options?: Configuration): Promise<HttpInfo<ExternalStorageLocation>> {
+        return this.api.getExternalStorageLocation1WithHttpInfo(param.path, param.operation, param.payloadType,  options).toPromise();
     }
 
     /**
      * Get the external uri where the task payload is to be stored
      * @param param the request object
      */
-    public getExternalStorageLocation2(param: TaskResourceApiGetExternalStorageLocation2Request, options?: Configuration): Promise<ExternalStorageLocation> {
-        return this.api.getExternalStorageLocation2(param.path, param.operation, param.payloadType,  options).toPromise();
+    public getExternalStorageLocation1(param: TaskResourceApiGetExternalStorageLocation1Request, options?: Configuration): Promise<ExternalStorageLocation> {
+        return this.api.getExternalStorageLocation1(param.path, param.operation, param.payloadType,  options).toPromise();
     }
 
     /**
@@ -1526,27 +1526,6 @@ export interface WorkflowResourceApiGetExternalStorageLocationRequest {
      * 
      * @type string
      * @memberof WorkflowResourceApigetExternalStorageLocation
-     */
-    payloadType: string
-}
-
-export interface WorkflowResourceApiGetExternalStorageLocation1Request {
-    /**
-     * 
-     * @type string
-     * @memberof WorkflowResourceApigetExternalStorageLocation1
-     */
-    path: string
-    /**
-     * 
-     * @type string
-     * @memberof WorkflowResourceApigetExternalStorageLocation1
-     */
-    operation: string
-    /**
-     * 
-     * @type string
-     * @memberof WorkflowResourceApigetExternalStorageLocation1
      */
     payloadType: string
 }
@@ -1998,22 +1977,6 @@ export class ObjectWorkflowResourceApi {
      */
     public getExternalStorageLocation(param: WorkflowResourceApiGetExternalStorageLocationRequest, options?: Configuration): Promise<ExternalStorageLocation> {
         return this.api.getExternalStorageLocation(param.path, param.operation, param.payloadType,  options).toPromise();
-    }
-
-    /**
-     * Get the uri and path of the external storage where the workflow payload is to be stored
-     * @param param the request object
-     */
-    public getExternalStorageLocation1WithHttpInfo(param: WorkflowResourceApiGetExternalStorageLocation1Request, options?: Configuration): Promise<HttpInfo<ExternalStorageLocation>> {
-        return this.api.getExternalStorageLocation1WithHttpInfo(param.path, param.operation, param.payloadType,  options).toPromise();
-    }
-
-    /**
-     * Get the uri and path of the external storage where the workflow payload is to be stored
-     * @param param the request object
-     */
-    public getExternalStorageLocation1(param: WorkflowResourceApiGetExternalStorageLocation1Request, options?: Configuration): Promise<ExternalStorageLocation> {
-        return this.api.getExternalStorageLocation1(param.path, param.operation, param.payloadType,  options).toPromise();
     }
 
     /**

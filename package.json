@@ -1,7 +1,7 @@
 {
   "name": "@swift-conductor/conductor-client",
   "description": "Swift Conductor Client SDK for TypeScript / JavasSript",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "exports": {
     ".": {
       "require": "./dist/index.js",

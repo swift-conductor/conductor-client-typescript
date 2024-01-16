@@ -724,8 +724,8 @@ export class PromiseTaskResourceApi {
      * @param operation 
      * @param payloadType 
      */
-    public getExternalStorageLocation2WithHttpInfo(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<HttpInfo<ExternalStorageLocation>> {
-        const result = this.api.getExternalStorageLocation2WithHttpInfo(path, operation, payloadType, _options);
+    public getExternalStorageLocation1WithHttpInfo(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<HttpInfo<ExternalStorageLocation>> {
+        const result = this.api.getExternalStorageLocation1WithHttpInfo(path, operation, payloadType, _options);
         return result.toPromise();
     }
 
@@ -735,8 +735,8 @@ export class PromiseTaskResourceApi {
      * @param operation 
      * @param payloadType 
      */
-    public getExternalStorageLocation2(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<ExternalStorageLocation> {
-        const result = this.api.getExternalStorageLocation2(path, operation, payloadType, _options);
+    public getExternalStorageLocation1(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<ExternalStorageLocation> {
+        const result = this.api.getExternalStorageLocation1(path, operation, payloadType, _options);
         return result.toPromise();
     }
 
@@ -1179,28 +1179,6 @@ export class PromiseWorkflowResourceApi {
      */
     public getExternalStorageLocation(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<ExternalStorageLocation> {
         const result = this.api.getExternalStorageLocation(path, operation, payloadType, _options);
-        return result.toPromise();
-    }
-
-    /**
-     * Get the uri and path of the external storage where the workflow payload is to be stored
-     * @param path 
-     * @param operation 
-     * @param payloadType 
-     */
-    public getExternalStorageLocation1WithHttpInfo(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<HttpInfo<ExternalStorageLocation>> {
-        const result = this.api.getExternalStorageLocation1WithHttpInfo(path, operation, payloadType, _options);
-        return result.toPromise();
-    }
-
-    /**
-     * Get the uri and path of the external storage where the workflow payload is to be stored
-     * @param path 
-     * @param operation 
-     * @param payloadType 
-     */
-    public getExternalStorageLocation1(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<ExternalStorageLocation> {
-        const result = this.api.getExternalStorageLocation1(path, operation, payloadType, _options);
         return result.toPromise();
     }
 

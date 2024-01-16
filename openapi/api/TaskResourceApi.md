@@ -4,22 +4,22 @@ All URIs are relative to *http://localhost:8080*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**all**](TaskResourceApi.md#all) | **GET** /api/tasks/queue/all | Get the details about each queue
-[**allVerbose**](TaskResourceApi.md#allVerbose) | **GET** /api/tasks/queue/all/verbose | Get the details about each queue
-[**batchPoll**](TaskResourceApi.md#batchPoll) | **GET** /api/tasks/poll/batch/{tasktype} | Batch poll for a task of a certain type
-[**getAllPollData**](TaskResourceApi.md#getAllPollData) | **GET** /api/tasks/queue/polldata/all | Get the last poll data for all task types
-[**getExternalStorageLocation2**](TaskResourceApi.md#getExternalStorageLocation2) | **GET** /api/tasks/external-storage-location | Get the external uri where the task payload is to be stored
-[**getPollData**](TaskResourceApi.md#getPollData) | **GET** /api/tasks/queue/polldata | Get the last poll data for a given task type
-[**getTask**](TaskResourceApi.md#getTask) | **GET** /api/tasks/{taskId} | Get task by Id
-[**getTaskLogs**](TaskResourceApi.md#getTaskLogs) | **GET** /api/tasks/{taskId}/log | Get Task Execution Logs
-[**log**](TaskResourceApi.md#log) | **POST** /api/tasks/{taskId}/log | Log Task Execution Details
-[**poll**](TaskResourceApi.md#poll) | **GET** /api/tasks/poll/{tasktype} | Poll for a task of a certain type
-[**requeuePendingTask**](TaskResourceApi.md#requeuePendingTask) | **POST** /api/tasks/queue/requeue/{taskType} | Requeue pending tasks
-[**search1**](TaskResourceApi.md#search1) | **GET** /api/tasks/search | Search for tasks based in payload and other parameters
-[**searchV21**](TaskResourceApi.md#searchV21) | **GET** /api/tasks/search-v2 | Search for tasks based in payload and other parameters
-[**size**](TaskResourceApi.md#size) | **GET** /api/tasks/queue/sizes | Deprecated. Please use /tasks/queue/size endpoint
-[**taskDepth**](TaskResourceApi.md#taskDepth) | **GET** /api/tasks/queue/size | Get queue size for a task type.
-[**updateTask**](TaskResourceApi.md#updateTask) | **POST** /api/tasks | Update a task
+[**all**](TaskResourceApi.md#all) | **GET** /api/task/queue/all | Get the details about each queue
+[**allVerbose**](TaskResourceApi.md#allVerbose) | **GET** /api/task/queue/all/verbose | Get the details about each queue
+[**batchPoll**](TaskResourceApi.md#batchPoll) | **GET** /api/task/poll/batch/{tasktype} | Batch poll for a task of a certain type
+[**getAllPollData**](TaskResourceApi.md#getAllPollData) | **GET** /api/task/queue/poll-data/all | Get the last poll data for all task types
+[**getExternalStorageLocation1**](TaskResourceApi.md#getExternalStorageLocation1) | **GET** /api/task/external-storage-location | Get the external uri where the task payload is to be stored
+[**getPollData**](TaskResourceApi.md#getPollData) | **GET** /api/task/queue/poll-data | Get the last poll data for a given task type
+[**getTask**](TaskResourceApi.md#getTask) | **GET** /api/task/{taskId} | Get task by Id
+[**getTaskLogs**](TaskResourceApi.md#getTaskLogs) | **GET** /api/task/{taskId}/log | Get Task Execution Logs
+[**log**](TaskResourceApi.md#log) | **POST** /api/task/{taskId}/log | Log Task Execution Details
+[**poll**](TaskResourceApi.md#poll) | **GET** /api/task/poll/{tasktype} | Poll for a task of a certain type
+[**requeuePendingTask**](TaskResourceApi.md#requeuePendingTask) | **POST** /api/task/queue/requeue/{taskType} | Requeue pending tasks
+[**search1**](TaskResourceApi.md#search1) | **GET** /api/task/search | Search for tasks based in payload and other parameters
+[**searchV21**](TaskResourceApi.md#searchV21) | **GET** /api/task/search-v2 | Search for tasks based in payload and other parameters
+[**size**](TaskResourceApi.md#size) | **GET** /api/task/queue/sizes | Deprecated. Please use /tasks/queue/size endpoint
+[**taskDepth**](TaskResourceApi.md#taskDepth) | **GET** /api/task/queue/size | Get queue size for a task type.
+[**updateTask**](TaskResourceApi.md#updateTask) | **POST** /api/task | Update a task
 
 
 # **all**
@@ -228,8 +228,8 @@ No authorization required
 
 [[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
 
-# **getExternalStorageLocation2**
-> ExternalStorageLocation getExternalStorageLocation2()
+# **getExternalStorageLocation1**
+> ExternalStorageLocation getExternalStorageLocation1()
 
 
 ### Example
@@ -242,7 +242,7 @@ import * as fs from 'fs';
 const configuration = .createConfiguration();
 const apiInstance = new .TaskResourceApi(configuration);
 
-let body:.TaskResourceApiGetExternalStorageLocation2Request = {
+let body:.TaskResourceApiGetExternalStorageLocation1Request = {
   // string
   path: "path_example",
   // string
@@ -251,7 +251,7 @@ let body:.TaskResourceApiGetExternalStorageLocation2Request = {
   payloadType: "payloadType_example",
 };
 
-apiInstance.getExternalStorageLocation2(body).then((data:any) => {
+apiInstance.getExternalStorageLocation1(body).then((data:any) => {
   console.log('API called successfully. Returned data: ' + data);
 }).catch((error:any) => console.error(error));
 ```

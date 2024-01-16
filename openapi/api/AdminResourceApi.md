@@ -7,7 +7,7 @@ Method | HTTP request | Description
 [**getAllConfig**](AdminResourceApi.md#getAllConfig) | **GET** /api/admin/config | Get all the configuration parameters
 [**getEventQueues**](AdminResourceApi.md#getEventQueues) | **GET** /api/admin/queues | Get registered queues
 [**requeueSweep**](AdminResourceApi.md#requeueSweep) | **POST** /api/admin/sweep/requeue/{workflowId} | Queue up all the running workflows for sweep
-[**verifyAndRepairWorkflowConsistency**](AdminResourceApi.md#verifyAndRepairWorkflowConsistency) | **POST** /api/admin/consistency/verifyAndRepair/{workflowId} | Verify and repair workflow consistency
+[**verifyAndRepairWorkflowConsistency**](AdminResourceApi.md#verifyAndRepairWorkflowConsistency) | **POST** /api/admin/consistency/verify-and-repair/{workflowId} | Verify and repair workflow consistency
 [**view**](AdminResourceApi.md#view) | **GET** /api/admin/task/{tasktype} | Get the list of pending tasks for a given task type
 
 

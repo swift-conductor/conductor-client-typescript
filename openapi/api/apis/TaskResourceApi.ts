@@ -28,7 +28,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
         let _config = _options || this.configuration;
 
         // Path Params
-        const localVarPath = '/api/tasks/queue/all';
+        const localVarPath = '/api/task/queue/all';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -51,7 +51,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
         let _config = _options || this.configuration;
 
         // Path Params
-        const localVarPath = '/api/tasks/queue/all/verbose';
+        const localVarPath = '/api/task/queue/all/verbose';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -89,7 +89,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/poll/batch/{tasktype}'
+        const localVarPath = '/api/task/poll/batch/{tasktype}'
             .replace('{' + 'tasktype' + '}', encodeURIComponent(String(tasktype)));
 
         // Make Request Context
@@ -133,7 +133,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
         let _config = _options || this.configuration;
 
         // Path Params
-        const localVarPath = '/api/tasks/queue/polldata/all';
+        const localVarPath = '/api/task/queue/poll-data/all';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -155,29 +155,29 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
      * @param operation 
      * @param payloadType 
      */
-    public async getExternalStorageLocation2(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<RequestContext> {
+    public async getExternalStorageLocation1(path: string, operation: string, payloadType: string, _options?: Configuration): Promise<RequestContext> {
         let _config = _options || this.configuration;
 
         // verify required parameter 'path' is not null or undefined
         if (path === null || path === undefined) {
-            throw new RequiredError("TaskResourceApi", "getExternalStorageLocation2", "path");
+            throw new RequiredError("TaskResourceApi", "getExternalStorageLocation1", "path");
         }
 
 
         // verify required parameter 'operation' is not null or undefined
         if (operation === null || operation === undefined) {
-            throw new RequiredError("TaskResourceApi", "getExternalStorageLocation2", "operation");
+            throw new RequiredError("TaskResourceApi", "getExternalStorageLocation1", "operation");
         }
 
 
         // verify required parameter 'payloadType' is not null or undefined
         if (payloadType === null || payloadType === undefined) {
-            throw new RequiredError("TaskResourceApi", "getExternalStorageLocation2", "payloadType");
+            throw new RequiredError("TaskResourceApi", "getExternalStorageLocation1", "payloadType");
         }
 
 
         // Path Params
-        const localVarPath = '/api/tasks/external-storage-location';
+        const localVarPath = '/api/task/external-storage-location';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -222,7 +222,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/queue/polldata';
+        const localVarPath = '/api/task/queue/poll-data';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -257,7 +257,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/{taskId}'
+        const localVarPath = '/api/task/{taskId}'
             .replace('{' + 'taskId' + '}', encodeURIComponent(String(taskId)));
 
         // Make Request Context
@@ -288,7 +288,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/{taskId}/log'
+        const localVarPath = '/api/task/{taskId}/log'
             .replace('{' + 'taskId' + '}', encodeURIComponent(String(taskId)));
 
         // Make Request Context
@@ -326,7 +326,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/{taskId}/log'
+        const localVarPath = '/api/task/{taskId}/log'
             .replace('{' + 'taskId' + '}', encodeURIComponent(String(taskId)));
 
         // Make Request Context
@@ -372,7 +372,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/poll/{tasktype}'
+        const localVarPath = '/api/task/poll/{tasktype}'
             .replace('{' + 'tasktype' + '}', encodeURIComponent(String(tasktype)));
 
         // Make Request Context
@@ -413,7 +413,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/queue/requeue/{taskType}'
+        const localVarPath = '/api/task/queue/requeue/{taskType}'
             .replace('{' + 'taskType' + '}', encodeURIComponent(String(taskType)));
 
         // Make Request Context
@@ -448,7 +448,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/search';
+        const localVarPath = '/api/task/search';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -507,7 +507,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/search-v2';
+        const localVarPath = '/api/task/search-v2';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -557,7 +557,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/queue/sizes';
+        const localVarPath = '/api/task/queue/sizes';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -598,7 +598,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks/queue/size';
+        const localVarPath = '/api/task/queue/size';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -648,7 +648,7 @@ export class TaskResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/tasks';
+        const localVarPath = '/api/task';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);
@@ -799,10 +799,10 @@ export class TaskResourceApiResponseProcessor {
      * Unwraps the actual response sent by the server from the response context and deserializes the response content
      * to the expected objects
      *
-     * @params response Response returned by the server for a request to getExternalStorageLocation2
+     * @params response Response returned by the server for a request to getExternalStorageLocation1
      * @throws ApiException if the response code was not in [200, 299]
      */
-     public async getExternalStorageLocation2WithHttpInfo(response: ResponseContext): Promise<HttpInfo<ExternalStorageLocation >> {
+     public async getExternalStorageLocation1WithHttpInfo(response: ResponseContext): Promise<HttpInfo<ExternalStorageLocation >> {
         const contentType = ObjectSerializer.normalizeMediaType(response.headers["content-type"]);
         if (isCodeInRange("200", response.httpStatusCode)) {
             const body: ExternalStorageLocation = ObjectSerializer.deserialize(

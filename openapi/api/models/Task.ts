@@ -53,9 +53,9 @@ export class Task {
     'iteration'?: number;
     'subWorkflowId'?: string;
     'subworkflowChanged'?: boolean;
-    'taskDefinition'?: TaskDef;
     'queueWaitTime'?: number;
     'loopOverTask'?: boolean;
+    'taskDefinition'?: TaskDef;
 
     static readonly discriminator: string | undefined = undefined;
 
@@ -289,12 +289,6 @@ export class Task {
             "format": ""
         },
         {
-            "name": "taskDefinition",
-            "baseName": "taskDefinition",
-            "type": "TaskDef",
-            "format": ""
-        },
-        {
             "name": "queueWaitTime",
             "baseName": "queueWaitTime",
             "type": "number",
@@ -304,6 +298,12 @@ export class Task {
             "name": "loopOverTask",
             "baseName": "loopOverTask",
             "type": "boolean",
+            "format": ""
+        },
+        {
+            "name": "taskDefinition",
+            "baseName": "taskDefinition",
+            "type": "TaskDef",
             "format": ""
         }    ];
 

@@ -8,13 +8,12 @@ Method | HTTP request | Description
 [**decide**](WorkflowResourceApi.md#decide) | **PUT** /api/workflow/decide/{workflowId} | Starts the decision task for a workflow
 [**getExecutionStatus**](WorkflowResourceApi.md#getExecutionStatus) | **GET** /api/workflow/{workflowId} | Gets the workflow by workflow id
 [**getExternalStorageLocation**](WorkflowResourceApi.md#getExternalStorageLocation) | **GET** /api/workflow/external-storage-location | Get the uri and path of the external storage where the workflow payload is to be stored
-[**getExternalStorageLocation1**](WorkflowResourceApi.md#getExternalStorageLocation1) | **GET** /api/workflow/externalstoragelocation | Get the uri and path of the external storage where the workflow payload is to be stored
 [**getRunningWorkflow**](WorkflowResourceApi.md#getRunningWorkflow) | **GET** /api/workflow/running/{name} | Retrieve all the running workflows
 [**getWorkflows**](WorkflowResourceApi.md#getWorkflows) | **POST** /api/workflow/{name}/correlated | Lists workflows for the given correlation id list
 [**getWorkflows1**](WorkflowResourceApi.md#getWorkflows1) | **GET** /api/workflow/{name}/correlated/{correlationId} | Lists workflows for the given correlation id
 [**pauseWorkflow**](WorkflowResourceApi.md#pauseWorkflow) | **PUT** /api/workflow/{workflowId}/pause | Pauses the workflow
 [**rerun**](WorkflowResourceApi.md#rerun) | **POST** /api/workflow/{workflowId}/rerun | Reruns the workflow from a specific task
-[**resetWorkflow**](WorkflowResourceApi.md#resetWorkflow) | **POST** /api/workflow/{workflowId}/resetcallbacks | Resets callback times of all non-terminal CUSTOM tasks to 0
+[**resetWorkflow**](WorkflowResourceApi.md#resetWorkflow) | **POST** /api/workflow/{workflowId}/reset-callbacks | Resets callback times of all non-terminal CUSTOM tasks to 0
 [**restart**](WorkflowResourceApi.md#restart) | **POST** /api/workflow/{workflowId}/restart | Restarts a completed workflow
 [**resumeWorkflow**](WorkflowResourceApi.md#resumeWorkflow) | **PUT** /api/workflow/{workflowId}/resume | Resumes the workflow
 [**retry**](WorkflowResourceApi.md#retry) | **POST** /api/workflow/{workflowId}/retry | Retries the last failed task
@@ -22,7 +21,7 @@ Method | HTTP request | Description
 [**searchV2**](WorkflowResourceApi.md#searchV2) | **GET** /api/workflow/search-v2 | Search for workflows based on payload and other parameters
 [**searchWorkflowsByTasks**](WorkflowResourceApi.md#searchWorkflowsByTasks) | **GET** /api/workflow/search-by-tasks | Search for workflows based on task parameters
 [**searchWorkflowsByTasksV2**](WorkflowResourceApi.md#searchWorkflowsByTasksV2) | **GET** /api/workflow/search-by-tasks-v2 | Search for workflows based on task parameters
-[**skipTaskFromWorkflow**](WorkflowResourceApi.md#skipTaskFromWorkflow) | **PUT** /api/workflow/{workflowId}/skiptask/{taskReferenceName} | Skips a given task from a current running workflow
+[**skipTaskFromWorkflow**](WorkflowResourceApi.md#skipTaskFromWorkflow) | **PUT** /api/workflow/{workflowId}/skip-task/{taskReferenceName} | Skips a given task from a current running workflow
 [**startWorkflow**](WorkflowResourceApi.md#startWorkflow) | **POST** /api/workflow | Start a new workflow with StartWorkflowRequest, which allows task to be executed in a domain
 [**startWorkflow1**](WorkflowResourceApi.md#startWorkflow1) | **POST** /api/workflow/{name} | Start a new workflow. Returns the ID of the workflow instance that can be later used for tracking
 [**terminate1**](WorkflowResourceApi.md#terminate1) | **DELETE** /api/workflow/{workflowId} | Terminate workflow execution
@@ -218,65 +217,6 @@ let body:.WorkflowResourceApiGetExternalStorageLocationRequest = {
 };
 
 apiInstance.getExternalStorageLocation(body).then((data:any) => {
-  console.log('API called successfully. Returned data: ' + data);
-}).catch((error:any) => console.error(error));
-```
-
-
-### Parameters
-
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **path** | [**string**] |  | defaults to undefined
- **operation** | [**string**] |  | defaults to undefined
- **payloadType** | [**string**] |  | defaults to undefined
-
-
-### Return type
-
-**ExternalStorageLocation**
-
-### Authorization
-
-No authorization required
-
-### HTTP request headers
-
- - **Content-Type**: Not defined
- - **Accept**: */*
-
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | OK |  -  |
-
-[[Back to top]](#) [[Back to API list]](README.md#documentation-for-api-endpoints) [[Back to Model list]](README.md#documentation-for-models) [[Back to README]](README.md)
-
-# **getExternalStorageLocation1**
-> ExternalStorageLocation getExternalStorageLocation1()
-
-
-### Example
-
-
-```typescript
-import {  } from '';
-import * as fs from 'fs';
-
-const configuration = .createConfiguration();
-const apiInstance = new .WorkflowResourceApi(configuration);
-
-let body:.WorkflowResourceApiGetExternalStorageLocation1Request = {
-  // string
-  path: "path_example",
-  // string
-  operation: "operation_example",
-  // string
-  payloadType: "payloadType_example",
-};
-
-apiInstance.getExternalStorageLocation1(body).then((data:any) => {
   console.log('API called successfully. Returned data: ' + data);
 }).catch((error:any) => console.error(error));
 ```

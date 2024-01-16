@@ -113,7 +113,7 @@ export class AdminResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/admin/consistency/verifyAndRepair/{workflowId}'
+        const localVarPath = '/api/admin/consistency/verify-and-repair/{workflowId}'
             .replace('{' + 'workflowId' + '}', encodeURIComponent(String(workflowId)));
 
         // Make Request Context

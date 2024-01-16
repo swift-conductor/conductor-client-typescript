@@ -41,9 +41,9 @@ export class Workflow {
     'variables'?: { [key: string]: any; };
     'lastRetriedTime'?: number;
     'failedTaskNames'?: Set<string>;
-    'workflowName'?: string;
     'startTime'?: number;
     'workflowVersion'?: number;
+    'workflowName'?: string;
 
     static readonly discriminator: string | undefined = undefined;
 
@@ -205,12 +205,6 @@ export class Workflow {
             "format": ""
         },
         {
-            "name": "workflowName",
-            "baseName": "workflowName",
-            "type": "string",
-            "format": ""
-        },
-        {
             "name": "startTime",
             "baseName": "startTime",
             "type": "number",
@@ -221,6 +215,12 @@ export class Workflow {
             "baseName": "workflowVersion",
             "type": "number",
             "format": "int32"
+        },
+        {
+            "name": "workflowName",
+            "baseName": "workflowName",
+            "type": "string",
+            "format": ""
         }    ];
 
     static getAttributeTypeMap() {

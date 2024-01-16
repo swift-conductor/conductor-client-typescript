@@ -31,8 +31,8 @@ export class WorkflowSummary {
     'externalOutputPayloadStoragePath'?: string;
     'priority'?: number;
     'failedTaskNames'?: Set<string>;
-    'inputSize'?: number;
     'outputSize'?: number;
+    'inputSize'?: number;
 
     static readonly discriminator: string | undefined = undefined;
 
@@ -146,14 +146,14 @@ export class WorkflowSummary {
             "format": ""
         },
         {
-            "name": "inputSize",
-            "baseName": "inputSize",
+            "name": "outputSize",
+            "baseName": "outputSize",
             "type": "number",
             "format": "int64"
         },
         {
-            "name": "outputSize",
-            "baseName": "outputSize",
+            "name": "inputSize",
+            "baseName": "inputSize",
             "type": "number",
             "format": "int64"
         }    ];

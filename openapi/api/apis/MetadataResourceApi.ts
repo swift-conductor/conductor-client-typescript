@@ -31,7 +31,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/workflow';
+        const localVarPath = '/api/metadata/workflowdef';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);
@@ -74,7 +74,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/workflow/{name}'
+        const localVarPath = '/api/metadata/workflowdef/{name}'
             .replace('{' + 'name' + '}', encodeURIComponent(String(name)));
 
         // Make Request Context
@@ -103,7 +103,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
         let _config = _options || this.configuration;
 
         // Path Params
-        const localVarPath = '/api/metadata/workflow';
+        const localVarPath = '/api/metadata/workflowdef';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -126,7 +126,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
         let _config = _options || this.configuration;
 
         // Path Params
-        const localVarPath = '/api/metadata/workflow/latest-versions';
+        const localVarPath = '/api/metadata/workflowdef/latest-versions';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -156,7 +156,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/taskdefs/{tasktype}'
+        const localVarPath = '/api/metadata/taskdef/{tasktype}'
             .replace('{' + 'tasktype' + '}', encodeURIComponent(String(tasktype)));
 
         // Make Request Context
@@ -180,7 +180,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
         let _config = _options || this.configuration;
 
         // Path Params
-        const localVarPath = '/api/metadata/taskdefs';
+        const localVarPath = '/api/metadata/taskdef';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -203,7 +203,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
         let _config = _options || this.configuration;
 
         // Path Params
-        const localVarPath = '/api/metadata/workflow/names-and-versions';
+        const localVarPath = '/api/metadata/workflowdef/names-and-versions';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.GET);
@@ -233,7 +233,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/taskdefs';
+        const localVarPath = '/api/metadata/taskdef';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);
@@ -274,7 +274,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/taskdefs/{tasktype}'
+        const localVarPath = '/api/metadata/taskdef/{tasktype}'
             .replace('{' + 'tasktype' + '}', encodeURIComponent(String(tasktype)));
 
         // Make Request Context
@@ -312,7 +312,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/workflow/{name}/{version}'
+        const localVarPath = '/api/metadata/workflowdef/{name}/{version}'
             .replace('{' + 'name' + '}', encodeURIComponent(String(name)))
             .replace('{' + 'version' + '}', encodeURIComponent(String(version)));
 
@@ -344,7 +344,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/workflow';
+        const localVarPath = '/api/metadata/workflowdef';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.PUT);
@@ -385,7 +385,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/taskdefs';
+        const localVarPath = '/api/metadata/taskdef';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.PUT);
@@ -426,7 +426,7 @@ export class MetadataResourceApiRequestFactory extends BaseAPIRequestFactory {
 
 
         // Path Params
-        const localVarPath = '/api/metadata/workflow/validate';
+        const localVarPath = '/api/metadata/workflowdef/validate';
 
         // Make Request Context
         const requestContext = _config.baseServer.makeRequestContext(localVarPath, HttpMethod.POST);

@@ -4,19 +4,19 @@ All URIs are relative to *http://localhost:8080*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**create**](MetadataResourceApi.md#create) | **POST** /api/metadata/workflow | Create a new workflow definition
-[**get**](MetadataResourceApi.md#get) | **GET** /api/metadata/workflow/{name} | Retrieves workflow definition along with blueprint
-[**getAll**](MetadataResourceApi.md#getAll) | **GET** /api/metadata/workflow | Retrieves all workflow definition along with blueprint
-[**getAllWorkflowsWithLatestVersions**](MetadataResourceApi.md#getAllWorkflowsWithLatestVersions) | **GET** /api/metadata/workflow/latest-versions | Returns only the latest version of all workflow definitions
-[**getTaskDef**](MetadataResourceApi.md#getTaskDef) | **GET** /api/metadata/taskdefs/{tasktype} | Gets the task definition
-[**getTaskDefs**](MetadataResourceApi.md#getTaskDefs) | **GET** /api/metadata/taskdefs | Gets all task definition
-[**getWorkflowNamesAndVersions**](MetadataResourceApi.md#getWorkflowNamesAndVersions) | **GET** /api/metadata/workflow/names-and-versions | Returns workflow names and versions only (no definition bodies)
-[**registerTaskDef**](MetadataResourceApi.md#registerTaskDef) | **POST** /api/metadata/taskdefs | Create new task definition(s)
-[**unregisterTaskDef**](MetadataResourceApi.md#unregisterTaskDef) | **DELETE** /api/metadata/taskdefs/{tasktype} | Remove a task definition
-[**unregisterWorkflowDef**](MetadataResourceApi.md#unregisterWorkflowDef) | **DELETE** /api/metadata/workflow/{name}/{version} | Removes workflow definition. It does not remove workflows associated with the definition.
-[**update**](MetadataResourceApi.md#update) | **PUT** /api/metadata/workflow | Create or update workflow definition
-[**updateTaskDef**](MetadataResourceApi.md#updateTaskDef) | **PUT** /api/metadata/taskdefs | Update an existing task
-[**validate**](MetadataResourceApi.md#validate) | **POST** /api/metadata/workflow/validate | Validates a new workflow definition
+[**create**](MetadataResourceApi.md#create) | **POST** /api/metadata/workflowdef | Create a new workflow definition
+[**get**](MetadataResourceApi.md#get) | **GET** /api/metadata/workflowdef/{name} | Retrieves workflow definition along with blueprint
+[**getAll**](MetadataResourceApi.md#getAll) | **GET** /api/metadata/workflowdef | Retrieves all workflow definition along with blueprint
+[**getAllWorkflowsWithLatestVersions**](MetadataResourceApi.md#getAllWorkflowsWithLatestVersions) | **GET** /api/metadata/workflowdef/latest-versions | Returns only the latest version of all workflow definitions
+[**getTaskDef**](MetadataResourceApi.md#getTaskDef) | **GET** /api/metadata/taskdef/{tasktype} | Gets the task definition
+[**getTaskDefs**](MetadataResourceApi.md#getTaskDefs) | **GET** /api/metadata/taskdef | Gets all task definition
+[**getWorkflowNamesAndVersions**](MetadataResourceApi.md#getWorkflowNamesAndVersions) | **GET** /api/metadata/workflowdef/names-and-versions | Returns workflow names and versions only (no definition bodies)
+[**registerTaskDef**](MetadataResourceApi.md#registerTaskDef) | **POST** /api/metadata/taskdef | Create new task definition(s)
+[**unregisterTaskDef**](MetadataResourceApi.md#unregisterTaskDef) | **DELETE** /api/metadata/taskdef/{tasktype} | Remove a task definition
+[**unregisterWorkflowDef**](MetadataResourceApi.md#unregisterWorkflowDef) | **DELETE** /api/metadata/workflowdef/{name}/{version} | Removes workflow definition. It does not remove workflows associated with the definition.
+[**update**](MetadataResourceApi.md#update) | **PUT** /api/metadata/workflowdef | Create or update workflow definition
+[**updateTaskDef**](MetadataResourceApi.md#updateTaskDef) | **PUT** /api/metadata/taskdef | Update an existing task
+[**validate**](MetadataResourceApi.md#validate) | **POST** /api/metadata/workflowdef/validate | Validates a new workflow definition
 
 
 # **create**
